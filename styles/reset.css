@@ -19,6 +19,10 @@ sans-serif; */
     --color-white: #fff;
     --box-shadow: box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.20);
     --box-shadow-light: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
+
+    --container-space: 16px;
+    --font-size: 14px;
+    --header-height: 60px;
 }
 
 
@@ -103,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 var(--container-space);
     height: 100%;
 }
 
@@ -118,25 +122,25 @@ h1, h2, h3, h4, h5, h6 {
     object-position: center;
 }
 
-@media screen and (min-width: 768x) {
-    html, body {
-        font-size: 16px;
-    }
-    .container {
-        padding: 0 40px;
-    }
+@media screen and (min-width: 768px) {
+   :root {
+       --container-space: 40px;
+       --font-size: 16px;
+       --header-height: 90px;
+   }
 }
 
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding: 0 70px;
+    :root {
+        --container-space: 70px;
     }
 
 }
 
 @media screen and (min-width: 1440px) {
-    html, body {
-        font-size: 18px;
-    }
+ :root {
+       --container-space: 100px;
+       --font-size: 18px;
+   }
 }

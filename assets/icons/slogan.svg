@@ -10,6 +10,7 @@
 <line x1="460.5" y1="118" x2="460.5" y2="62" stroke="white"/>
 <line x1="526.5" y1="62" x2="526.5" y2="23" stroke="white"/>
 <line x1="526" y1="23.5" x2="657" y2="23.5" stroke="white"/>
+
 <mask id="mask0_1011_279" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="329" y="7" width="390" height="220">
 <path opacity="0.97" d="M457.687 62H523.504L522.522 7H587.357H718.23L718.5 226.5L329 227V172H393.835V117H457.687V62Z" fill="#C4C4C4"/>
 </mask>
