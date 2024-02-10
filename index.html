@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White Install Group</title>
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/lightslider.css">
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/main-slider.css">
+    
 </head>
 <body>
     <header class="header">
@@ -64,14 +66,51 @@
     </header>
     <main class="main">
         <section class="main-banner">
-            <div class="main-banner__slider">
-                <div class="main-banner__slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-1.jpg);">
-                    <div class="container">
-                        <div class="main-banner__desc img-width">
-                            <img src="./assets/icons/slogan.svg" alt="White Install Group">
+            <div class="main-banner__slider swiper">
+                <div class=" swiper-wrapper">
+                    <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 11.67%, rgba(0, 0, 0, 0.18) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-1.jpg); background-position:80% 50%" data-swiper-parallax-scale="1.5">
+                        <div class="container">
+                            <div class="main-banner__desc main-banner__img img-width">
+                                <img src="./assets/icons/slogan.svg" alt="White Install Group">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-2.jpg);" data-swiper-parallax-scale="1.5">
+                        <div class="container">
+                            <div class="main-banner__desc main-banner__content">
+                                <h2>Поставка <span>ліфтів</span></h2>
+                                <p>Процес виготовлення ліфта здійснюється суто за індивідуальним замовленням, за умови узгодження детальної специфікації та
+                                заводських креслень. Обладнання відповідає проектувальним стандартам які застосовуються на території України.</p>
+                                <button class="btn main__btn">
+                                    <span class="button-content">Отримати консультацію</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-3.jpg);">
+                        <div class="container">
+                            <div class="main-banner__desc main-banner__content">
+                                <h2>Поставка <span>екскалаторів</span></h2>
+                                <p>Обираючи компанію Вайт Інстал Груп - ви обираєте надійного підрядника на виконання послуг з виробнитва та поставки
+                                ескалаторного та траволаторного обладнання SJEC Corporation на ваш об'єкт</p>
+                                <button class="btn main__btn">
+                                    <span class="button-content">Отримати консультацію</span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-4.jpg);">
+                        <div class="container">
+                            <div class="main-banner__desc main-banner__content">
+                                <h2><span>Монтажні</span> та додаткові роботи</h2>
+                                <p>Всю техніку яку ми поставляємо на територію України - ми монтуємо, налагоджуємо та обкатуємо - відповідно до всіх
+                                рекомендацій виробника та міжнародних стандартів. Пропонуємо будь-які супутні будівельно-монтажні роботи, що пов'язані з
+                                роботою та експлуатацією ліфта</p>
+                                <button class="btn main__btn">
+                                    <span class="button-content">Отримати консультацію</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
                 <div class="main-banner__left">
                     <div class="main-banner__left-container">
@@ -125,5 +164,47 @@
     <script src="./scripts/script.js"></script>
     <script src="./scripts/pop-up.js"></script>
     <script src="./scripts/burger-menu.js"></script>
+    <script src="./scripts/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const swiper = new Swiper(".main-banner__slider", {
+                loop:true,
+                autoplay: {
+                    delay: 5000,
+                },
+                effect: 'fade',
+                enabled: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                       const slideNumb = 
+                        index > 10 
+                        ? `<div class="${className}">${index + 1}</div>`
+                        : `<div class="${className}">0${index + 1}</div>`
+
+                        return slideNumb;
+                    },
+                },
+            });
+            // swiper.on('slideChange', function () {
+            //     gsap.to(swiper.slides[swiper.previousIndex], { opacity: 0.8, scale: 1.3 });
+            //     gsap.to(swiper.slides[swiper.activeIndex], { scale: 1, opacity: 1 });
+            //      gsap.to(swiper.slides[swiper.previousIndex], { opacity: 0.8, scale: 1.3 });
+                
+            //     swiper.slides[swiper.previousIndex].animation.pause(0);
+            //     swiper.slides[swiper.activeIndex].animation.restart();
+            //     swiper.slides.forEach((slide, index) => {
+            //         if (index === swiper.activeIndex) {
+            //             slide.classList.add('active-slide');
+            //         } else {
+            //             slide.classList.remove('active-slide');
+            //         }
+            //     });
+            // });
+        })
+        
+    </script>
 </body>
 </html>
