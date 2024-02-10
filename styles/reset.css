@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
-.img-width img{
+.img-width img,
+.img-width svg{
     width: 100%;
 }
 
@@ -123,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn {
     padding: 1rem 2rem;
-    font-size: 1.12rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;transition: all 0.4s;
 }
 @media screen and (min-width: 768px) {
@@ -146,5 +147,8 @@ h1, h2, h3, h4, h5, h6 {
  :root {
        --container-space: 100px;
        --font-size: 18px;
+   }
+   .btn {
+       font-size: 1.12rem;
    }
 }
