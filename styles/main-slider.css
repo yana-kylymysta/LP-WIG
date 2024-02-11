@@ -55,9 +55,7 @@
     }
 }
 @media screen and (min-width: 1281px) {
-/* .swiper-horizontal>.swiper-pagination-bullets {
-    gap: 40px;
-} */
+
 .main-banner .swiper-pagination-bullet:after {
     width: calc(var(--container-space) - 25px);
 }

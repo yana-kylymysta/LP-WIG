@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/main-slider.css">
+    <link rel="stylesheet" href="./styles/main-page.css">
     
 </head>
 <body>
     <header class="header">
         <div class="container header__container">
-            <div class="header__logo img-width">
+            <a href="/" class="header__logo img-width">
                 <svg width="123" height="44" viewBox="0 0 123 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M8.1 32.5L0.36 11.368H5.4L10.476 25.192L11.304 28.684H11.664L12.132 26.236L16.92 11.368H23.04L28.044 26.236L28.692 28.684H29.052L29.88 25.192L34.596 11.368H39.636L39.276 13.528L31.86 32.5H25.74L20.844 18.352L20.124 16.048H19.764L19.08 18.352L14.22 32.5H8.1ZM43.9678 32.5V11.332H48.7198V32.5H43.9678ZM61.7875 32.5C60.0835 32.5 58.7515 32.26 57.7915 31.78C56.8315 31.3 56.1595 30.58 55.7755 29.62C55.3915 28.66 55.1995 27.472 55.1995 26.056V18.028C55.1995 15.724 55.7155 14.032 56.7475 12.952C57.7795 11.848 59.4595 11.296 61.7875 11.296H72.6235C74.2795 11.296 75.5395 11.392 76.4035 11.584C77.2915 11.752 77.7355 11.932 77.7355 12.124L77.0155 15.112C76.6075 15.04 75.3955 14.968 73.3795 14.896C71.3875 14.8 68.4835 14.752 64.6675 14.752H62.8315C60.9115 14.752 59.9515 15.604 59.9515 17.308V26.488C59.9515 27.304 60.1555 27.94 60.5635 28.396C60.9955 28.828 61.7515 29.044 62.8315 29.044H64.3075C66.6115 29.044 68.5555 29.032 70.1395 29.008C71.7235 28.96 73.0315 28.924 74.0635 28.9V24.004L71.9035 24.04L67.1875 24.4V20.872H78.7795V30.988L79.1395 31.744C79.1395 31.936 78.6355 32.116 77.6275 32.284C76.6195 32.428 74.9155 32.5 72.5155 32.5H61.7875Z"
@@ -25,8 +26,7 @@
                         d="M108.194 5.59666C108.594 5.05284 109.406 5.05284 109.806 5.59666L119.954 19.4079C120.44 20.0683 119.968 21 119.149 21H98.8514C98.0319 21 97.5603 20.0683 98.0456 19.4079L108.194 5.59666Z"
                         fill="#FFBF00" />
                 </svg>
-
-            </div> 
+            </a> 
             <div class="header__menu menu">
                 <div class="menu__icon">
                     <span></span>
@@ -39,9 +39,6 @@
                             </li>
                             <li class="menu__item">
                                 <a href="#manufacturers">Виробники</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#projects">Проєкти</a>
                             </li>
                             <li class="menu__item">
                                 <a href="#projects">Проекти</a>
@@ -85,6 +82,18 @@
                                 <img src="./assets/icons/slogan.svg" alt="White Install Group">
                             </div>
                         </div>
+                        <div class="main-banner__bottom">
+                    <div class="container main-banner__bottom-container">
+                    <p>Дізнатись більше</p>
+                        <div class="main-banner__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="46" height="21" viewBox="0 0 46 21" fill="none">
+                                    <line y1="-0.5" x2="30.9124" y2="-0.5" transform="matrix(0.76884 0.639442 -0.76884 0.639442 0 1)" stroke="white" />
+                                    <line y1="-0.5" x2="28.918" y2="-0.5" transform="matrix(0.76884 -0.639442 0.76884 0.639442 23.7667 20.7667)"
+                                        stroke="white" />
+                                </svg>
+                        </div>
+                    </div>
+                </div>
                     </div>
                     <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-2.jpg);" data-swiper-parallax-scale="1.5">
                         <div class="container">
@@ -93,7 +102,7 @@
                                 <p>Процес виготовлення ліфта здійснюється суто за індивідуальним замовленням, за умови узгодження детальної специфікації та
                                 заводських креслень. Обладнання відповідає проектувальним стандартам які застосовуються на території України.</p>
                                 <button class="btn main__btn">
-                                    <span class="button-content">Отримати консультацію</span></button>
+                                    <span class="button-content">Дізнатись більше</span></button>
                             </div>
                         </div>
                     </div>
@@ -104,7 +113,7 @@
                                 <p>Обираючи компанію Вайт Інстал Груп - ви обираєте надійного підрядника на виконання послуг з виробнитва та поставки
                                 ескалаторного та траволаторного обладнання SJEC Corporation на ваш об'єкт</p>
                                 <button class="btn main__btn">
-                                    <span class="button-content">Отримати консультацію</span></button>
+                                    <span class="button-content">Дізнатись більше</span></button>
                             </div>
                         </div>
                     </div>
@@ -116,7 +125,7 @@
                                 рекомендацій виробника та міжнародних стандартів. Пропонуємо будь-які супутні будівельно-монтажні роботи, що пов'язані з
                                 роботою та експлуатацією ліфта</p>
                                 <button class="btn main__btn">
-                                    <span class="button-content">Отримати консультацію</span></button>
+                                    <span class="button-content">Дізнатись більше</span></button>
                             </div>
                         </div>
                     </div>
@@ -152,27 +161,16 @@
                         </div>
                     </div>
                 </div>
-            <div class="main-banner__bottom">
-                <div class="container main-banner__bottom-container">
-                <p>Дізнатись більше</p>
-                    <div class="main-banner__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="21" viewBox="0 0 46 21" fill="none">
-                                <line y1="-0.5" x2="30.9124" y2="-0.5" transform="matrix(0.76884 0.639442 -0.76884 0.639442 0 1)" stroke="white" />
-                                <line y1="-0.5" x2="28.918" y2="-0.5" transform="matrix(0.76884 -0.639442 0.76884 0.639442 23.7667 20.7667)"
-                                    stroke="white" />
-                            </svg>
-                    </div>
-                </div>
-            </div>
-        </section>
 
+        </section>
+        <div class="main__wrapper">
         <section class="about">
             <div class="container about__container">
                 <div class="about__images">
-                    <div class="about__img">
+                    <div class="about__img img-fill">
                         <img src="./assets/img_1.jpg" alt="">
                     </div>
-                    <div class="about__img">
+                    <div class="about__img img-fill">
                         <img src="./assets/img_2.jpg" alt="">
                     </div>
                 </div>
@@ -185,10 +183,78 @@
                         <p>Наша компанія пропону є ліфтове та ескалаторне обладнання провідних світових виробників, яке повністю відповідає всім
                         вимогам чинного законодавства України, та експлуатується на її території вже понад 15 років.</p>
                     </div>
+                    <a href="#" target="_blank" class="btn section__btn">Детальніше</a>
                 </div>
-                <!-- <a href="#" target="_blank" class="btn section__btn">Детальніше</a> -->
+                
             </div>
         </section> 
+        <section class="amounts">
+            <div class="container amounts__container">
+                <div class="amount">
+                    <div class="amount__numb">10+</div>
+                    <div class="amount__text">РОКІВ<br>
+                    на ринку</div>
+                </div>
+                <div class="amount">
+                    <div class="amount__numb">50+</div>
+                    <div class="amount__text">успішно<br>
+                    реалізованих проектів</div>
+                </div>
+                <div class="amount">
+                    <div class="amount__numb">200+</div>
+                    <div class="amount__text">одиниць підйомної<br>
+                    техніки встановлено</div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h3 class="title">Наші послуги</h3>
+            </div>
+            <div class="services__block">
+                <div class="service">
+                    <div class="service__bg"  style="background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.4)0%, rgba(255, 255, 255, 0) 55% ), url(./assets/services/01.jpg);">
+                        <div class="service__info">
+                        <h4 class="service__title">поставка ліфтів</h4>
+                        <p class="service__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem. Laboriosam </p>
+                        <a href="#" target="_blank" class="btn section__btn service__btn">Детальніше</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="service" >
+                    <div class="service__bg" style="background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.6)0%,
+                    rgba(255, 255, 255, 0.2) 100%, rgba(255, 255, 255, 0.2) 100% ), url(./assets/services/02.jpg);">
+                        <div class="service__info">
+                        <h4 class="service__title">поставка ескалаторів
+                        та травалаторів</h4>
+                        <p class="service__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem. Laboriosam </p>
+                        <a href="#" target="_blank" class="btn section__btn service__btn">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service__bg" style="background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.5)0%, rgba(255, 255, 255, 0.4)46%,  rgba(255, 255, 255, 0.25) 100% ), url(./assets/services/03.jpg);">
+                        <div class="service__info">
+                        <h4 class="service__title">монтажні та 
+                        додаткові роботи</h4>
+                        <p class="service__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem. Laboriosam </p>
+                        <a href="#" target="_blank" class="btn section__btn service__btn">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service" >
+                    <div class="service__bg" style="background-image: linear-gradient(180deg,rgba(255, 255, 255, 0.5)0%, rgba(255, 255, 255, 0.4)46%,  rgba(255, 255, 255, 0.25) 100% ), url(./assets/services/04.jpg);">
+                        <div class="service__info">
+                        <h4 class="service__title">обслуговування 
+                        обладнання</h4>
+                        <p class="service__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, quidem. Laboriosam </p>
+                        <a href="#" target="_blank" class="btn section__btn service__btn">Детальніше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
     </main>
     <div class="pop-up"></div>
     <footer class="footer">

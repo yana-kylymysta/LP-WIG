@@ -252,7 +252,7 @@ const createWidthMarquee = (element) => {
 //HEADER 
 window.addEventListener('scroll', () => {
   const verticalScrollPosition = window.scrollY || document.documentElement.scrollTop;
-  if (verticalScrollPosition > 50) {
+  if (verticalScrollPosition > 100) {
     header.classList.add('header__scroll');
   } else {
     header.classList.remove('header__scroll');
