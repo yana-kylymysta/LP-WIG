@@ -38,11 +38,32 @@
     order: 3;
 }
 
-/* .header__scroll {
-    background: rgba(88, 82, 82, 0.35);
-    backdrop-filter: blur(5px);
-} */
-
+    .header__scroll {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(7px);
+        box-shadow: 4px 6px 10px 0 rgba(0, 0, 0, 0.04);
+    }
+     .header__scroll .menu__item {
+        color: var(--color-title);
+    }
+    .header__scroll .header__phone a {
+        color: var(--color-title);
+    }
+    .header__scroll .header__icon svg path {
+        fill: var(--color-text);
+        opacity: 0.8;
+    }
+   .header__scroll  .header__logo svg path:first-child{
+        fill: var(--color-text);
+    }
+    .header__scroll  .menu__icon span,
+    .header__scroll .menu__icon::after,
+    .header__scroll  .menu__icon::before {
+        background: var(--color-text);
+     }
+    .header__scroll .menu__wrapper.active {
+       height: unset;
+    } 
 .header__logo {
     max-width: 90px;
     order: 1;
@@ -379,23 +400,7 @@ fill-opacity: 1;
         position: fixed;
         padding: 16px 0;
     }
-    .header__scroll {
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(7px);
-    }
-     .header__scroll .menu__item {
-        color: var(--color-title);
-    }
-    .header__scroll .header__phone a {
-        color: var(--color-title);
-    }
-    .header__scroll .header__icon svg path {
-        fill: var(--color-text);
-        opacity: 0.8;
-    }
-   .header__scroll  .header__logo svg path:first-child{
-fill: var(--color-text);
-    }
+
     .header__container {
         display: flex;
         justify-content: space-between;
