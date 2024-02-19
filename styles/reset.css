@@ -16,6 +16,7 @@ sans-serif; */
     --color-text: #4B4B4B;
     --color-light-grey: #929A9F;
     --color-primary: #FFBF00;
+    --swiper-theme-color: #FFBF00 !important;
     --color-white: #fff;
     --box-shadow: box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.20);
     --box-shadow-light: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
