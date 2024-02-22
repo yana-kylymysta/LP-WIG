@@ -326,23 +326,14 @@
                 <h2 class="projects__title title">Наші проекти</h2>
                 <div class="projects__slider swiper">
                     <div class="swiper-wrapper">
-                        <div class="project swiper-slide">
+                        <div class="project swiper-slide project__active">
                             <div class="project__img img-fill">
                                 <img src="./assets/projects/sofia-mall/slide-bg.png" alt="ТРЦ Sofia Mall" style="object-position: 10%">
                             </div>
                             <div class="project__label">
                                 <h3>ТРЦ Sofia Mall</h3>
                                 <div class="project__label-bg">
-                                    <svg width="100%"  viewBox="0 0 340 247" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <ellipse cx="170" cy="123.5" rx="170" ry="123.5" fill="url(#paint0_radial_1209_153)" fill-opacity="0.8" />
-                                        <defs>
-                                            <radialGradient id="paint0_radial_1209_153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                gradientTransform="translate(170 123.5) rotate(90) scale(123.5 170)">
-                                                <stop stop-color="white" />
-                                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                                            </radialGradient>
-                                        </defs>
-                                    </svg>
+                                   <img src="./assets/icons/project-label-bg.svg">
                                 </div>
                             </div>
                             <div class="project__desc">
@@ -372,16 +363,7 @@
                             <div class="project__label">
                                 <h3>ТРЦ Фора</h3>
                                 <div class="project__label-bg">
-                                    <svg width="100%" viewBox="0 0 340 247" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <ellipse cx="170" cy="123.5" rx="170" ry="123.5" fill="url(#paint0_radial_1209_153)" fill-opacity="0.7" />
-                                        <defs>
-                                            <radialGradient id="paint0_radial_1209_153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                gradientTransform="translate(170 123.5) rotate(90) scale(123.5 170)">
-                                                <stop stop-color="white" />
-                                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                                            </radialGradient>
-                                        </defs>
-                                    </svg>
+                                    <img src="./assets/icons/project-label-bg.svg">
                                 </div>
                             </div>
                             <div class="project__desc">
@@ -407,16 +389,7 @@
                             <div class="project__label">
                                 <h3>ТРЦ Sofia Mall</h3>
                                 <div class="project__label-bg">
-                                    <svg width="100%" viewBox="0 0 340 247" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <ellipse cx="170" cy="123.5" rx="170" ry="123.5" fill="url(#paint0_radial_1209_153)" fill-opacity="0.7" />
-                                        <defs>
-                                            <radialGradient id="paint0_radial_1209_153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                gradientTransform="translate(170 123.5) rotate(90) scale(123.5 170)">
-                                                <stop stop-color="white" />
-                                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                                            </radialGradient>
-                                        </defs>
-                                    </svg>
+                                    <img src="./assets/icons/project-label-bg.svg">
                                 </div>
                             </div>
                             <div class="project__desc">
@@ -446,17 +419,7 @@
                             <div class="project__label">
                                 <h3>ТРЦ Фора</h3>
                                 <div class="project__label-bg">
-                                    <svg width="100%" viewBox="0 0 340 247" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <ellipse cx="170" cy="123.5" rx="170" ry="123.5" fill="url(#paint0_radial_1209_153)"
-                                            fill-opacity="0.7" />
-                                        <defs>
-                                            <radialGradient id="paint0_radial_1209_153" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                                                gradientTransform="translate(170 123.5) rotate(90) scale(123.5 170)">
-                                                <stop stop-color="white" />
-                                                <stop offset="1" stop-color="white" stop-opacity="0" />
-                                            </radialGradient>
-                                        </defs>
-                                    </svg>
+                                    <img src="./assets/icons/project-label-bg.svg">
                                 </div>
                             </div>
                             <div class="project__desc">
@@ -477,10 +440,14 @@
                         </div>
                     </div>
                     <div class="swiper-button swiper-button-prev">
-  
+                        <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#D9D9D9" />
+                        </svg>
                     </div>
                     <div class="swiper-button swiper-button-next">
-
+                        <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
+                        </svg>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
@@ -562,7 +529,7 @@
 
 
          window.addEventListener('load', function () {
-                const projectSlider = new Swiper(".projects__slider", {
+            const projectSlider = new Swiper(".projects__slider", {
                  spaceBetween: 16,
                  slidesPerView: 1,
                  on: {
@@ -574,8 +541,33 @@
                          }
                      },
                      slideChangeTransitionStart: function () {
-                         swiper.update();
-                     }
+                        if (window.innerWidth >= 1024) {
+                            const activeSlideIndex = projectSlider.activeIndex;
+                            const slides = projectSlider.slides;
+                            slides.forEach((slide, index) => {
+                                index === activeSlideIndex 
+                                    ? slide.classList.add('project__active')
+                                    : slide.classList.remove('project__active')
+                            });
+                        }
+                     },
+                       slideNextTransitionStart: function () {
+                         if (window.innerWidth >= 1024) {
+                             this.slides.forEach(slide => slide.classList.add('custom-animate-next'));
+                         }
+                         setTimeout(() => {
+                             this.slides.forEach(slide => slide.classList.remove('custom-animate-next'));
+                         }, 300);
+
+                     },
+                     slidePrevTransitionStart: function () {
+                         if (window.innerWidth >= 1024) {
+                             this.slides.forEach(slide => slide.classList.add('custom-animate-prev'));
+                         }
+                         setTimeout(() => {
+                             this.slides.forEach(slide => slide.classList.remove('custom-animate-prev'));
+                         }, 300);
+                     },
                  },
                  pagination: {
                      el: ".swiper-pagination",
@@ -587,8 +579,8 @@
                          spaceBetween: 24,
                      },
                      1024: {
-                         slidesPerView: 'auto',
-                         autoHeight:true,
+                         slidesPerView: "auto",
+                         autoHeight: true,
                          spaceBetween: 32,
                          pagination: false,
                          navigation: {
@@ -598,8 +590,8 @@
                      }
                  }
              });
-         })
-            });
+             })
+        });
     
     </script>
 </body>

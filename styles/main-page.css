@@ -188,6 +188,9 @@ margin-top: 3rem;
 .manufacturers__slider .swiper-button img{
     width: 56px;
 }
+.projects__title {
+    user-select: none;
+}
 .projects__slider .swiper-wrapper {
     padding-bottom: 50px;
 }
@@ -195,7 +198,7 @@ margin-top: 3rem;
     position: relative;
     box-shadow: 4px 4px 15px 0 rgba(0, 0, 0, 0.2);
     height: 0;
-    padding-top: 36%;
+    padding-top: 450px;
     user-select: none;
     cursor: pointer;
 }
@@ -230,6 +233,7 @@ margin-top: 3rem;
 
 }
 .project__label h3{
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -243,9 +247,12 @@ margin-top: 3rem;
     z-index: 4;
 }
 
-.project__desc {
+.project__desc,
+.projects__slider .swiper-button {
     display: none;
 }
+
+
 @media screen and (min-width: 560px) {
 .about__images {
     gap: 2rem;
@@ -417,29 +424,45 @@ margin-top: 3rem;
         transform: translate(0, 0) ;
     }
     .manufacturers__slider .swiper-button-prev {
-        right: calc(56px + 14  px);
+        right: calc(56px + 14px);
         transform: translate(0,0) rotate(180deg);
+    }
+    .projects__slider {
+        position: relative;
+        width: calc(100% + 80px);
+        top: 0;
+        left: -40px;
+    }
+    .projects__slider .swiper-wrapper{
+        position: relative;
+        top: 0;
+        left: 40px;
+        padding-bottom:  20px;
     }
 
     .project {
         width: 21vw !important;
         padding-top: 33%;
         margin: auto 0;
+        visibility: visible;
+        transition: all 0.3s, ;
     }
-    .projects__slider .swiper-slide-active {
+    .projects__slider .project__active {
         width: 40vw !important;
         padding-top: 36%;
     }
-    .projects__slider .swiper-slide-active .project__label {
+ 
+    .projects__slider .project__active .project__label {
         display: none;
     }
-    .projects__slider .swiper-slide-active .project__desc {
+ 
+    .projects__slider .project__active .project__desc {
         display: block;
         position: absolute;
-        left: 50%;
+        right: 0;
         top: 0;
         z-index: 3;
-        width: calc(20vw - 2rem);
+        min-width: calc(20vw - 2rem);
         height: calc(100% - 6rem);
         background: rgba(255, 255, 255, 0.8);
         backdrop-filter: blur(1px);
@@ -448,6 +471,9 @@ margin-top: 3rem;
         display: flex;
         flex-direction: column;
         gap: 20px;
+    }
+    .project__label h3 {
+        font-size: 1.3rem;
     }
     .project__desc h4 {
         font-size: 1.2rem;
@@ -458,6 +484,9 @@ margin-top: 3rem;
         display: flex;
         gap: 16px;
         align-items: center;
+    }
+    .project__elevator p {
+        white-space: nowrap;
     }
     .project__equipment {
         width: 100%;
@@ -477,7 +506,6 @@ margin-top: 3rem;
         color: #929A9F;
     }
     .project__btn {
-        height: 20px;
         font-size: 0.8rem;
         font-weight: 600;
         margin-top: auto;
@@ -495,11 +523,30 @@ margin-top: 3rem;
         height: fit-content;
         position: relative;
         left: 0;
+        top: 1px;
         transition: all 0.3s;
     }
 
     .projects__slider .swiper-slide-active .project__desc:hover .project__btn:after {
        left: 2px;
+    }
+    .projects__slider .swiper-button {
+        display: block;
+        color: #929A9F !important;
+    }
+    .projects__slider .swiper-button-next:after,
+    .projects__slider .swiper-button-prev:after {
+        content: unset;
+    }
+    .projects__slider .project.custom-animate-next {
+    animation: changeSlideNext 0.3s ease-out;
+    }
+    .projects__slider  .project.custom-animate-prev {
+    animation: changeSlidePrev 0.3s ease-out;
+    }
+    .projects__slider .swiper-slide-prev,
+    .projects__slider .swiper-slide-next + .swiper-slide + .swiper-slide {
+        visibility: hidden;
     }
 }
 
@@ -518,12 +565,15 @@ margin-top: 3rem;
         font-size: 1.2rem;
     }
     .service__btn {
-            font-size: 1rem;
-            padding: 1rem calc(2rem + 10px) 1rem 2rem;
-        }
+        font-size: 1rem;
+        padding: 1rem calc(2rem + 10px) 1rem 2rem;
+    }
     .service__btn:after {
        width: 44px;
        height: 12px;
+   }
+   .project__label h3 {
+    font-size: 1.5rem;
    }
 }
 @media screen and (min-width: 1440px) {
@@ -552,8 +602,34 @@ margin-top: 3rem;
     .manufacturers__slider .swiper-button img {
         width: 68px;
     }
-
     .manufacturers__slider .swiper-button-prev {
         right: calc(68px + 16px);
     }
+     .projects__slider {
+        width: calc(100% + 120px);
+        left: -60px;
+    }
+    .projects__slider .swiper-wrapper{
+        left: 60px;
+    }
 }
+
+ @keyframes changeSlideNext {
+     0% {
+         transform: translateX(30%);
+     }
+
+     100% {
+         transform: translateX(0%);
+     }
+ }
+
+ @keyframes changeSlidePrev {
+     0% {
+         transform: translateX(-30%);
+     }
+
+     100% {
+         transform: translateX(0%);
+     }
+ }
