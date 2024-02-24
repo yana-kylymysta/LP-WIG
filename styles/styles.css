@@ -368,6 +368,7 @@ fill-opacity: 1;
 }
 
 .form {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 8px;
@@ -399,7 +400,7 @@ fill-opacity: 1;
     position: relative;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 8px;
 }
 input[type="checkbox"] {
     appearance: none;
