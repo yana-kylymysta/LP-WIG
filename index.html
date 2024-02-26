@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/projects-slider.css">
+    <link rel="stylesheet" href="./styles/pop-up.css">
     <link rel="stylesheet" href="./styles/main-slider.css">
     <link rel="stylesheet" href="./styles/main-page.css">
     
 </head>
 <body>
+    <div class="page__wrapper">
     <header class="header">
         <div class="container header__container">
             <a href="/" class="header__logo img-width">
@@ -266,6 +268,7 @@
         <section class="manufacturers" id="manufacturers">
             <div class="container">
                 <h2 class="manufacturers__title title">Виробники</h2>
+                <div class="manufacturers__wrapper">
                 <div class="manufacturers__slider swiper">
                     <div class="swiper-wrapper">
                         <article class="manufacturer swiper-slide">
@@ -320,6 +323,7 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                </div>
             </div>
         </section>
         <section class="projects">
@@ -328,7 +332,7 @@
                 <div class="projects__wrapper">
                     <div class="projects__slider swiper">
                         <div class="swiper-wrapper">
-                            <div class="project swiper-slide project__active">
+                            <div class="project swiper-slide project__active" data-slide="sofiamall">
                                 <div class="project__img img-fill">
                                     <img src="./assets/projects/sofia-mall/slide-bg.png" alt="ТРЦ Sofia Mall" style="object-position: 10%">
                                 </div>
@@ -358,7 +362,7 @@
                                     <a href="#" class="project__btn">Детальніше</a>
                                 </div>
                             </div>
-                            <div class="project swiper-slide">
+                            <div class="project swiper-slide" data-slide="fora">
                                 <div class="project__img img-fill">
                                     <img src="./assets/projects/fora/01.jpg" alt="ТРЦ Фора">
                                 </div>
@@ -384,7 +388,7 @@
                                     <a href="#" class="project__btn">Детальніше</a>
                                 </div>
                             </div>
-                            <div class="project swiper-slide">
+                            <div class="project swiper-slide" data-slide="veles">
                                 <div class="project__img img-fill">
                                     <img src="./assets/projects/veles/01.jpg" alt="ТРЦ Велес" style="object-position: 10%">
                                 </div>
@@ -409,7 +413,7 @@
                                     <a href="#" class="project__btn">Детальніше</a>
                                 </div>
                             </div>
-                            <div class="project swiper-slide">
+                            <div class="project swiper-slide" data-slide="kyivskyi">
                                 <div class="project__img img-fill">
                                     <img src="./assets/projects/kyivskyi/slider-bg.jpg" alt="ТРЦ Київський">
                                 </div>
@@ -438,7 +442,7 @@
                                     <a href="#" class="project__btn">Детальніше</a>
                                 </div>
                             </div>
-                            <div class="project swiper-slide">
+                            <div class="project swiper-slide" data-slide="knyagynyn"> 
                                 <div class="project__img img-fill">
                                     <img src="./assets/projects/knyagynyn/02.jpg" alt="ТРЦ Княгинин">
                                 </div>
@@ -542,13 +546,14 @@
         </section>
         </div>
     </main>
-    <div class="pop-up"></div>
+    <div class="pop-up"><div class="popUp__bg"></div></div>
     <footer class="footer">
         <div class="container"></div>
     </footer>
     <script src="./scripts/jquery.min.2.2.0.js"></script>
     <script src="./scripts/lightslider.js"></script>
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/projects-slider.js"></script>
     <script src="./scripts/pop-up.js"></script>
     <script src="./scripts/burger-menu.js"></script>
     <script src="./scripts/swiper-bundle.min.js"></script>
@@ -699,5 +704,6 @@
         });
     
     </script>
+</div>
 </body>
 </html>

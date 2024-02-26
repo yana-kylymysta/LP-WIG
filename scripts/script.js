@@ -7,54 +7,7 @@ const langList = document.querySelectorAll('.header__right-desc .lang__item');
 const langListMob = document.querySelector('.lang__list-mob');
 const pageWrapper = document.querySelector('.page__wrapper');
 const details = document.querySelectorAll('.details');
-
-
-
-//SLIDER
-const initializationSlider = (element, item1, item2, item3, margin1 = 16, margin2 = 20) => {
-    $(document).ready(function () {
-        let slider = $(element).lightSlider({
-            item: item3,
-            slideMargin: margin2,
-            slideMove: 1,
-            controls: false,
-            autoWidth: false,
-            responsive: [
-                {
-                    breakpoint: 1025,
-                    settings: {
-                        item: item2,
-                        slideMargin: margin2
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        item: item1,
-                        slideMargin: margin1,
-                        autoWidth: false,
-                    }
-                }
-            ]
-        });
-
-        const parentElement = $(element).closest('.slider__wrapper');
-
-        parentElement.find('.slider__arrows .lSPrev').on('click', function (event) {
-            slider.goToPrevSlide();
-               removeFocus();
-        });
-
-        parentElement.find('.slider__arrows .lSNext').on('click', function (event) {
-            slider.goToNextSlide();
-            removeFocus();
-        });
-
-        function removeFocus() {
-            document.activeElement.blur();
-        }
-    });
-};
+const popup = document.querySelector('.pop-up')
 
 
 // //FORM VALIDATION
@@ -147,9 +100,10 @@ const initializationSlider = (element, item1, item2, item3, margin1 = 16, margin
 // });
 
 
-const disableScroll = () => {
+function disableScroll(block)  {
       const widthScroll = window.innerWidth - document.body.offsetWidth;
-      const popup = document.querySelector('.pop-up__bg');
+      const popupBg = document.querySelector(block);
+      console.log(popupBg)
       document.body.dbScrollY = window.scrollY;
 
       const scrollPosition = Math.max(
@@ -167,7 +121,7 @@ const disableScroll = () => {
         overflow: hidden;
         padding-right: ${widthScroll}px;
         `;
-        popup.style.top = `${scrollPosition}px`;
+        popupBg.style.top = `${scrollPosition}px`;
     };
 
 const enableScroll = () => {
@@ -176,7 +130,11 @@ const enableScroll = () => {
             top: document.body.dbScrollY,
         })
     }
-
+const closeWindow = () => {
+    popup.classList.remove('active');
+    popup.innerHTML = '';
+        enableScroll();
+}
 
 const thanksPopUp = (event, buttonElement) => { 
        const parent = buttonElement.closest('.form');
@@ -224,30 +182,13 @@ const thanksPopUp = (event, buttonElement) => {
         // };
         // xhr.send(formData);
 
-        popUp.innerHTML = template;
-        if(!popUp.classList.contains("active")) {
-            popUp.classList.add('active');}
+        popup.innerHTML = template;
+        if(!popup.classList.contains("active")) {
+            popup.classList.add('active');}
         disableScroll();
         parent.reset();
        }
     }
-
-
-//MARQUEE
-const createWidthMarquee = (element) => {
-    const block = document.querySelector(element);
-
-    const childs =  block.children;
-    
-    console.log(childs[0].scrollWidth)
-    const childWidth = 
-        childs[0].scrollWidth === childs[1].scrollWidth
-        ? childs[0].scrollWidth
-        : 'max-content'
-   
-    block.style.setProperty('--block-width', `${childWidth * 2}px`);
-    block.classList.add('marquee');
-}
 
 //HEADER 
 window.addEventListener('scroll', () => {
@@ -259,6 +200,11 @@ window.addEventListener('scroll', () => {
   }
 });
 
+popup.addEventListener('click', ({target}) => {
+    if(target.matches('.pop-up__close') || target.matches('.pop-up__bg')) {
+        closeWindow();
+    }
+})
 
 
 
