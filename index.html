@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/projects-slider.css">
     <link rel="stylesheet" href="./styles/main-slider.css">
     <link rel="stylesheet" href="./styles/main-page.css">
     
@@ -603,6 +604,14 @@
                     spaceBetween: 24,
                 },
                 1024: {
+                    slidesPerView: 2,
+                    pagination: false,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                },
+                1200: {
                     slidesPerView: 3,
                     pagination: false,
                     navigation: {
