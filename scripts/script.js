@@ -100,40 +100,30 @@ const popup = document.querySelector('.pop-up')
 // });
 
 
-function disableScroll(block)  {
-      const widthScroll = window.innerWidth - document.body.offsetWidth;
-      const popupBg = document.querySelector(block);
-      console.log(popupBg)
-      document.body.dbScrollY = window.scrollY;
+const disableScroll = () => {
+    const widthScroll = window.innerWidth - document.body.offsetWidth;
+    const popupBg = document.querySelector('.pop-up__bg');
 
-      const scrollPosition = Math.max(
-          window.scrollY,
-          document.documentElement.scrollTop,
-          document.body.scrollTop
-    );
+    const verticalPosition = (window.innerHeight - popupBg.offsetHeight) / 2;
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop;
 
-    pageWrapper.style.cssText = `
-        position: fixed;
-        top: -${scrollPosition}px;
-        left: 0;
-        width: 100%;
-        min-height: 100vh;
-        overflow: hidden;
-        padding-right: ${widthScroll}px;
-        `;
-        popupBg.style.top = `${scrollPosition}px`;
-    };
+    document.body.style.overflow = 'hidden'; 
+    document.body.style.paddingRight = `${widthScroll}px`; 
+
+    popupBg.style.position = 'fixed'; 
+    popupBg.style.top = `${verticalPosition}px`; 
+    popupBg.style.left = '0';
+    popupBg.style.right = '0';
+};
 
 const enableScroll = () => {
-        pageWrapper.style.cssText = '';
-        window.scroll({
-            top: document.body.dbScrollY,
-        })
-    }
+    document.body.style.overflow = ''; 
+    document.body.style.paddingRight = ''; 
+}
 const closeWindow = () => {
     popup.classList.remove('active');
-    popup.innerHTML = '';
-        enableScroll();
+    enableScroll();
+    
 }
 
 const thanksPopUp = (event, buttonElement) => { 
