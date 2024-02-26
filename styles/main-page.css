@@ -475,29 +475,31 @@ margin-top: 3rem;
         right: calc(56px + 14px);
         transform: translate(0,0) rotate(180deg);
     }
-    .projects__slider {
+
+    .projects__title {
+        margin-left: 60px;
+    }
+    .projects__wrapper {
         position: relative;
-        width: calc(100% + 80px);
-        top: 0;
-        left: -40px;
+    }
+    .projects__slider {
+        position: static !important;
+        width: calc(100% - 120px);
     }
     .projects__slider .swiper-wrapper{
-        position: relative;
-        top: 0;
-        left: 40px;
         padding-bottom:  20px;
     }
 
     .project {
-        width: 21vw !important;
-        padding-top: 33%;
+        /* width: 21vw !important; */
+        padding-top: 40%;
         margin: auto 0;
-        visibility: visible;
+        /* visibility: visible; */
         transition: all 0.3s, ;
     }
     .projects__slider .project__active {
-        width: 40vw !important;
-        padding-top: 36%;
+        /* width: 40vw !important; */
+     padding-top: 43%; 
     }
  
     .projects__slider .project__active .project__label {
@@ -507,18 +509,18 @@ margin-top: 3rem;
     .projects__slider .project__active .project__desc {
         display: block;
         position: absolute;
-        right: 0;
-        top: 0;
+        left: 50%;
+        top: 50%;
         z-index: 3;
-        min-width: calc(20vw - 2rem);
-        height: calc(100% - 6rem);
+        width: calc(100% - 4rem);
+        height: 80%;
         background: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(1px);
-        margin: 3rem 2rem 3rem 0;
-        padding: 2rem 2rem;
+        backdrop-filter: blur(1.5px);
+        padding: 2rem 3rem;
         display: flex;
         flex-direction: column;
         gap: 20px;
+        transform: translate(-50%, -50%);
     }
     .project__label h3 {
         font-size: 1.3rem;
@@ -527,11 +529,16 @@ margin-top: 3rem;
         font-size: 1.2rem;
         color: var(--color-title);
     }
-    .project__location,
-    .project__elevator {
+    .project__location {
         display: flex;
         gap: 16px;
         align-items: center;
+    }
+    .project__elevator {
+        display: grid;
+        gap: 16px;
+        align-items: center;
+        grid-template-columns: 26px auto;
     }
     .project__elevator p {
         white-space: nowrap;
@@ -539,7 +546,8 @@ margin-top: 3rem;
     .project__equipment {
         width: 100%;
         display: flex;
-        gap: 24px;
+        flex-direction: column;
+        gap: 16px;
         padding: 1rem 0;
         justify-content: center;
         border-top: 1px solid #CBDAE3;
@@ -672,7 +680,18 @@ margin-top: 3rem;
         .cta__bottom {
             height: 220px;
         }
-    
+    .projects {
+        width: 92%;
+        margin: 0 auto;
+    }
+    /* .projects__slider .project__active .project__desc {
+        right: 0;
+        bottom: 0;
+        width: 70%;
+        height: 70%;
+        margin: 3rem 2rem 3rem 0;
+        padding: 2rem 3rem;
+    } */
 }
 @media screen and (min-width: 1440px) {
     .about__images {
@@ -703,13 +722,7 @@ margin-top: 3rem;
     .manufacturers__slider .swiper-button-prev {
         right: calc(68px + 16px);
     }
-     .projects__slider {
-        width: calc(100% + 120px);
-        left: -60px;
-    }
-    .projects__slider .swiper-wrapper{
-        left: 60px;
-    }
+
 }
 
  @keyframes changeSlideNext {
