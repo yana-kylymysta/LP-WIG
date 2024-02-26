@@ -12,28 +12,28 @@ const projectArray = [
                    <img src="./assets/projects/sofia-mall/02.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="./assets/projects/sofia-mall/03.jpg">
+                   <img src="./assets/projects/sofia-mall/03.JPG">
                 </div>
                 <div class="pop-up__slide img-fill swiper-slide" >
-                   <img src="./assets/projects/sofia-mall/04.jpg">
+                   <img src="./assets/projects/sofia-mall/04.JPG">
                 </div>    
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="./assets/projects/sofia-mall/05.jpg">
+                   <img src="./assets/projects/sofia-mall/05.JPG">
                 </div>   
                 <div class="pop-up__slide img-fill swiper-slide" >
-                   <img src="./assets/projects/sofia-mall/06.jpg">
+                   <img src="./assets/projects/sofia-mall/06.JPG">
                 </div> 
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="./assets/projects/sofia-mall/07.jpg">
+                   <img src="./assets/projects/sofia-mall/07.JPG">
                 </div>  
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="./assets/projects/sofia-mall/08.jpg">
+                   <img src="./assets/projects/sofia-mall/08.JPG">
                 </div> 
                  <div class="pop-up__slide img-fill vertical-img swiper-slide">
-                   <img src="./assets/projects/sofia-mall/09.jpg">
+                   <img src="./assets/projects/sofia-mall/09.JPG">
                 </div>   
                  <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="./assets/projects/sofia-mall/10.jpg">
+                   <img src="./assets/projects/sofia-mall/10.JPG">
                 </div>           
             </div>
                <div class="swiper-button swiper-button-prev">
