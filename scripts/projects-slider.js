@@ -6,34 +6,34 @@ const projectArray = [
         code: `<div class="pop-up__project active swiper" data-project="sofiamall">
             <div class="swiper-wrapper">
                 <div class="pop-up__slide img-fill swiper-slide" >
-                    <img src="../assets/projects/sofia-mall/01.JPG">
+                    <img src="./assets/projects/sofia-mall/01.JPG">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/02.jpg">
+                   <img src="./assets/projects/sofia-mall/02.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/03.jpg">
+                   <img src="./assets/projects/sofia-mall/03.jpg">
                 </div>
                 <div class="pop-up__slide img-fill swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/04.jpg">
+                   <img src="./assets/projects/sofia-mall/04.jpg">
                 </div>    
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/05.jpg">
+                   <img src="./assets/projects/sofia-mall/05.jpg">
                 </div>   
                 <div class="pop-up__slide img-fill swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/06.jpg">
+                   <img src="./assets/projects/sofia-mall/06.jpg">
                 </div> 
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/sofia-mall/07.jpg">
+                   <img src="./assets/projects/sofia-mall/07.jpg">
                 </div>  
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/sofia-mall/08.jpg">
+                   <img src="./assets/projects/sofia-mall/08.jpg">
                 </div> 
                  <div class="pop-up__slide img-fill vertical-img swiper-slide">
-                   <img src="../assets/projects/sofia-mall/09.jpg">
+                   <img src="./assets/projects/sofia-mall/09.jpg">
                 </div>   
                  <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/sofia-mall/10.jpg">
+                   <img src="./assets/projects/sofia-mall/10.jpg">
                 </div>           
             </div>
                <div class="swiper-button swiper-button-prev">
@@ -49,31 +49,31 @@ const projectArray = [
         code: `<div class="pop-up__project active swiper" data-project="fora">
          <div class="swiper-wrapper">
                 <div class="pop-up__slide img-fill vertical-img swiper-slide">
-                    <img src="../assets/projects/fora/01.jpg">
+                    <img src="./assets/projects/fora/01.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/fora/02.jpg">
+                   <img src="./assets/projects/fora/02.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                  <img src="../assets/projects/fora/03.jpg">
+                  <img src="./assets/projects/fora/03.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/fora/04.jpg">
+                   <img src="./assets/projects/fora/04.jpg">
                 </div>    
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                    <img src="../assets/projects/fora/05.jpg">
+                    <img src="./assets/projects/fora/05.jpg">
                 </div>   
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/fora/06.jpg">
+                   <img src="./assets/projects/fora/06.jpg">
                 </div> 
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                    <img src="../assets/projects/fora/07.jpg">
+                    <img src="./assets/projects/fora/07.jpg">
                 </div>  
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                    <img src="../assets/projects/fora/09.jpg">
+                    <img src="./assets/projects/fora/09.jpg">
                 </div> 
                  <div class="pop-up__slide img-fill swiper-slide" >
-                   <img src="../assets/projects/fora/10.jpg">
+                   <img src="./assets/projects/fora/10.jpg">
                 </div>    
             </div>
                <div class="swiper-button swiper-button-prev">
@@ -89,37 +89,37 @@ const projectArray = [
         code: `<div class="pop-up__project active swiper" data-project="veles">
          <div class="swiper-wrapper">
                 <div class="pop-up__slide img-fill swiper-slide"> 
-                    <img src="../assets/projects/veles/01.jpg">
+                    <img src="./assets/projects/veles/01.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/veles/02.jpg">
+                   <img src="./assets/projects/veles/02.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                  <img src="../assets/projects/veles/03.jpg">
+                  <img src="./assets/projects/veles/03.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/veles/04.jpg">
+                   <img src="./assets/projects/veles/04.jpg">
                 </div>    
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/veles/05.jpg">
+                   <img src="./assets/projects/veles/05.jpg">
                 </div>   
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/veles/07.jpg">
+                   <img src="./assets/projects/veles/07.jpg">
                 </div> 
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                    <img src="../assets/projects/veles/08.jpg">
+                    <img src="./assets/projects/veles/08.jpg">
                 </div>  
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                    <img src="../assets/projects/veles/10.jpg">
+                    <img src="./assets/projects/veles/10.jpg">
                 </div> 
                  <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/veles/11.jpg">
+                   <img src="./assets/projects/veles/11.jpg">
                 </div> 
                  <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                   <img src="../assets/projects/veles/13.jpg">
+                   <img src="./assets/projects/veles/13.jpg">
                 </div>    
                  <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/veles/15.jpg">
+                   <img src="./assets/projects/veles/15.jpg">
                 </div>  
             </div>
                <div class="swiper-button swiper-button-prev">
@@ -134,16 +134,16 @@ const projectArray = [
         code: `<div class="pop-up__project active swiper" data-project="knyagynyn">
          <div class="swiper-wrapper">
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                    <img src="../assets/projects/knyagynyn/01.jpg">
+                    <img src="./assets/projects/knyagynyn/01.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                   <img src="../assets/projects/knyagynyn/02.jpg">
+                   <img src="./assets/projects/knyagynyn/02.jpg">
                 </div>
                 <div class="pop-up__slide img-fill vertical-img swiper-slide" >
-                  <img src="../assets/projects/knyagynyn/03.jpg">
+                  <img src="./assets/projects/knyagynyn/03.jpg">
                 </div>
                 <div class="pop-up__slide img-fill swiper-slide" >
-                  <img src="../assets/projects/knyagynyn/04.jpg">
+                  <img src="./assets/projects/knyagynyn/04.jpg">
                 </div>    
             </div>
                <div class="swiper-button swiper-button-prev">
@@ -159,7 +159,7 @@ const projectArray = [
         code: `<div class="pop-up__project active swiper" data-project="kyivskyi">
          <div class="swiper-wrapper">
                 <div class="pop-up__slide img-fill vertical-img swiper-slide"> 
-                    <img src="../assets/projects/kyivskyi/01.jpg">
+                    <img src="./assets/projects/kyivskyi/01.jpg">
                 </div>
             </div>
         </div>`
