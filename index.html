@@ -627,7 +627,6 @@
             }
         });
 
-
          window.addEventListener('load', function () {
             const projectSlider = new Swiper(".projects__slider", {
                  spaceBetween: 16,
@@ -640,17 +639,7 @@
                              }
                          }
                      },
-                     slideChangeTransitionStart: function () {
-                        if (window.innerWidth >= 1024) {
-                            const activeSlideIndex = projectSlider.activeIndex;
-                            const slides = projectSlider.slides;
-                            slides.forEach((slide, index) => {
-                                index === activeSlideIndex 
-                                    ? slide.classList.add('project__active')
-                                    : slide.classList.remove('project__active')
-                            });
-                        }
-                     },
+
                     //    slideNextTransitionStart: function () {
                     //      if (window.innerWidth >= 1024) {
                     //          this.slides.forEach(slide => slide.classList.add('custom-animate-next'));

@@ -15,7 +15,6 @@
     position: absolute;
     top: 0;
     height: 100vh;
-    padding: 4vh 4vw;
     background: rgba(11, 19, 43, 0.50);
     display: -webkit-box;
     display: -ms-flexbox;
@@ -41,20 +40,18 @@
 }
 .pop-up__close {
     position: absolute;
-    right: 20px;
-    top: -16px;
-    transform: translate(100%, -100%);
-    width: 34px;
-    height: 34px;
+    right: 0.5rem;
+    top: 0.5rem;
+    user-select: none;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: 1px solid #E7E7EA;
-    background-color: rgba(255, 255, 255, 0.80);
-    box-shadow: 0px 8px 48px 0px rgba(21, 33, 81, 0.08);
-    backdrop-filter: blur(10px);
+    color: var(--color-light-grey);
     cursor: pointer;
+    font-size: 1.2rem;
     z-index: 999999;
 }
 .pop-up__slider,
@@ -66,39 +63,73 @@
     width: 100%;
     height: 100%;
 }
+.pop-up__slide-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pop-up__slide {
+    padding: 3rem 0 3rem 0;
+    user-select: none;
+}
+.pop-up__desc {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 16px;
+    font-size: 0.8rem;
+}
+.pop-up__desc h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.pop-up__slider 
+.swiper-button {
+    width: 30px;
+    height: 54px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.60);
+    border-radius: 2px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pop-up__slider .swiper-button:after {
+    content: '';
+}
+.pop-up__slider .swiper-button svg path {
+    fill: #000000;
+}
 @media screen and (min-width: 768px) {
     .pop-up__bg {
         height: 100vh;
-        padding: 12.5vh 12.5vw;
+        padding: 4vh 4vw;
     }
-    .pop-up__block {
-        width: 100%;
-        height: 100%t;
-        max-width: 1082px;
-        max-height: 611px;
-    }
-
-.pop-up__close {
-    right: -8px;
-    top: 0;
-    transform: tanslate(100%, -100%);
-    width: 44px;
-    height: 44px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .pop-up__close {
-        right: -30px;
-        top: 0;
-        width: 64px;
-        height: 64px;
-    }
-}
-
-@media screen and (min-width: 1281px) {
     .pop-up__block {
         width: 100%;
         height: 100%;
+        max-width: 1082px;
+        max-height: 800px;
+    }
+    .pop-up__slide {
+        padding: 2rem 4rem 3rem 4rem;
+    }
+    .pop-up__slider 
+    .swiper-button {
+        border: 1px solid var(--color-light-grey);
+        background-color: transparent;
     }
 }
+@media screen and (min-width: 1440px) {
+.pop-up__slider .swiper-button {
+        width: 38px;
+        height: 64px;
+        padding: 14px;
+}
+}
+
+

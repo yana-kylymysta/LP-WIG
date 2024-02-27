@@ -70,12 +70,18 @@
     display: none;
 }
 .vertical-img img{
-    object-fit: contain !important;
+    object-fit: cover !important;
 }
+
 @media screen and (min-width: 560px) {
     .about__images {
         gap: 2rem;
         padding: 0 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .vertical-img img {
+        object-fit: contain !important;
     }
 }
 
@@ -103,16 +109,16 @@
         transition: all 0.3s;
     }
 
-    .projects__slider .project__active {
+    .projects__slider .swiper-slide-active {
         padding-top: 43%;
     }
 
-    .projects__slider .project__active .project__label,
+    .projects__slider .swiper-slide-active .project__label,
     .projects__slider .project:hover .project__label {
         display: none;
     }
 
-    .projects__slider .project__active .project__desc,
+    .projects__slider .swiper-slide-active .project__desc,
     .projects__slider .project:hover .project__desc {
         display: block;
         position: absolute;
@@ -227,12 +233,12 @@
         right: 26px
     }
 
-    .projects__slider .project__active,
+    .projects__slider .swiper-slide-active,
     .projects__slider .project:hover {
         padding-top: 41.4%;
     }
 
-    .projects__slider .project__active .project__desc,
+    .projects__slider .swiper-slide-active .project__desc,
     .projects__slider .project:hover .project__desc {
         right: -16px;
         top: unset;
@@ -248,7 +254,7 @@
         transition: all 0.3s;
     }
 
-    .projects__slider .project__active:hover .project__desc {
+    .projects__slider .swiper-slide-active:hover .project__desc {
         background: rgba(255, 255, 255, 0.8);
     }
 
