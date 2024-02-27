@@ -130,6 +130,9 @@
         height: 64px;
         padding: 14px;
 }
+    .pop-up__slide {
+        padding: 2rem 4.4rem 3rem 4.4rem;
+    }
 }
 
 
