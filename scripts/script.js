@@ -105,8 +105,7 @@ const disableScroll = () => {
     const popupBg = document.querySelector('.pop-up__bg');
 
     const verticalPosition = (window.innerHeight - popupBg.offsetHeight) / 2;
-    const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop;
-
+    document.documentElement.style.overflow = 'hidden';
     document.body.style.overflow = 'hidden'; 
     document.body.style.paddingRight = `${widthScroll}px`; 
 
@@ -117,6 +116,7 @@ const disableScroll = () => {
 };
 
 const enableScroll = () => {
+    document.documentElement.style.overflow = '';
     document.body.style.overflow = ''; 
     document.body.style.paddingRight = ''; 
 }

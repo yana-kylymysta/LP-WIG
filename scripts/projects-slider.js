@@ -342,17 +342,7 @@ const projectArray = [
         </div>`
     }
 ]
-function createPopUpSlider(block){
-    const popUpSlider = new Swiper(block, {
-            spaceBetween: 0,
-            slidesPerView: 1,
-            grabCursor: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-        });
-}
+
  const openProjectPopUp = (project) => {
         const loader = document.createElement('div');
         loader.classList.add('loader__wrapper');
@@ -369,7 +359,7 @@ function createPopUpSlider(block){
         template +=`</div></div></div></div>`
         popup.innerHTML = template;
     
-     disableScroll('.pop-up__bg');
+      disableScroll();
       const popUpSlider = new Swiper('.pop-up__project.active', {
             spaceBetween: 0,
             slidesPerView: 1,
