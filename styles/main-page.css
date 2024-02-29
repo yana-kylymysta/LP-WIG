@@ -416,7 +416,9 @@ margin-top: 3rem;
         right: calc(56px + 14px);
         transform: translate(0,0) rotate(180deg);
     }
-
+    .cta {
+        margin-bottom: calc(-1 * var(--last-section-margin)) !important;
+    }
     .cta__container {
         display: flex;
         gap: 32px;
@@ -442,7 +444,7 @@ margin-top: 3rem;
     .cta__bottom {
         position: relative;
         left: 0;
-        bottom: 100px;
+        bottom: var(--last-section-margin);
         width: 100%;
         height: 160px;
         background: rgba(241, 241, 241, 0.7);
@@ -477,7 +479,7 @@ margin-top: 3rem;
     }
     .cta {
         position: relative;
-        margin-bottom: unset !important;
+        z-index: 1;
     }
 
     .cta__block {
@@ -486,7 +488,7 @@ margin-top: 3rem;
     }
     .cta__info {
         flex: 0 0 400px;
-        margin-bottom: 100px;
+        margin-bottom: var(--last-section-margin);
     }
     .cta__bottom {
         height: 220px;
