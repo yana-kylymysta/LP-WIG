@@ -81,6 +81,7 @@
     justify-content: center;
     gap: 16px;
     font-size: 0.8rem;
+    user-select: none;
 }
 .pop-up__desc h4 {
     font-weight: 600;

@@ -132,19 +132,23 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.1rem;transition: all 0.4s;
 }
 .section__btn {
-    font-size: 0.8rem;
+    font-size: 1rem;
     display: block;
     width: fit-content;
     position: relative;
     border: 1px solid #434242;
-    padding: 0.5rem calc(1rem + 10px) 0.5rem 1rem;
+    padding: 1rem calc(2rem + 10px) 1rem 2rem;
     transition: all 0.3s;
+}
+.section__btn-card {
+    font-size: 0.9rem;
+    padding: 0.6rem calc(1.3rem + 10px) 0.6rem 1.3rem;
 }
 .section__btn:after {
     content: '';
     display: block;
-    width: 30px;
-    height: 8px;
+    width: 40px;
+    height: 10px;
     position: absolute;
     top: 50%;
     right: 0;
@@ -152,6 +156,10 @@ h1, h2, h3, h4, h5, h6 {
     background: url(../assets/icons/arrow-btn.svg) no-repeat;
     background-size: contain;
     transition: all 0.3s
+}
+.section__btn-card:after {
+    width: 30px;
+    height: 8px;
 }
 .section__btn:hover {
     transform: scale(1.03);
@@ -185,11 +193,11 @@ section:not(.main-banner) {
        --font-size: 16px;
        --header-height: 70px;
    }
-   .section__btn {
+   .section__btn-card {
     font-size: 1rem;
     padding: 1rem calc(2rem + 10px) 1rem 2rem;
    }
-   .section__btn:after {
+   .section__btn-card:after {
         width: 44px;
         height: 12px;
    }

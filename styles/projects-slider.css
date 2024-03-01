@@ -3,9 +3,11 @@
     user-select: none;
 }
 
-.projects__slider .swiper-wrapper {
+.projects__slider  {
     padding-bottom: 42px;
+    padding-right: 14px;
 }
+
 
 .project {
     position: relative;
