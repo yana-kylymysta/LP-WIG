@@ -786,7 +786,6 @@
         duration: 1,
         scrollTrigger: {
             trigger: '.about',
-            markers: true,
             start: 'top bottom',
             end: 'bottom top',
             toggleActions: 'restart restart restart restart'
@@ -804,13 +803,10 @@
             toggleActions: 'restart restart restart restart'
         }
     });
-       
     </script>
-    
     
     <script>
         const numberDisplays = document.querySelectorAll('.amount__numb');
-
         numberDisplays.forEach(num => {
             const targetValue = num.dataset.num;
             gsap.to(num, {
