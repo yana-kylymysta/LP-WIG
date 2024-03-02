@@ -9,97 +9,6 @@ const pageWrapper = document.querySelector('.page__wrapper');
 const details = document.querySelectorAll('.details');
 const popup = document.querySelector('.pop-up')
 
-
-// //FORM VALIDATION
-// const isValidInputs = (elements) => {
-//    let status = true;
-
-//   const addErrorMessage = (input, text) => {
-//     const parent = input.closest('.input-wrapper');
-//     const msgBlock = parent.querySelector('.error-msg');
-//     msgBlock.innerText = text ;
-//     msgBlock.style.display = 'block';
-//   }
-
-//   const removeErrorMessage = (input) => {
-//     const parent = input.closest('.input-wrapper');
-//     const msgBlock = parent.querySelector('.error-msg');
-//     msgBlock.style.display = 'none';
-//     msgBlock.innerText = ''; 
-//   }
-
-//   const inputEmail = (input) => {
-//       const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-//       let result = reg.test(input.value);
-//       if(!result) {
-//           input.classList.add("error"); 
-//           addErrorMessage(input, 'Данні введені не коректно');
-//           status = false; 
-//       }  else {
-//           input.classList.contains('error') && input.classList.remove('error');
-//           removeErrorMessage(input)
-//         }
-//   }
-
-//   const inputLength = (input) => {
-//         let count = input.classList.contains('phone') ? 17 : 0;
-//         if(input.value.length > count){
-//             if(input.classList.contains('error')){
-//                 input.classList.remove('error');
-//                 removeErrorMessage(input)
-//             }
-//         }else{
-//               input.classList.add('error');
-//               addErrorMessage(input, 'Заповність це поле');
-//               status = false;
-//               }
-//            if(input.classList.contains('email') && input.value.length > 0) {
-//               inputEmail(input);
-//           }
-//  }
-//   const checkedInput = (input) => {
-//     const parent = input.closest('.checkbox-container');
-//     const box = parent.querySelector('.checkmark')
-//     if(input.checked) {
-//         box.classList.contains('error') && box.classList.remove('error');
-//     } else {
-//         box.classList.add('error');
-//         status = false;
-//     }
-//  }
-//   elements.forEach(el => {
-//       if(el.type === 'checkbox') {
-//           checkedInput(el)
-//       } else {
-//           el.onkeyup  = (e) => inputLength(el);  
-//           inputLength(el);
-//       }
-//   })
-//    return status;
-// }
-
-// $(function(){
-//     $(".phone").mask("+38(099) 999-99-99");
-
-//     $(".phone").click(function() {
-//         setCursorPosition(this, 5); // Встановіть позицію, на яку ви хочете перемістити курсор
-//     });
-
-//     function setCursorPosition(input, pos) {
-//         if (input.setSelectionRange) {
-//             input.focus();
-//             input.setSelectionRange(pos, pos);
-//         } else if (input.createTextRange) {
-//             var range = input.createTextRange();
-//             range.collapse(true);
-//             range.moveEnd('character', pos);
-//             range.moveStart('character', pos);
-//             range.select();
-//         }
-//     }
-// });
-
-
 const disableScroll = () => {
     const widthScroll = window.innerWidth - document.body.offsetWidth;
     const popupBg = document.querySelector('.pop-up__bg');
@@ -125,35 +34,132 @@ const closeWindow = () => {
     enableScroll();
     
 }
+// //FORM VALIDATION
+  const addErrorMessage = (input, text) => {
+    const parent = input.closest('.input__wrapper');
+    let msgBlock = parent.querySelector('.error-msg');
+
+    if (!msgBlock) {
+        msgBlock = document.createElement('div');
+        msgBlock.classList.add('error-msg');
+        parent.appendChild(msgBlock);
+    }
+    msgBlock.innerText = text;
+  }
+
+  const removeErrorMessage = (input) => {
+    const parent = input.closest('.input__wrapper');
+    const msgBlock = parent.querySelector('.error-msg');
+    if (msgBlock) {
+        msgBlock.remove();
+    }
+  }
+
+
+const isValidInputs = (elements) => {
+   let status = true;
+
+  const inputEmail = (input) => {
+      const reg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      let result = reg.test(input.value);
+      if(!result) {
+          input.classList.add("error"); 
+          addErrorMessage(input, 'Дані введені некоректно');
+          status = false; 
+      }  else {
+          input.classList.contains('error') && input.classList.remove('error');
+          removeErrorMessage(input)
+        }
+  }
+
+  const inputLength = (input) => {
+        let count = input.classList.contains('phone') ? 17 : 0;
+        if(input.value.length > count){
+            if(input.classList.contains('error')){
+                input.classList.remove('error');
+                removeErrorMessage(input)
+            }
+        }else{
+              input.classList.add('error');
+              addErrorMessage(input, 'Заповніть це поле');
+              status = false;
+              }
+           if(input.type === 'email' && input.value.length > 0) {
+              inputEmail(input);
+          }
+    } 
+
+  const checkedInput = (input) => {
+        if(input.checked) {
+            input.classList.contains('error') && input.classList.remove('error');
+            status = true;
+        } else {
+            input.classList.add('error');
+            status = false;
+        }
+    }
+
+  elements.forEach(el => {
+    if (el.type === 'text' || el.type === 'email') {
+        el.onkeyup  = (e) => inputLength(el);  
+          inputLength(el);
+    }
+    if(el.type === 'checkbox') {
+        el.onchange  = () => checkedInput(el);  
+          checkedInput(el)
+    }
+  })
+   return status;
+}
+
+$(function(){
+    $(".phone").mask("+38(099) 999-99-99");
+
+    $(".phone").click(function() {
+        setCursorPosition(this, 5); // Встановіть позицію, на яку ви хочете перемістити курсор
+    });
+
+    function setCursorPosition(input, pos) {
+        if (input.setSelectionRange) {
+            input.focus();
+            input.setSelectionRange(pos, pos);
+        } else if (input.createTextRange) {
+            var range = input.createTextRange();
+            range.collapse(true);
+            range.moveEnd('character', pos);
+            range.moveStart('character', pos);
+            range.select();
+        }
+    }
+});
+
 
 const thanksPopUp = (event, buttonElement) => { 
-       const parent = buttonElement.closest('.form');
-       const inputs = parent.querySelectorAll('input:required');
-       let status = true;
+    const parent = buttonElement.closest('.form');
+    const inputs = parent.querySelectorAll('input:required');
+    const textarea = parent.querySelector('textarea');
+    
+    let status = true;
        
-       let template = `
-            <div class="pop-up__bg thank">
-                <div class="pop-up__block">
-                    <div class="pop-up__scroll">
-                        <div class="pop-up__close"></div>
-                        <h2 class="pop-up__title title"><span>Дякуємо!</span></h2>
-                        <div class="pop-up__text">
-                            Ми зв'яжемося з вами протягом<br><span>двох робочих днів</span>
-                        </div>
-                        <a href="../" class="pop-up___btn btn section__btn">На головну</a>
-                    </div>
-                </div>
-            </div>`;
+    //    let template = `
+    //         <div class="pop-up__bg thank">
+    //             <div class="pop-up__block">
+    //                 <div class="pop-up__scroll">
+    //                     <div class="pop-up__close"></div>
+    //                     <h2 class="pop-up__title title"><span>Дякуємо!</span></h2>
+    //                     <div class="pop-up__text">
+    //                         Ми зв'яжемося з вами протягом<br><span>двох робочих днів</span>
+    //                     </div>
+    //                     <a href="../" class="pop-up___btn btn section__btn">На головну</a>
+    //                 </div>
+    //             </div>
+    //         </div>`;
 
-            if(isValidInputs(inputs)){ 
-                status = true;
-                event.preventDefault();
-            } else {
-                status = false;
-                event.preventDefault();
-            }
 
-        if(status) {
+    status = isValidInputs(inputs);
+    event.preventDefault();
+
+    if(status) {
         const formData = new FormData(parent);
         const xhr = new XMLHttpRequest();
 
@@ -172,13 +178,14 @@ const thanksPopUp = (event, buttonElement) => {
         // };
         // xhr.send(formData);
 
-        popup.innerHTML = template;
-        if(!popup.classList.contains("active")) {
-            popup.classList.add('active');}
-        disableScroll();
-        parent.reset();
+    //     popUp.innerHTML = template;
+    //     if(!popUp.classList.contains("active")) {
+    //         popUp.classList.add('active');}
+    //     disableScroll();
+    parent.reset();
        }
     }
+
 
 //HEADER 
 window.addEventListener('scroll', () => {

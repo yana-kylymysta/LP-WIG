@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="page__wrapper" style="position: relative; overflow: hidden;">
-        <header class="header">
+         <header class="header">
             <div class="container header__container">
                 <a href="/" class="header__logo img-width">
                     <svg width="123" height="44" viewBox="0 0 123 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -167,13 +167,14 @@
 
             </section>
             <div class="main__wrapper">
+                <div class="main__wrapper-test">
             <section class="about" id="about">
                 <div class="container about__container">
                     <div class="about__images">
-                        <div class="about__img img-fill">
+                        <div class="about__img img-fill about__img-left">
                             <img src="./assets/img_1.jpg" alt="">
                         </div>
-                        <div class="about__img img-fill">
+                        <div class="about__img img-fill about__img-right">
                             <img src="./assets/img_2.jpg" alt="">
                         </div>
                     </div>
@@ -194,17 +195,17 @@
             <section class="amounts">
                 <div class="container amounts__container">
                     <div class="amount">
-                        <div class="amount__numb">10+</div>
+                        <div class="amount__numb" data-num="10">0</div>
                         <div class="amount__text">РОКІВ<br>
                         на ринку</div>
                     </div>
                     <div class="amount">
-                        <div class="amount__numb">50+</div>
+                        <div class="amount__numb" data-num="50">0</div>
                         <div class="amount__text">успішно<br>
                         реалізованих проектів</div>
                     </div>
                     <div class="amount">
-                        <div class="amount__numb">200+</div>
+                        <div class="amount__numb"data-num="200">0</div>
                         <div class="amount__text">одиниць підйомної<br>
                         техніки встановлено</div>
                     </div>
@@ -234,7 +235,7 @@
                             <div class="service__info">
                             <h4 class="service__title">поставка ескалаторів
                             та травалаторів</h4>
-                            <p class="service__text">Наші ескалатори виготовляються згідно світового стандарту EN-115, що відповідає всім правилам будови і безпечної
+                            <p class="service__text">Ескалатори виготовляються згідно світового стандарту EN-115, що відповідає всім правилам будови і безпечної
                             експлуатації ескалаторів </p>
                             <a href="#" target="_blank" class="btn section__btn section__btn-card service__btn">Детальніше</a>
                             </div>
@@ -278,7 +279,7 @@
                             <article class="manufacturer swiper-slide">
                                 <div class="manufacturer__block">
                                     <div class="manufacturer__logo img-width">
-                                        <img src="./assets/manufacturers/sjec.svg" alt="SJEC">
+                                        <img src="./assets/manufacturers/sjec.svg" alt="SJEC" style="width: 100px">
                                     </div>
                                     <h4>Бюджет та якість</h4>
                                     <p>Займаючи лідируючі позиції у сфері виробництва ліфтового та підйомного обладнання, китайська компанія SJEC Corporation була заснована в місті Сучжоу в 1992 році.</p>
@@ -309,7 +310,7 @@
                             <article class="manufacturer swiper-slide">
                                 <div class="manufacturer__block">
                                     <div class="manufacturer__logo">
-                                        <img src="./assets/manufacturers/sjec.svg" alt="SJEC">
+                                        <img src="./assets/manufacturers/sjec.svg" alt="SJEC" style="width: 100px">
                                     </div>
                                     <h4>Бюджет та якість</h4>
                                     <p>Займаючи лідируючі позиції у сфері виробництва ліфтового та підйомного обладнання, китайська компанія SJEC
@@ -517,20 +518,50 @@
                             </a>
                         </div>
                         <form action="POST" class="cta__form form">
-                            <div class="form__input">
-                                <input type="text" placeholder="Ваше ім’я">
+                            <div class="input__wrapper">
+                                <div class="form__input">
+                                    <input 
+                                        type="text"
+                                        name="name"
+                                        placeholder="Ваше ім’я"
+                                        required>
+                                </div>
                             </div>
-                            <div class="form__input">
-                                <input type="text" placeholder="Сайт компанії">
+                            <div class="input__wrapper">
+                                <div class="form__input">
+                                    <input 
+                                        type="text"
+                                        name="company"
+                                        placeholder="Назва компанії"
+                                        required>
+                                </div>
                             </div>
-                            <div class="form__input">
-                                <input type="text" placeholder="Ваш email">
+                            <div class="input__wrapper">
+                                <div class="form__input">
+                                    <input 
+                                        type="email"
+                                        name="email"
+                                        placeholder="Ваш email"
+                                        required>
+                                </div>
                             </div>
-                            <div class="form__input">
-                                <input type="text" placeholder="Ваш номер телефону">
+                            <div class="input__wrapper">
+                                <div class="form__input">
+                                    <input 
+                                        type="text"
+                                        class="phone"
+                                        name="tel"
+                                        placeholder="Ваш номер телефону" required>
+                                </div>
                             </div>
-                            <div class="form__input span-2">
-                                <textarea  placeholder="Ваше повідомлення" rows="6"></textarea>
+                            <div class="input__wrapper span-2">
+                                <div class="form__input ">
+                                    <textarea  
+                                        placeholder="Ваше повідомлення"
+                                        name="text"
+                                        rows="6">
+                                    </textarea>
+                                </div>
                             </div>
                             <div class="form__bottom span-2">
                                 <div class="form__checkbox">
@@ -538,13 +569,14 @@
                                     <label for="checkbox" class="checkbox__label">
                                         <a href="#" target="_blank">Я даю згоду на обробку персональних даних</a></label>
                                 </div>
-                                <button class="form__btn" type="submit">Зв'язатися зі мною</button>
+                                <button class="form__btn" type="submit" onclick="thanksPopUp(event, this)">Зв'язатися зі мною</button>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="cta__bottom"></div>
             </section>
+            </div>
             </div>
         </main>
         <footer class="footer">
@@ -620,13 +652,14 @@
         </footer>
     <div class="pop-up"></div>
     <script src="./scripts/jquery.min.2.2.0.js"></script>
-    <script src="./scripts/lightslider.js"></script>
+    <script src="./scripts/jquery.maskedinput.min.js"></script>
     <script src="./scripts/script.js"></script>
     <script src="./scripts/projects-slider.js"></script>
     <script src="./scripts/pop-up.js"></script>
     <script src="./scripts/burger-menu.js"></script>
     <script src="./scripts/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const mainSwiper = new Swiper(".main-banner__slider", {
@@ -743,7 +776,62 @@
              });
              })
         });
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to('.about__img', {
+        y: 0,
+        scale: 1,
+        opacity: 1,
+        duration: 1,
+        scrollTrigger: {
+            trigger: '.about',
+            markers: true,
+            start: 'top bottom',
+            end: 'bottom top',
+            toggleActions: 'restart restart restart restart'
+        }
+    });
+
+    gsap.to('.about__desc', {
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        scrollTrigger: {
+            trigger: '.about',
+            start: 'top bottom',
+            end: 'bottom top',
+            toggleActions: 'restart restart restart restart'
+        }
+    });
+       
+    </script>
     
+    
+    <script>
+        const numberDisplays = document.querySelectorAll('.amount__numb');
+
+        numberDisplays.forEach(num => {
+            const targetValue = num.dataset.num;
+            gsap.to(num, {
+                duration: 3,
+                ease: "power4.out",
+                scrollTrigger: {
+                    trigger: '.amounts__container',
+                    start: 'top bottom',
+                    end: 'bottom top',
+                    toggleActions: 'restart restart restart restart'
+                },
+                innerHTML: targetValue,
+                onUpdate: function () {
+                    num.innerHTML = Math.round(num.innerHTML);
+
+                },
+                onComplete: function () {
+                    num.innerHTML += "+"; 
+                }
+            });
+        });
     </script>
 </div>
 </body>

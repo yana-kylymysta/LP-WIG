@@ -1,7 +1,7 @@
 <?php 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
-    $website = $_POST['website'];
+    $company = $_POST['company'];
     $email = $_POST['email'];
     $tel = $_POST['tel'];
     $text = isset($_POST['text']) ? $_POST['text'] : '';
@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
  
     $fromName = "White Install Group";
 
-    $subject = "Замовити консультацію";
+    $subject = "Заявка на консультацію";
     
     $message = "<html>
                     <head>
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </head>
                     <body>
                          <p style='margin: 20px 10px; font-size: 12pt;'><strong>Ім'я:</strong> " . $name . "</p>
-                          <p style='margin: 20px 10px; font-size: 12pt;'><strong>Сайт компанії:</strong> " . $website . "</p>
+                          <p style='margin: 20px 10px; font-size: 12pt;'><strong>Назва компанії:</strong> " . $company . "</p>
                           <p style='margin: 20px 10px; font-size: 12pt;'><strong>E-mail:</strong> " . $email . "</p>
                           <p style='margin: 20px 10px; font-size: 12pt;'><strong>Номер телефону:</strong> " . $tel . "</p>";
     
