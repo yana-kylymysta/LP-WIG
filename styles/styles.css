@@ -874,3 +874,36 @@ input[type="checkbox"]:checked:after {
 
 }
 
+  /*******MARQUEE*********/
+  .marquee {
+    width: 100%;
+    display: flex;
+    white-space: nowrap;
+    width: var(--block-width);
+    animation: moveLeft 50s linear infinite;
+  }
+
+  .marquee .companies__row {
+      width: calc(var(--block-width) / 2);
+  }
+
+  @keyframes moveLeft {
+      0% {
+          transform: translateX(0);
+      }
+
+      100% {
+          transform: translateX(calc(-1 * var(--block-width) / 2));
+      }
+  }
+@media screen and (min-width: 1024px) {
+    .marquee {
+    width: 100%;
+    display: block;
+    animation: unset;
+  }
+}
+
+
+  /*******MARQUEE END*********/
+

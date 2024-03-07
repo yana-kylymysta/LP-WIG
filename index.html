@@ -184,7 +184,7 @@
                         <div class="about__text text">
                             <p>Наша компанія бере свій початок у 2013 році. Об'єднавши кращих експертів своєї справи у ліфтовій галузі - ми пропонуємо
                             широкий спектр рішень з питань ліфтів, ескалаторів, вантажних підйомників, та всіх супутніх додаткових робіт.</p>
-                            <p>Наша компанія пропону є ліфтове та ескалаторне обладнання провідних світових виробників, яке повністю відповідає всім
+                            <p>Ми пропонуємо ліфтове та ескалаторне обладнання провідних світових виробників, яке повністю відповідає всім
                             вимогам чинного законодавства України, та експлуатується на її території вже понад 15 років.</p>
                         </div>
                         <a href="#" target="_blank" class="btn section__btn">Детальніше</a>
@@ -307,24 +307,75 @@
                                     <a href="#" target="_blank" class="btn section__btn section__btn-card manufacturer__btn">Детальніше</a>
                                 </div>
                             </article>
-                            <article class="manufacturer swiper-slide">
-                                <div class="manufacturer__block">
-                                    <div class="manufacturer__logo">
-                                        <img src="./assets/manufacturers/sjec.svg" alt="SJEC" style="width: 100px">
-                                    </div>
-                                    <h4>Бюджет та якість</h4>
-                                    <p>Займаючи лідируючі позиції у сфері виробництва ліфтового та підйомного обладнання, китайська компанія SJEC
-                                        Corporation була заснована в місті Сучжоу в 1992 році</p>
-                                    <a href="#" target="_blank" class="btn section__btn section__btn-card manufacturer__btn">Детальніше</a>
-                                </div>
-                            </article>
                         </div>
-                        <div class="swiper-button swiper-button-prev">
+                        <!-- <div class="swiper-button swiper-button-prev">
                         </div>
                         <div class="swiper-button swiper-button-next">
-                        </div>
+                        </div> -->
                         <div class="swiper-pagination"></div>
                     </div>
+                    </div>
+                </div>
+            </section>
+            <section class="companies">
+                <div class="container companies__container">
+                    <div class="companies__desc">
+                        <h2 class="companies__title  title">Нам довіряють</h2>
+                        <p class="companies__text">Використання нашої продукції для ліфтів було підтверджено великою кількістю компаній, що свідчить про високий рівень довіри до
+                        наших послуг у галузі постачання та монтажу.</p>
+                    </div>
+                    <div class="companies__arrow">
+                        <svg width="63" height="169" viewBox="0 0 63 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.42587 0L0 1.53986L59.6696 86.2323L0.277533 166.305L1.38767 169L63 86.2323L1.42587 0Z" fill="#FFBF00" />
+                        </svg>
+                    </div>
+                    <div class="companies__logo marquee">
+                        <div class="companies__row">
+                            <div class="company__logo sz">
+                                <img src="./assets/companies/spilka-zsbudovnykiv.svg" alt="Спілка забудовників">
+                            </div>
+                            <div class="company__logo kharok">
+                                <img src="./assets/companies/kharok.png" alt="Харьок">
+                            </div>
+                            <div class="company__logo sofiamall">
+                                <img src="./assets/companies/sofia-mall.png" alt="Sofia Mall">
+                            </div>
+                            <div class="company__logo veles">
+                                <img src="./assets/companies/veles.png" alt="Велес">
+                            </div>
+                            <div class="company__logo silpo">
+                                <img src="./assets/companies/silpo.svg" alt="Сільпо">
+                            </div>
+                            <div class="company__logo fora">
+                                <img src="./assets/companies/fora.svg" alt="Фора">
+                            </div>
+                            <div class="company__logo fourroom">
+                                <img src="./assets/companies/4room.png" alt="4Room">
+                            </div>
+                        </div>
+                        <div class="companies__row">
+                            <div class="company__logo sz">
+                                <img src="./assets/companies/spilka-zsbudovnykiv.svg" alt="Спілка забудовників">
+                            </div>
+                            <div class="company__logo kharok">
+                                <img src="./assets/companies/kharok.png" alt="Харьок">
+                            </div>
+                            <div class="company__logo sofiamall">
+                                <img src="./assets/companies/sofia-mall.png" alt="Sofia Mall">
+                            </div>
+                            <div class="company__logo veles">
+                                <img src="./assets/companies/veles.png" alt="Велес">
+                            </div>
+                            <div class="company__logo silpo">
+                                <img src="./assets/companies/silpo.svg" alt="Сільпо">
+                            </div>
+                            <div class="company__logo fora">
+                                <img src="./assets/companies/fora.svg" alt="Фора">
+                            </div>
+                            <div class="company__logo fourroom">
+                                <img src="./assets/companies/4room.png" alt="4Room">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -485,7 +536,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cta">
+            <section class="cta" id="cta">
                 <div class="container cta__container">
                     <div class="cta__info">
                         <p>Залишились запитання?</p>
@@ -565,7 +616,7 @@
                             </div>
                             <div class="form__bottom span-2">
                                 <div class="form__checkbox">
-                                    <input type="checkbox" id="checkbox" required="">
+                                    <input type="checkbox" id="checkbox" required="" checked>
                                     <label for="checkbox" class="checkbox__label">
                                         <a href="#" target="_blank">Я даю згоду на обробку персональних даних</a></label>
                                 </div>
@@ -604,11 +655,12 @@
                 
                 <div class="footer__column footer__contacts">
                     <div class="footer__contact">
-                        <a href="tel:+380930729141" class="footer__contact-link">+38 (093) 072-91-41</a>
+                        <a href="tel:+380633001117" class="footer__contact-link">+380 63 300 11 17</a> <br>
+                        <a href="tel:+380936592727" class="footer__contact-link">+380 93 659 27 27</a>
                         <p>Головний офіс</p>
                     </div>
                     <div class="footer__contact">
-                        <a href="mailto:email@wig.com" class="footer__contact-link">email@wig.com</a>
+                        <a href="mailto:st.demchenko@gmail.com" class="footer__contact-link">st.demchenko@gmail.com</a>
                         <p>Відділ продажу</p>
                     </div>
       
@@ -775,6 +827,10 @@
                  }
              });
              })
+
+            if (windowWidth < 1024) {
+                createLogosAnimate('.companies__logo');
+            }
         });
 
     gsap.registerPlugin(ScrollTrigger);
@@ -803,12 +859,14 @@
             toggleActions: 'restart restart restart restart'
         }
     });
+
+
     </script>
     
     <script>
         const numberDisplays = document.querySelectorAll('.amount__numb');
-        numberDisplays.forEach(num => {
-            const targetValue = num.dataset.num;
+        numberDisplays.forEach((num, index) => {
+            const targetValue = +(num.dataset.num);
             gsap.to(num, {
                 duration: 3,
                 ease: "power4.out",
@@ -828,6 +886,8 @@
                 }
             });
         });
+
+
     </script>
 </div>
 </body>

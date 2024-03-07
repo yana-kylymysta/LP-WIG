@@ -205,3 +205,42 @@ popup.addEventListener('click', ({target}) => {
 
 
 
+//MARQUEE
+const createWidthMarquee = (element) => {
+    const block = document.querySelector(element);
+
+    const childs =  block.children;
+    
+    console.log(childs[0].scrollWidth)
+    const childWidth = 
+        childs[0].scrollWidth === childs[1].scrollWidth
+        ? childs[0].scrollWidth
+        : 'max-content'
+   
+    block.style.setProperty('--block-width', `${childWidth * 2}px`);
+    block.classList.add('marquee');
+}
+
+const createLogosAnimate = (block) => {
+        const element = document.querySelector(block);
+        if (element) {
+            let images = element.querySelectorAll('img');
+            let loadedImages = 0;
+
+            function checkAllImagesLoaded() {
+                loadedImages++;
+                if (loadedImages === images.length) {
+                    createWidthMarquee(block);
+                }
+            }
+
+            images.forEach(function (img) {
+            if (img.complete) {
+                checkAllImagesLoaded(); 
+            } else {
+                img.addEventListener('load', checkAllImagesLoaded);
+                img.addEventListener('error', checkAllImagesLoaded); 
+                }
+            });
+        }
+}

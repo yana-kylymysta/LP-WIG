@@ -141,7 +141,7 @@ margin-top: 3rem;
     display: block;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(1px);
     z-index: 1; 
 }
@@ -210,7 +210,7 @@ margin-top: 3rem;
 .cta__block {
     padding: 4rem 1.2rem;
     box-shadow: 2px 4px 15px 0 rgba(0, 0, 0, 0.15);
-    background: linear-gradient(59deg, #ffedce 7.05%, #efefef 61.64%, #e7e7e7 98.9%);
+    background: linear-gradient(126deg, #ffedce 7.05%, #efefef 61.64%, #e7e7e7 98.9%);
 }
 .cta__socials {
     display: flex;
@@ -228,6 +228,81 @@ margin-top: 3rem;
 }
 .cta__social svg{
     height: 100% !important;
+}
+.companies__container {
+    display: flex;
+   flex-direction: column;
+    gap: 24px
+}
+.companies__arrow {
+    display: none;
+}
+.companies__desc:after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 1px;
+    background: var(--color-primary);
+    margin: 24px auto 10px auto;
+}
+.company__logo {
+    max-width: 280px;
+    max-height: 100px;
+    flex-shrink: 0;
+}
+.company__logo img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.companies__row {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.companies__row:first-child {
+    margin-right: 32px;
+}
+.company__logo {
+    filter: grayscale(100%) brightness(120%);
+    transition: all 0.3s;
+}
+.company__logo:hover {
+    filter: grayscale(0);
+}
+.company__logo.sz {
+    grid-area: sz;
+    display: flex;
+    align-items: center;
+}
+.company__logo.kharok {
+    grid-area: kharok;
+}
+.company__logo.sofiamall {
+    grid-area: sofiamall;
+}
+.company__logo.sofiamall img {
+    height: 100px;
+}
+.company__logo.veles {
+    grid-area: veles;
+    background: #ff0000;
+    padding: 10px 20px;
+    border-radius: 4px;
+    max-width: 170px;
+    height: fit-content;
+}
+.company__logo.silpo {
+    grid-area: silpo;
+    max-width: 200px;
+}
+.company__logo.fora {
+    grid-area: fora;
+}
+.company__logo.fourroom {
+    grid-area: fourroom;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (min-width: 560px) {
@@ -402,7 +477,7 @@ margin-top: 3rem;
         opacity: 1;
     }
     .manufacturers {
-        width: calc(100% - 142px);
+        width: calc(100% - 120px);
         margin: 0 auto;
     }
     .manufacturers__slider {
@@ -484,6 +559,36 @@ margin-top: 3rem;
         height: 160px;
         background: rgb(232, 232, 232);
         z-index: 0;
+    }
+    .companies__container {
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
+    .companies__desc:after {
+      content: unset;
+    }
+    .companies__arrow {
+        display: block;
+    }
+    .companies__desc {
+        flex-basis: 40%;
+        margin-left: 60px;
+    }
+    .companies__row:first-child {
+        display: none;
+    }
+    .companies__row {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas: "sz sz sz sz sofiamall sofiamall veles veles"
+                            ". kharok kharok kharok sofiamall sofiamall fourroom fourroom" 
+                            "silpo silpo silpo fora fora fora fourroom fourroom";
+        grid-column-gap: 24px;
+        grid-row-gap: 16px;
+    }
+    .company__logo.sofiamall img {
+        height: 100%;
     }
 }
 
