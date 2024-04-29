@@ -388,7 +388,7 @@ fill-opacity: 1;
 
 .form__input input::placeholder,
 .form__input textarea::placeholder {
-    font-size: 0.86rem;
+    font-size: 14px;
     color: var(--color-light-grey);
 }
 .form__input textarea {

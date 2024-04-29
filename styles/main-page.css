@@ -144,6 +144,19 @@ margin-top: 3rem;
     background: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(1px);
     z-index: 1; 
+    transition: all 0.3s;
+}
+.service:hover:after {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.swiper-pagination-bullet {
+    border-radius: 2px;
+    width: 14px;
+    height: 5px;
+}
+.swiper-pagination-bullet-active {
+    width: 20px;
 }
 .manufacturers__slider {
     padding-bottom: 20px;
@@ -277,6 +290,7 @@ margin-top: 3rem;
 }
 .company__logo.kharok {
     grid-area: kharok;
+    max-width: 200px;
 }
 .company__logo.sofiamall {
     grid-area: sofiamall;
@@ -306,28 +320,32 @@ margin-top: 3rem;
 }
 
 @media screen and (min-width: 560px) {
-.about__images {
-    gap: 2rem;
-    padding: 0 2rem;
-}
+        .about__images {
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+        .services__block {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .service {
+            padding-top: 70%;
+        }
+    
+        .service__bg {
+            justify-content: start;
+        }
+    
+        .service .service__info {
+            top: 18%;
+        }
 
 }
 @media screen and (min-width: 620px) {
     .amount {
         flex: 0 1 calc(100% / 3);
     }
-    .services__block {
-    grid-template-columns: repeat(2, 1fr);
-    }
-    .service {
-        padding-top: 60%;
-    }
-    .service__bg {
-        justify-content: start;
-    }
-    .service .service__info {
-        top: 18%;
-    }
+
     .cta__block {
         padding: 4rem 2rem;
     }
@@ -343,6 +361,9 @@ margin-top: 3rem;
 @media screen and (min-width: 768px) {
     .about__images {
         gap: 3rem;
+    }
+    .service {
+        padding-top: 60%;
     }
     .service__btn {
         font-size: 0.8rem;
@@ -551,6 +572,10 @@ margin-top: 3rem;
         min-width: 600px;
         margin: 0 auto;
     }
+    .cta__social {
+        display: flex;
+        justify-content: center;
+    }
     .cta__bottom {
         position: relative;
         left: 0;
@@ -565,15 +590,20 @@ margin-top: 3rem;
         align-items: center;
         gap: 32px;
     }
+    .companies__desc-left {
+        flex-basis: 40%;
+        flex-shrink: 0;
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+    }
     .companies__desc:after {
       content: unset;
     }
     .companies__arrow {
         display: block;
-    }
-    .companies__desc {
-        flex-basis: 40%;
-        margin-left: 60px;
     }
     .companies__row:first-child {
         display: none;
@@ -589,6 +619,9 @@ margin-top: 3rem;
     }
     .company__logo.sofiamall img {
         height: 100%;
+    }
+    .company__logo.kharok {
+        max-width: 280px;
     }
 }
 
@@ -614,9 +647,7 @@ margin-top: 3rem;
        width: 44px;
        height: 12px;
    }
-    .manufacturer {
-      padding: 6rem 2rem 6rem 2rem;
-    }
+
     .cta {
         position: relative;
         z-index: 1;
@@ -632,6 +663,12 @@ margin-top: 3rem;
     }
     .cta__bottom {
         height: 220px;
+    }
+    .companies__desc {
+        margin-left: 60px;
+    }
+    .manufacturers__wrapper .swiper-button {
+        display: none;
     }
   }
 @media screen and (min-width: 1440px) {
@@ -659,7 +696,7 @@ margin-top: 3rem;
         border-right: 2px solid #434242;
     }
     .manufacturer {
-        padding: 8rem 4rem 8rem 2rem;
+        padding: 6rem 4rem 6rem 2rem;
         gap: 3rem;
     }
     .manufacturers__slider .swiper-button {

@@ -29,10 +29,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $message .= "</body>
                 </html>";
 
-    $headers = "From: $fromName <zozulyaweb@gmail.com>\r\n";
+    $headers = "From: $fromName <st.demchenko@gmail.com>\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-    if (mail("zozulyaweb@gmail.com", $subject, $message, $headers)) {
+    if (mail("st.demchenko@gmail.com", $subject, $message, $headers)) {
         echo "Well";
     } else {
         echo "Error";

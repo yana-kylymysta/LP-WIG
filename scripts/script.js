@@ -137,7 +137,6 @@ $(function(){
 const thanksPopUp = (event, buttonElement) => { 
     const parent = buttonElement.closest('.form');
     const inputs = parent.querySelectorAll('input:required');
-    const textarea = parent.querySelector('textarea');
     
     let status = true;
        
@@ -163,20 +162,17 @@ const thanksPopUp = (event, buttonElement) => {
         const formData = new FormData(parent);
         const xhr = new XMLHttpRequest();
 
-        //Data output to the console
         formData.forEach(function(value, key){
             console.log(key, value);
         });
 
-        //Sending data
-        // xhr.open('POST', 'ваш_url_для_відправки_форми', true);
-        // xhr.onreadystatechange = function () {
-        //     if (xhr.readyState == 4 && xhr.status == 200) {
-        //         console.log('Form submitted')
-        //         // Додатковий код для обробки відповіді сервера (якщо потрібно)
-        //     }
-        // };
-        // xhr.send(formData);
+        xhr.open('POST', '../scripts/send_mail.php', true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                console.log('Form submitted')
+            }
+        };
+        xhr.send(formData);
 
     //     popUp.innerHTML = template;
     //     if(!popUp.classList.contains("active")) {
