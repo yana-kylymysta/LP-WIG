@@ -22,18 +22,8 @@ background: url(../assets/bg.png) top left/64% no-repeat, url(../assets/bg-botto
     padding-top: 86%;
     box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.2);
 }
-.about__img-left {
-    transform: scale(1.05) translateY(-40%);
-    opacity: 0;
-}
-.about__img-right {
-    transform: scale(1.05) translateY(40%);
-    opacity: 0;
-}
-.about__desc {
-    transform: translateX(50%);
-    opacity: 0;
-}
+
+
 .about__img img{
     position: absolute;
     top: 0;

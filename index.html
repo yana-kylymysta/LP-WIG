@@ -20,7 +20,7 @@
     <div class="page__wrapper" style="position: relative; overflow: hidden;">
          <header class="header">
             <div class="container header__container">
-                <a href="/" class="header__logo img-width">
+                <a href="/" class="header__logo img-width tweenmax-hero">
                     <svg width="123" height="44" viewBox="0 0 123 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M8.1 32.5L0.36 11.368H5.4L10.476 25.192L11.304 28.684H11.664L12.132 26.236L16.92 11.368H23.04L28.044 26.236L28.692 28.684H29.052L29.88 25.192L34.596 11.368H39.636L39.276 13.528L31.86 32.5H25.74L20.844 18.352L20.124 16.048H19.764L19.08 18.352L14.22 32.5H8.1ZM43.9678 32.5V11.332H48.7198V32.5H43.9678ZM61.7875 32.5C60.0835 32.5 58.7515 32.26 57.7915 31.78C56.8315 31.3 56.1595 30.58 55.7755 29.62C55.3915 28.66 55.1995 27.472 55.1995 26.056V18.028C55.1995 15.724 55.7155 14.032 56.7475 12.952C57.7795 11.848 59.4595 11.296 61.7875 11.296H72.6235C74.2795 11.296 75.5395 11.392 76.4035 11.584C77.2915 11.752 77.7355 11.932 77.7355 12.124L77.0155 15.112C76.6075 15.04 75.3955 14.968 73.3795 14.896C71.3875 14.8 68.4835 14.752 64.6675 14.752H62.8315C60.9115 14.752 59.9515 15.604 59.9515 17.308V26.488C59.9515 27.304 60.1555 27.94 60.5635 28.396C60.9955 28.828 61.7515 29.044 62.8315 29.044H64.3075C66.6115 29.044 68.5555 29.032 70.1395 29.008C71.7235 28.96 73.0315 28.924 74.0635 28.9V24.004L71.9035 24.04L67.1875 24.4V20.872H78.7795V30.988L79.1395 31.744C79.1395 31.936 78.6355 32.116 77.6275 32.284C76.6195 32.428 74.9155 32.5 72.5155 32.5H61.7875Z"
@@ -56,7 +56,7 @@
                         </nav>
                     </div>
                 </div>
-                <div class="header__btn">
+                <div class="header__btn tweenmax-hero">
                     <div class="header__icon img-width">
                         <svg xmlns="http://www.w3.org/2000/svg" width="19" height="26" viewBox="0 0 19 26" fill="none">
                             <path
@@ -82,13 +82,13 @@
             <section class="main-banner">
                 <div class="main-banner__slider swiper">
                     <div class=" swiper-wrapper">
-                        <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 11.67%, rgba(0, 0, 0, 0.18) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-1.jpg); background-position:80% 50%" data-swiper-parallax-scale="1.5">
+                        <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 11.67%, rgba(0, 0, 0, 0.18) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-1.jpg); background-position:80% 50%">
                             <div class="container">
-                                <div class="main-banner__desc main-banner__img img-width">
+                                <div class="main-banner__desc main-banner__img img-width tweenmax-banner">
                                     <img src="./assets/icons/slogan.svg" alt="White Install Group">
                                 </div>
                             </div>
-                            <div class="main-banner__bottom">
+                            <div class="main-banner__bottom tweenmax-hero">
                         <a href="#about" class="container main-banner__bottom-container">
                             <p>Дізнатись більше</p>
                             <div class="main-banner__icon">
@@ -101,7 +101,7 @@
                         </a>
                     </div>
                         </div>
-                        <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-2.jpg);" data-swiper-parallax-scale="1.5">
+                        <div class="main-banner__slide swiper-slide" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.20) 11.67%, rgba(0, 0, 0, 0.12) 39.7%, rgba(0, 0, 0, 0.00) 89.06%), url(./assets/main-banner-2.jpg);">
                             <div class="container">
                                 <div class="main-banner__desc main-banner__content">
                                     <h2>Поставка <span>ліфтів</span></h2>
@@ -712,12 +712,15 @@
     <script src="./scripts/jquery.maskedinput.min.js"></script>
     <script src="./scripts/script.js"></script>
     <script src="./scripts/projects-slider.js"></script>
-    <script src="./scripts/pop-up.js"></script>
     <script src="./scripts/burger-menu.js"></script>
     <script src="./scripts/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="./scripts/main-page.js"></script>
+
 </div>
 </body>
 </html>
