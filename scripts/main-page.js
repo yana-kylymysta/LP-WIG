@@ -16,18 +16,40 @@ document.addEventListener('DOMContentLoaded', function () {
                 index > 10 
                     ? `<div class="${className}">${index + 1}</div>`
                     : `<div class="${className}">0${index + 1}</div>`
-
                     return slideNumb;
                 },
             },
+            on: {
+                slideChangeTransitionStart: function () {
+                    const activeSlide = this.slides[this.activeIndex];
+                     gsap.fromTo(activeSlide.querySelector('.main-banner__slide-bg'), 3, {
+                        scale: 1.04,
+                    }, {
+                        scale: 1,
+                        ease: "power3.out",
+                    });
+                    gsap.fromTo(activeSlide.querySelector('.main-banner__desc'), 1.3, {
+                        opacity: 0,
+                        scale: 1
+                    }, {
+                        opacity: 1,
+                        scale: 1,
+                        ease: Expo.easeInOut
+                    });
+                }
+            }
         });
     //GSAP ANIMATION HERO SECTION
-    TweenMax.from('.tweenmax-banner', 0.8, {
+    TweenMax.fromTo('.tweenmax-banner', 0.8, {
             opacity: 0,
+            scale: 0.94
+        },
+        {
+            opacity: 1,
             delay: 0.3,
-            scale: 0.94,
+            scale: 1,
             easy: Expo.easyInOut
-     })
+        })
     TweenMax.fromTo('.tweenmax-hero', 0.4, {
             opacity: 0,
             y: 10,
@@ -40,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function () {
         })
  
     TweenMax.staggerFrom('.menu__item', 0.4, {
-        autoAlpha: 0,
+        opacity: 0,
         delay: 1.1,
         y: 10,
         easy: Power3.easyInOut
@@ -55,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
     TweenMax.from('.main-banner__left-container', 1, {
             opacity: 0,
             y: '100%',
-            delay: 1.4,
+            delay: 1.2,
             easy: Expo.easyInOut
      })
 
@@ -66,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
             y: '-20%',
             scale: 1.05,
             opacity: 0,
-            duration: 0.8,
+            duration: 1,
             scrollTrigger: {
                 trigger: '.about',
                 start: 'top bottom',
@@ -78,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
             y: '20%',
             scale: 1.05,
             opacity: 0,
-            duration: 0.8,
+            duration: 1,
             scrollTrigger: {
                 trigger: '.about',
                 start: 'top bottom',

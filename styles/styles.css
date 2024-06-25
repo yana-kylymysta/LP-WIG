@@ -1,3 +1,9 @@
+.tweenmax-banner,
+.tweenmax-hero, 
+.menu__itemt {
+    opacity: 0;
+}
+
 .header {
     position: fixed;
     height: var(--header-height);
@@ -19,6 +25,14 @@
 .main-banner__slide {
     width: 100%;
     height: 100%;
+    position: relative;
+}
+.main-banner__slide-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
