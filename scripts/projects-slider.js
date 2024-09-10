@@ -353,7 +353,12 @@ const projectArray = [
         let template = `<div class="pop-up__bg">
                             <div class="pop-up__block">
                                 <div class="pop-up__scroll">
-                                    <div class="pop-up__close" onclick="closeWindow()">&#10006;</div>
+                                    <div class="pop-up__close" onclick="closeWindow()">
+                                        <svg width="100%" height="100%" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.21484 1.01929L33.7418 33.5462" stroke="#929A9F" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M1 33.5269L33.5269 0.999944" stroke="#929A9F" stroke-width="2" stroke-linecap="round"/>
+                                        </svg>
+                                    </div>
                                     <div class="pop-up__slider">`
         projectArray.forEach(el =>el.id === project.dataset.slide && (template += el.code));
         template +=`</div></div></div></div>`

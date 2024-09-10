@@ -75,17 +75,15 @@
     .header__scroll  .menu__icon::before {
         background: var(--color-text);
      }
-    .header__scroll .menu__wrapper.active {
-       height: unset;
-    } 
+
 .header__logo {
     max-width: 90px;
     order: 1;
 }
 
 .menu__icon {
-    width: 24px;
-    height: 14px;
+    width: 32px;
+    height: 20px;
     cursor: pointer;
     position: relative;
     -webkit-transition: 0.3s;
@@ -100,7 +98,7 @@
     position: absolute;
     left: 0;
     height: 2px;
-    width: 24px;
+    width: 100%;
     border-radius: 1px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -136,16 +134,16 @@
 .menu__icon.active::before {
     top: 50%;
     left: 12px;
-    width: 19px;
-    -webkit-transform: rotate(-45deg) translate(0, -76%);
-    -ms-transform: rotate(-45deg) translate(0, -76%);
-    transform: rotate(-45deg) translate(0, -76%);
+    width: 80%;
+    -webkit-transform: rotate(-45deg) translate(0, -90%);
+    -ms-transform: rotate(-45deg) translate(0, -90%);
+    transform: rotate(-45deg) translate(0, -90%);
 }
 
 .menu__icon.active::after {
     bottom: 50%;
     left: 12px;
-    width: 19px;
+    width: 80%;
     -webkit-transform: rotate(45deg) translate(0, 50%);
     -ms-transform: rotate(45deg) translate(0, 50%);
     transform: rotate(45deg) translate(0, 50%);
@@ -156,7 +154,7 @@
     position: fixed;
     top: var(--header-height);
     right: 0;
-    background: rgba(255, 255, 255, 0.88);
+    background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(2px);
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -172,7 +170,7 @@
 .menu__wrapper.active {
     display: block;
     width: 100%;
-    height: calc(100% - var(--header-height));
+    height: calc(100vh - var(--header-height));
     padding: 24px var(--container-space);
     display: flex;
     flex-direction: column;

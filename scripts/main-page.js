@@ -241,7 +241,7 @@ if(windowWidth < 1024) {
         });
         gsap.from('.companies__logo', {
             opacity: 0,
-            x: 20,
+            x: 80,
             duration: 1,
             scrollTrigger: {
                 trigger: '.companies',
@@ -302,7 +302,7 @@ if(windowWidth < 1024) {
 gsap.utils.toArray('.section-slide').forEach(section => {
     gsap.from(section, {
         autoAlpha: 0,
-        y: 20,
+        y: 40,
         duration: 0.6,
         scrollTrigger: {
             trigger: section,
