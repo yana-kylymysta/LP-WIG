@@ -60,6 +60,21 @@
     width: calc(var(--container-space) - 25px);
 }
 }
+@media screen and (min-width: 1600px) {
+    .main-banner .swiper-horizontal>.swiper-pagination-bullets {
+        gap: 60px;
+    }
+}
+
+
+@media screen and (min-width: 1800px) {
+    .main-banner .swiper-pagination-bullet {
+        font-size: 1.1rem;
+    }
+    .main-banner .swiper-pagination-bullet-active {
+        font-size: 1.4rem;
+    }
+}
 @keyframes slideActive {
     0% {
         transform: scale(1.3);

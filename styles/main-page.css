@@ -103,14 +103,13 @@ margin-top: 3rem;
     z-index: 2;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
 .service__title {
-    font-family: 'Bruno Ace', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: #000;
 }
@@ -186,9 +185,11 @@ margin-top: 3rem;
 }
 
 .manufacturer h4{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05rem;
     font-weight: 600;
     color: var(--color-title);
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .manufacturer__btn {
     margin: auto 0 0 0 !important;
@@ -383,6 +384,9 @@ margin-top: 3rem;
     .service__bg {
         justify-content: start;
     }
+    .service__title {
+        font-size: 1rem;
+    }
     .service__arrow-top,
     .service__arrow-bottom {
         height: 100%;
@@ -402,7 +406,7 @@ margin-top: 3rem;
     }
 
     .service__arrow-top {
-        flex-basis: 20%;
+        flex-basis: 12%;
         flex-shrink: 0;
         flex-grow: 0;
     }
@@ -538,12 +542,15 @@ margin-top: 3rem;
         opacity: 0;
         transition: all 0.6s;
     }
-  
+    .service__arrow-top {
+        flex-basis: 20%;
+    }
     .service__text {
         margin-bottom: 2rem;
+        font-size: 0.9rem;
     }
     .service__title {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .service__btn {
         font-size: 1rem;
@@ -564,9 +571,6 @@ margin-top: 3rem;
 @media screen and (min-width: 1440px) {
     .about__images {
         gap: 32px;
-    }
-    .service__title {
-        font-size: 1.333rem;
     }
     .about__img:first-child {
         margin-bottom: 5rem;
@@ -604,7 +608,16 @@ margin-top: 3rem;
         right: calc(50px + 24px + 20px);
     }
 }
-
+@media screen and (min-width: 1600px) {
+    .service__title {
+            font-size: 1.2rem;
+        }
+}
+@media screen and (min-width: 1800px) {
+    .service__title {
+            font-size: 1.3rem;
+        }
+}
  @keyframes showBlock {
      0% {
          transform: translate(0, 50%) scale(0.7);

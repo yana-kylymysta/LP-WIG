@@ -1,4 +1,4 @@
-.hero {
+.page .main-banner {
     position: relative;
     padding: 30px 0;
     height: 70vh;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.hero__video {
+.page .main-banner__video {
     position: absolute;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@
     object-position: center;
 }
 
-.hero::after {
+.page .main-banner::after {
     content: '';
     position: absolute;
     top: 0;
@@ -25,4 +25,14 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(25deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.0) 100%);
+}
+.page .main-banner__content > * {
+    z-index: 2;
+}
+
+
+@media screen and (max-height: 1024px) {
+    .main-banner__content {
+            width: 40%;
+        }
 }

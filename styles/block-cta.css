@@ -1,7 +1,7 @@
 .cta__info {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     margin-bottom: 32px;
 }
 

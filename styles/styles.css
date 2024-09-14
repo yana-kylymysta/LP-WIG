@@ -186,11 +186,11 @@
     transition: all 0.3s;
 }
 .menu__item {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bruno Ace SC', sans-serif;
     color: var(--color-title);
     font-size: 1.1rem;
     padding: 24px 0;
-    letter-spacing: 3.2px;
+    letter-spacing: 0.12rem;
     text-transform: uppercase;
 }
 .menu__item:not(:last-child) { 
@@ -281,9 +281,8 @@ fill-opacity: 1;
 }
 .dropdown__summary a,
 .dropdown__block a {
-    font-family: 'Roboto', sans-serif;
     color: var(--color-white);
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .main-banner__line {
     width: 1px;
@@ -330,15 +329,14 @@ fill-opacity: 1;
     align-items: flex-start;
 }
 .main-banner__content {
-    /* font-family: 'Montserrat', 
-            sans-serif;*/
     color: var(--color-white);
 }
 .main-banner__content h2{
-    font-family: 'Bruno Ace SC', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 2rem;
     line-height: 1.2;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.02rem;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
@@ -346,8 +344,8 @@ fill-opacity: 1;
     color: var(--color-primary);
 }
 .main-banner__content p {
-    margin-bottom: 40px;
-   font-size: 1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1rem;
 }
 
 .main__btn {
@@ -382,30 +380,32 @@ fill-opacity: 1;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .form__input input,
 .form__input textarea {
     width: 100%;
-    padding: 16px 16px 18px 16px;
+    padding: 1rem 1rem 1.125rem 1rem;
     background: #fff;
     border: 1px solid rgba(146, 154, 159, 0.4);
 }
 
 .form__input input {
-    height: 50px;
+    font-size: 1rem;
+    height: 3.125rem;
 }
 
 .form__input input::placeholder,
 .form__input textarea::placeholder {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--color-light-grey);
 }
 .form__input textarea {
+    font-size: 1rem;
     resize: none;
-    height: 119px;
-    padding: 10px 16px 10px 16px;
+    height: 7.5rem;
+    padding: 0.625rem 1rem;
 }
 .form__checkbox {
     position: relative;
@@ -468,17 +468,17 @@ input[type="checkbox"]:checked:after {
 }
 .form__btn {
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     background-color: #ffbf00ad;
     color: var(--color-title);
     font-size: 1rem;
     font-weight: 600;
     margin-top: auto;
-    padding: 8px 32px;
+    padding: 0.5rem 2rem;
     line-height: 1;
     margin-left: auto;
     display: flex;
-    gap: 10px;
+    gap: 0.625rem;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -685,8 +685,8 @@ input[type="checkbox"]:checked:after {
     }
     .menu__item {
         color: var(--color-white);
-        font-size: 0.889rem;
-        letter-spacing: 3.2px;
+        font-size: 0.85rem;
+        letter-spacing: 0.12rem;
         border-bottom: unset !important;
         padding: 0;
     }
@@ -735,7 +735,7 @@ input[type="checkbox"]:checked:after {
         writing-mode: vertical-lr;
         transform: rotate(-180deg);
         color: var(--color-white);
-        font-size: 9px;
+        font-size: 0.5625rem;
         font-weight: 500;
         letter-spacing: 6px;
         text-transform: uppercase;
@@ -750,9 +750,11 @@ input[type="checkbox"]:checked:after {
     }
     .main-banner__content {
         padding: 0 3rem 0 6rem;
+        margin-left: 2rem;
     }
     .main-banner__content h2{
-    font-size: 2.8rem;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
     }
     .main-banner__content p {
         width: 80%;
@@ -824,23 +826,70 @@ input[type="checkbox"]:checked:after {
         width: 100%;
     }
     .main-banner__slogan {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     .main-banner__content h2{
-    font-size: 3.8rem;
+        font-size: 2.4rem;
     }
     .main-banner__content p {
         width: 70%;
-        font-size: 1.12rem;
+        margin-bottom: 3.4rem;
+        font-size: 1rem;
     }
     .main-banner__bottom-container {
         gap: 16px;
     }
+    .form {
+        gap: 0.66rem;
+    }
+    .form__input input {
+        height: 3.3rem;
+        padding: 1rem 1rem 1.25rem 1rem;
+    }
+    .form__bottom {
+        margin-top: 1rem;
+    }
+
      .footer__container {
         grid-template-columns: 0.7fr auto auto auto auto  auto;
     }
     .error-msg {
         font-size: 12px;
+    }
+    
+}
+@media screen and (min-width: 1600px) {
+    .menu__item {
+        font-size: 0.9rem;
+    }
+    .main-banner__content h2 {
+            font-size: 3rem;
+            margin-bottom: 1.8rem;
+        }
+    .main-banner__content p {
+        margin-bottom: 4rem;
+    }
+    .main-banner__slogan {
+        font-size: 0.75rem;
+    }
+    .main-banner__left {
+        padding: 46px 0;
+    }
+    .main-banner__bottom {
+        bottom: 46px;
+    }
+}
+@media screen and (min-width: 1800px) {
+ 
+    .main__btn {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.1rem;
+    }
+    .main-banner__socials {
+        gap: 24px;
+    }
+    .main-banner__content p {
+        font-size: 1.1rem;
     }
 }
 
