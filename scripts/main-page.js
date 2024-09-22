@@ -72,19 +72,20 @@ if(windowWidth < 1024) {
             easy: Expo.easyInOut
         })
 } else {
-    TweenMax.staggerFrom('.menu__item', 0.4, {
-        opacity: 0,
+    gsap.to('.menu__item', 0.4, {
+        opacity: 1,
+        stagger: 0.12, 
         delay: 1,
         y: 10,
-        easy: Power3.easyInOut
-    }, 0.1)
+        easy: Power3.easeInOut
+    })
 }
 
    TweenMax.staggerFrom('.swiper-pagination-bullet', 0.4, {
         autoAlpha: 0,
         delay: 1,
         y: 10,
-        easy: Power3.easyInOut
+        easy: Power3.easeInOut
     }, 0.1)
 
     TweenMax.from('.main-banner__left-container', 1, {

@@ -118,6 +118,9 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover !important;
     object-position: center;
 }
+.text-center {
+    text-align: center;
+}
 .btn {
     padding: 1rem 2rem;
     font-size: 1rem;
@@ -175,6 +178,9 @@ section:not(.main-banner) {
 }
 .text p:not(:last-child) {
     margin-bottom: 1.5rem;
+}
+.word {
+    text-wrap: nowrap;
 }
 @media screen and (min-width: 600px) {
     :root {

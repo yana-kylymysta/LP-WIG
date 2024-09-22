@@ -1,9 +1,16 @@
-.tweenmax-banner,
-.tweenmax-hero, 
-.menu__itemt {
+.opacity-animate {
     opacity: 0;
 }
 
+.type-title .letter{
+    display: inline-block;
+    opacity: 0;
+    z-index: 2;
+    position: relative;
+}
+.text-yellow {
+    color: var(--color-primary);
+}
 .header {
     position: fixed;
     height: var(--header-height);
@@ -331,7 +338,8 @@ fill-opacity: 1;
 .main-banner__content {
     color: var(--color-white);
 }
-.main-banner__content h2{
+
+.main-banner__content h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 2rem;
@@ -340,15 +348,14 @@ fill-opacity: 1;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
-.main-banner__content h2 span {
-    color: var(--color-primary);
-}
+
 .main-banner__content p {
     margin-bottom: 2.5rem;
     font-size: 1rem;
 }
 
 .main__btn {
+    display: block;
     width: 100%;
     border: 1px solid #fff;
     color: #fff;

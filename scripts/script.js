@@ -240,3 +240,5 @@ const createLogosAnimate = (block) => {
             });
         }
 }
+
+
