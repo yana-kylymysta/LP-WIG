@@ -40,16 +40,19 @@
                         <nav class="menu__nav">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <a href="#services">Послуги</a>
+                                    <a href="../index.html">Головна</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#manufacturers">Виробники</a>
+                                    <a href="#">Послуги</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#projects">Проекти</a>
+                                    <a href="#">Виробники</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#about">Про нас</a>
+                                    <a href="#">Проекти</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#">Про нас</a>
                                 </li>
                             </ul>
                         </nav>
@@ -80,10 +83,10 @@
         <main class="main">
             <section class="main-banner dark-layer">
                     <video preload="auto" muted autoplay playsinline class="main-banner__video"
-                    src="../assets/video/escalator.mp4" type="video/mp4">
+                    src="../assets/video/escalator-2.mp4" type="video/mp4">
                 </video>
                 <div class="main-banner__slider">
-                    <div class="container">
+                    <div class="small-container">
                         <div class="main-banner__desc main-banner__content">
                             <h2 class="type-title">Поставка <span class="text-yellow">ескалаторів,</span><br><span class="text-yellow">траволаторів</span></h2>
                             <a href="#cta" class="btn main__btn main__btn-page opacity-animate ">
@@ -273,13 +276,23 @@
     <script src="../scripts/script.js"></script>
     <script src="../scripts/burger-menu.js"></script>
     <script src="../scripts/type-title.js"></script>
-    <!-- <script src="./scripts/swiper-bundle.min.js"></script> -->
-   
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script> -->
-    <!-- <script src="../scripts/main-page.js"></script> -->
+    <script>
+        gsap.to('.escalator-page .type-title .letter', {
+                delay: 2.4,
+                opacity: 1,
+                y: 0,
+                stagger: 0.06,
+                duration: 0.06,
+                ease: "power2.out"
+            });
+
+            gsap.to('.escalator-page .main__btn', {
+                delay: 4.7,
+                opacity: 1,
+                duration: 0.3,
+                ease: "power2.out"
+            });
+    </script>
 
 </div>
 </body>

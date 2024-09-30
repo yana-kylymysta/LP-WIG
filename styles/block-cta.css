@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 32px;
+    text-align: center;
 }
 
 .cta__title {
@@ -67,6 +68,7 @@
     .cta__info {
         flex: 0 0 calc(100% - 600px - 2rem);
         max-width: 400px;
+        text-align: left;
     }
     .cta__block {
         position: relative;

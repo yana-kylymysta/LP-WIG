@@ -2,6 +2,7 @@
     position: relative;
     padding: 30px 0;
     height: 75vh;
+    max-height: 730px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -16,18 +17,19 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
     object-position: 30%;
     z-index: 1;
 }
 .escalator-page .main-banner__video {
-    object-position: bottom;
-    top: unset;
-    height: 104.6%;
-    bottom: -4.6%;
+    object-position: 50%;
 }
-
+.add-works-page .main-banner__video {
+    object-position: bottom left;
+    top: unset;
+    bottom: 0;
+}
 .service-page .main-banner.dark-layer::after {
     content: '';
     position: absolute;
@@ -36,6 +38,7 @@
     width: 100%;
     height: 100%;
     z-index: 2;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.26) 100%);
 }
 .elevator-page .main-banner.dark-layer::after {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
@@ -43,7 +46,12 @@
 .escalator-page .main-banner.dark-layer::after {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
 }
-
+.equipment-page .main-banner.dark-layer::after{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%);
+}
+.service-page .main-banner__desc {
+    width: 100%;
+}
 .elevator-page .main-banner__content {
     width: 78%;
 }
@@ -63,23 +71,21 @@
 .service-page .main-banner__content h2 {
     margin-bottom: 1.5rem;
 }
+@media screen and (min-width: 1024px) {
+    .service-page .main-banner__content {
+            padding: 0;
+            margin-left: 0;
+         }
+}
 @media screen and (min-width: 1280px) {
     .service-page .main-banner__video {
             object-position: center;
         }
+    .add-works-page .main-banner__video {
+        object-position: bottom;
+    }
     .escalator-page .main-banner.dark-layer::after {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.2) 100%);
     }
-    .escalator-page .main-banner__video {
-        object-position: bottom;
-        height: 108.4%;
-        bottom: -8.4%;
-    }
-    .escalator-page .main-banner__content {
-        margin-left: 16%;
-    }
-    .service-page .main-banner__content {
-            width: 40%;
-        }
 }
 

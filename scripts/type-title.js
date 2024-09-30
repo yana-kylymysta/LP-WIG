@@ -31,25 +31,8 @@ const typeTitle = document.querySelector('.type-title');
 
 splitTextNodes(typeTitle);
 
-gsap.to('.type-title .letter', {
-  delay: 4.5,
-  opacity: 1,
-  y: 0,
-  stagger: 0.1, 
-  duration: 0.08,
-  ease: "power2.out"
-});
 
-gsap.to('.elevator-page .main__btn', {
-  delay: 7,
-  opacity: 1,
-  duration: 0.3,
-  ease: "power2.out"
-});
 
-gsap.to('.escalator-page .main__btn', {
-  delay: 7.8,
-  opacity: 1,
-  duration: 0.3,
-  ease: "power2.out"
-});
+
+
+

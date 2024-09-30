@@ -12,6 +12,7 @@
     --box-shadow-light: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
 
     --container-space: 16px;
+    --small-container-space: 16px;
     --font-size: 14px;
     --header-height: 60px;
     --section-bottom-space: 64px;
@@ -106,6 +107,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 var(--container-space);
     height: 100%;
 }
+.small-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--small-container-space);
+    height: 100%;
+}
 
 .img-width img,
 .img-width svg{
@@ -189,6 +196,7 @@ section:not(.main-banner) {
 }
 @media screen and (min-width: 768px) {
    :root {
+       --small-container-space: 20%;
        --container-space: 40px;
        --font-size: 16px;
        --header-height: 70px;
@@ -207,6 +215,7 @@ section:not(.main-banner) {
 @media screen and (min-width: 1280px) {
    
     :root {
+        --small-container-space: 25%;
         --container-space: 70px;
         --section-bottom-space: 80px;
     }
@@ -220,7 +229,7 @@ section:not(.main-banner) {
  :root {
        --container-space: 100px;
        --font-size: 18px;
-       --header-height: 90px;
+       --header-height: 80px;
        --section-bottom-space: 120px;
    }
 }

@@ -40,16 +40,38 @@
                         <nav class="menu__nav">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <a href="#services">Послуги</a>
+                                    <a href="../index.html">Головна</a>
+                                </li>
+                                <li class="menu__item dropdown">
+                                    <div class="dropdown__summary">
+                                            <span>Послуги</span>
+                                            <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 2.00008L6.33857 8M5.99509 7.62492L11 2" stroke="white" />
+                                            </svg>
+                                    </div>
+                                    <ul class="dropdown__block submenu">
+                                        <li class="submenu__item">
+                                            <a href="./postavka-liftiv.html">Поставка ліфтів</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="./postavka-eskalatoriv-travolatoriv.html">Поставка екскалаторів, травалаторів</a>
+                                        </li>
+                                        <li class="submenu__item"></li>
+                                            <a href="./montazhni-dodatkovi-roboty.html">Монтажні та додаткові роботи</a>
+                                        </li>
+                                        <li class="submenu__item"></li>
+                                            <a href="./obsluhovuvannya-obladnannya.html">Обслуговування обладання</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#manufacturers">Виробники</a>
+                                    <a href="#">Виробники</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#projects">Проекти</a>
+                                    <a href="#">Проекти</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#about">Про нас</a>
+                                    <a href="#">Про нас</a>
                                 </li>
                             </ul>
                         </nav>
@@ -81,16 +103,13 @@
             <section class="main-banner dark-layer">
                     <video preload="auto" muted autoplay playsinline class="main-banner__video"
                     poster="../assets/video/video-poster.jpg"
-                    src="../assets/video/main-video-elevator.mp4" type="video/mp4">
+                    src="../assets/video/elevator.mp4" type="video/mp4">
                 </video>
                 <div class="main-banner__slider">
                     <div class="container">
                         <div class="main-banner__desc main-banner__content">
                             <h2 class="type-title">Поставка<br><span class="text-yellow">ліфтового обладання</span></h2>
-                            <!-- <p>Процес виготовлення ліфта здійснюється суто за індивідуальним замовленням, за умови узгодження детальної
-                                специфікації та
-                                заводських креслень. Обладнання відповідає проектувальним стандартам які застосовуються на території України.
-                            </p> -->
+                            
                             <a href="#cta" class="btn main__btn main__btn-page opacity-animate ">
                                 <span class="button-content">Замовити консультацію</span></a>
                         </div>
@@ -278,13 +297,23 @@
     <script src="../scripts/script.js"></script>
     <script src="../scripts/burger-menu.js"></script>
     <script src="../scripts/type-title.js"></script>
-    <!-- <script src="./scripts/swiper-bundle.min.js"></script> -->
-   
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script> -->
-    <!-- <script src="../scripts/main-page.js"></script> -->
+    <script>
+        gsap.to('.elevator-page .type-title .letter', {
+            delay: 2.6,
+            opacity: 1,
+            y: 0,
+            stagger: 0.06,
+            duration: 0.06,
+            ease: "power2.out"
+        });
+
+        gsap.to('.elevator-page .main__btn', {
+            delay: 4.2,
+            opacity: 1,
+            duration: 0.3,
+            ease: "power2.out"
+        });
+    </script>
 
 </div>
 </body>
