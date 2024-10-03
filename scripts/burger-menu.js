@@ -34,42 +34,40 @@ menuItems.forEach(el => {
     el.addEventListener('click', closeMenu);
 });
 
-const dropdownEffect = (parent, child) => {
-    if(!child.classList.contains('active')) {
-        for (const block of dropdownBlocks) {
-                block.classList.remove('active');
-            }
-        for (const block of menuDropdowns) {
-                block.classList.remove('active');
-            }
-        parent.classList.add('active');
-        child.classList.add('active');
-        darkWrapper.classList.add('active');
+menuDropdowns.forEach(el => {
+    if(windowWidth < 1023 ) {
+        
+        const child = el.querySelector('.dropdown__block');
+        if(!el.matches('.opened')) {     
+            el.classList.add('opened');
+        }
+        if(!child.matches('.active')) {       
+            child.classList.add('active');
+        }
+        el.addEventListener('click', ({currentTarget}) => {
+            console.log(currentTarget)
+            const parent = currentTarget.parentElement;
+            const child = currentTarget.querySelector('.dropdown__block'); 
+                child.classList.toggle('active');
+                currentTarget.classList.toggle('opened');
+        })
     }
     else {
-        parent.classList.remove('active');
-        child.classList.remove('active');
-        darkWrapper.classList.remove('active');
-    }
-}
-menuDropdowns.forEach(el => {
-    el.addEventListener('click', ({currentTarget}) => {
-        const parent = currentTarget.parentElement;
-        const child = currentTarget.querySelector('.dropdown__block');
-        if(windowWidth > 1023 ) {
-           dropdownEffect(currentTarget, child);
-         }
-        if(windowWidth > 767 && windowWidth < 1024 ) {  
-            if(parent.matches('.lang__list-wrapper')) {
-                dropdownEffect(currentTarget, child);
+        el.addEventListener('mouseover', ({currentTarget}) => {
+            const child = currentTarget.querySelector('.dropdown__block');
+           if(!child.matches('.active')) {       
+                child.classList.add('active');
             }
-          }
-        if(windowWidth < 1024 ) {
-            if(!parent.matches('.lang__list-wrapper')) {
-                child.classList.toggle('active');
+          if(!currentTarget.matches('.opened')) {     
+                currentTarget.classList.add('opened');
             }
-        }
-    });
+        });
+        el.addEventListener('mouseout', ({currentTarget}) => {
+            const child = currentTarget.querySelector('.dropdown__block');
+            child.classList.remove('active');
+            currentTarget.classList.remove('opened');
+        });
+    }    
 });
 
 

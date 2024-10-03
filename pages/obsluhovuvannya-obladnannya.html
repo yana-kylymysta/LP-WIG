@@ -42,8 +42,27 @@
                                 <li class="menu__item">
                                     <a href="../index.html">Головна</a>
                                 </li>
-                                <li class="menu__item">
-                                    <a href="#">Послуги</a>
+                                <li class="menu__item dropdown">
+                                    <div class="dropdown__summary">
+                                        <span>Послуги</span>
+                                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 2.00008L6.33857 8M5.99509 7.62492L11 2" stroke="white" />
+                                        </svg>
+                                    </div>
+                                    <ul class="dropdown__block submenu">
+                                        <li class="submenu__item">
+                                            <a href="./postavka-liftiv.html">Поставка ліфтів</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="./postavka-eskalatoriv-travolatoriv.html">Поставка екскалаторів, травалаторів</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="./montazhni-dodatkovi-roboty.html">Монтажні та додаткові роботи</a>
+                                        </li>
+                                        <li class="submenu__item">
+                                            <a href="./obsluhovuvannya-obladnannya.html">Обслуговування обладання</a>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li class="menu__item">
                                     <a href="#">Виробники</a>
@@ -281,7 +300,7 @@
     <script src="../scripts/type-title.js"></script>
     <script>
         gsap.to('.equipment-page .type-title .letter', {
-                delay: 3.2,
+                delay: 1.8,
                 opacity: 1,
                 y: 0,
                 stagger: 0.06,
@@ -290,7 +309,7 @@
             });
 
             gsap.to('.equipment-page .main__btn', {
-                delay: 4.4,
+                delay: 3.1,
                 opacity: 1,
                 duration: 0.3,
                 ease: "power2.out"
