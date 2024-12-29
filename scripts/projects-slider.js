@@ -259,15 +259,15 @@ const projectArray = [
                 </div>     
             </div>
             <div class="swiper-button swiper-button-prev">
-                            <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#929A9F" />
-                            </svg>
-                        </div>
-                                    <div class="swiper-button swiper-button-next">
-                            <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
-                            </svg>
-                        </div>
+                <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#929A9F" />
+                </svg>
+            </div>
+            <div class="swiper-button swiper-button-next">
+                <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
+                </svg>
+            </div>
              <div class="pop-up__desc">
                 <h4>ТРЦ Велес</h4>
                 <p>Поставка та монтаж 8 ескалаторів</p>
@@ -324,20 +324,121 @@ const projectArray = [
         </div>`
     },
          {
+        id: "silpo",
+        code: `<div class="pop-up__project active swiper" data-project="silpo">
+                    <div class="swiper-wrapper">
+                     <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/silpo/silpo-2-min.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/silpo/silpo-1-min.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/silpo/silpo-3-min.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/silpo/silpo-4-min.png">
+                            </div>
+                        </div>
+                    </div>         
+                </div>
+                <div class="swiper-button swiper-button-prev">
+                <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#929A9F" />
+                </svg>
+            </div>
+            <div class="swiper-button swiper-button-next">
+                <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
+                </svg>
+            </div>
+                 <div class="pop-up__desc">
+                <h4>Сільпо</h4>
+                <p>Поставка та монтаж 2 ескалаторів SJEC</p>
+            </div>
+        </div>`
+    },
+     {
         id: "kyivskyi",
         code: `<div class="pop-up__project active swiper" data-project="kyivskyi">
                     <div class="swiper-wrapper">
-                     <div class="pop-up__slide swiper-slide">
+                    <div class="pop-up__slide swiper-slide">
                         <div class="pop-up__slide-container">
                             <div class="swiper-zoom-container img-fill vertical-img">
                                 <img src="./assets/projects/kyivskyi/01.jpg">
                             </div>
                         </div>
-                    </div>     
+                    </div> 
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/kyivskyi/02.jpg">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="swiper-button swiper-button-prev">
+                    <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#929A9F" />
+                    </svg>
+                </div>
+                <div class="swiper-button swiper-button-next">
+                    <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
+                    </svg>
                 </div>
                  <div class="pop-up__desc">
                 <h4>ТРЦ Київський</h4>
                 <p>Поставка та монтаж - 1 ліфт, 2 ескалатори</p>
+            </div>
+        </div>`
+    },
+      {
+        id: "kalush",
+        code: `<div class="pop-up__project active swiper" data-project="kalush">
+                    <div class="swiper-wrapper">
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/kalush/01.jpg">
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="pop-up__slide swiper-slide">
+                        <div class="pop-up__slide-container">
+                            <div class="swiper-zoom-container img-fill vertical-img">
+                                <img src="./assets/projects/kalush/02.jpg">
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="swiper-button swiper-button-prev">
+                    <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28.6015 0L30 1.64L2.43243 41.8405L29.5946 79.54L28.6192 82L0 41.8405L28.6015 0Z" fill="#929A9F" />
+                    </svg>
+                </div>
+                <div class="swiper-button swiper-button-next">
+                    <svg width="30" height="82" viewBox="0 0 30 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.3985 0L0 1.64L27.5676 41.8405L0.405405 79.54L1.38075 82L30 41.8405L1.3985 0Z" fill="#929A9F" />
+                    </svg>
+                </div>
+                 <div class="pop-up__desc">
+                <h4>ТРЦ Калуш</h4>
+                <p>Поставка та монтаж - 2 ліфти, 2 ескалатори</p>
             </div>
         </div>`
     }

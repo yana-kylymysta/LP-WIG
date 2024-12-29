@@ -1,0 +1,4774 @@
+[
+  {
+    "key": "default.navMenu",
+    "originalValue": "shipments module"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "purchase order view"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "contract management"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "procurement"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "routingguide"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "settings"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "company settings"
+  },
+  {
+    "key": "default.navMenu",
+    "originalValue": "tms settings"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "add product"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "view more status"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "edit"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "delete product"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "track"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "send mail"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "clear selection"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "restore to default"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "new status"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "default.buttons",
+    "originalValue": "add po"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "add new file"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "choose file"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "file name "
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "please select a file"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "is already used"
+  },
+  {
+    "key": "default.documentManager.docType",
+    "originalValue": "document type"
+  },
+  {
+    "key": "default.documentManager.fileComments",
+    "originalValue": "file coments"
+  },
+  {
+    "key": "default.documentManager.fileComments",
+    "originalValue": "enter file coments"
+  },
+  {
+    "key": "default.documentManager.referenceNo",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "default.documentManager.referenceNo",
+    "originalValue": "enter supporting document reference number"
+  },
+  {
+    "key": "default.documentManager.docType",
+    "originalValue": "select document type"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "file uploading is success but could not able to update the ui"
+  },
+  {
+    "key": "default.documentManager.docType",
+    "originalValue": "please select a type"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "file uploading is success"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "file deletion is success"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "is not a valid tracking number"
+  },
+  {
+    "key": "default.documentManager",
+    "originalValue": "file deletion is failed"
+  },
+  {
+    "key": "default.popConfirm",
+    "originalValue": "are you sure"
+  },
+  {
+    "key": "default.popConfirm",
+    "originalValue": "no"
+  },
+  {
+    "key": "default.fields.shipmentNumber",
+    "originalValue": "enter shipment number"
+  },
+  {
+    "key": "default.fields.shipmentTerms",
+    "originalValue": "please select a shipment terms"
+  },
+  {
+    "key": "default.fields.vendorName",
+    "originalValue": "vendor name"
+  },
+  {
+    "key": "default.fields.vendorName",
+    "originalValue": "select vendor name"
+  },
+  {
+    "key": "default.fields.vendorName",
+    "originalValue": "please select vendor"
+  },
+  {
+    "key": "default.fields.cargoType",
+    "originalValue": "please select a cargo type"
+  },
+  {
+    "key": "default.fields.companyName",
+    "originalValue": "enter company name"
+  },
+  {
+    "key": "default.fields.companyName",
+    "originalValue": "please enter company name"
+  },
+  {
+    "key": "default.fields.companyAddress",
+    "originalValue": "company address"
+  },
+  {
+    "key": "default.fields.companyName",
+    "originalValue": "select company name"
+  },
+  {
+    "key": "default.fields.companyAddress",
+    "originalValue": "please enter company address"
+  },
+  {
+    "key": "default.fields.companyAddress",
+    "originalValue": "enter company address"
+  },
+  {
+    "key": "default.fields.address",
+    "originalValue": "please enter address"
+  },
+  {
+    "key": "default.fields.postalCode",
+    "originalValue": "enter postal code"
+  },
+  {
+    "key": "default.fields.postalCode",
+    "originalValue": "select postal code"
+  },
+  {
+    "key": "default.fields.postalCode",
+    "originalValue": "please enter postal code"
+  },
+  {
+    "key": "default.fields.postalCode",
+    "originalValue": "please select postal code"
+  },
+  {
+    "key": "default.fields.postalCode",
+    "originalValue": "entered postal is invalid or could not able to find in the selected country"
+  },
+  {
+    "key": "default.fields.stateProvince",
+    "originalValue": "select stateprovience"
+  },
+  {
+    "key": "default.fields.stateProvince",
+    "originalValue": "please select stateprovince"
+  },
+  {
+    "key": "default.fields.to",
+    "originalValue": "select day"
+  },
+  {
+    "key": "default.fields.from",
+    "originalValue": "select day"
+  },
+  {
+    "key": "default.fields.city",
+    "originalValue": "select city"
+  },
+  {
+    "key": "default.fields.city",
+    "originalValue": "please enter city"
+  },
+  {
+    "key": "default.fields.state",
+    "originalValue": "please select state"
+  },
+  {
+    "key": "default.fields.contactEmail",
+    "originalValue": "please enter contact email"
+  },
+  {
+    "key": "default.fields.contactEmail",
+    "originalValue": "contact email"
+  },
+  {
+    "key": "default.fields.contactName",
+    "originalValue": "please enter contact name"
+  },
+  {
+    "key": "default.fields.contactEmail",
+    "originalValue": "enter value is not in email format"
+  },
+  {
+    "key": "default.fields.createdOn",
+    "originalValue": "created on"
+  },
+  {
+    "key": "default.fields.branch",
+    "originalValue": "please select branch"
+  },
+  {
+    "key": "default.fields.createdOn",
+    "originalValue": "select date"
+  },
+  {
+    "key": "default.notification",
+    "originalValue": "search something to get data"
+  },
+  {
+    "key": "default.notification",
+    "originalValue": "it seems"
+  },
+  {
+    "key": "default.notification",
+    "originalValue": "is not a valid tracking number"
+  },
+  {
+    "key": "shipment.filter.titles",
+    "originalValue": "filter"
+  },
+  {
+    "key": "shipment.filter.titles",
+    "originalValue": "shipment search"
+  },
+  {
+    "key": "shipment.filter.titles",
+    "originalValue": "additional search options"
+  },
+  {
+    "key": "shipment.filter.shipmentSearch.shipmentBranch",
+    "originalValue": "shipment branch"
+  },
+  {
+    "key": "shipment.filter.shipmentSearch.shipmentBranch",
+    "originalValue": "select shipment branch"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.salesOrderNo",
+    "originalValue": "sales order no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.masterHouseBill",
+    "originalValue": "masterhouse bill of landing no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.masterHouseBill",
+    "originalValue": "masterhouse bill of landing no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.salesOrderNo",
+    "originalValue": "sales order no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.projectNo",
+    "originalValue": "project no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.quoteNo",
+    "originalValue": "quote no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.projectNo",
+    "originalValue": "project no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.quoteNo",
+    "originalValue": "quote no"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.createdBy",
+    "originalValue": "email id"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.createdBy",
+    "originalValue": "select user name"
+  },
+  {
+    "key": "shipment.filter.additionalSearchOptions.createdBy",
+    "originalValue": "select email"
+  },
+  {
+    "key": "shipment.header",
+    "originalValue": "manage shipment"
+  },
+  {
+    "key": "shipment.header",
+    "originalValue": "clear selection"
+  },
+  {
+    "key": "shipment.header",
+    "originalValue": "add shipment"
+  },
+  {
+    "key": "shipment.header",
+    "originalValue": "audit log"
+  },
+  {
+    "key": "shipment.header.deleteConfirm",
+    "originalValue": "are you sure to delete"
+  },
+  {
+    "key": "shipment.header.sorting",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "shipment.header.sorting",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "shipment.header.confirmationModal",
+    "originalValue": "shipment consolidation"
+  },
+  {
+    "key": "shipment.header.confirmationModal",
+    "originalValue": "selected shipments will combined into a single shipment and original shipments status will changed to closed confirm"
+  },
+  {
+    "key": "shipment.header.deleteConfirm",
+    "originalValue": "yes"
+  },
+  {
+    "key": "shipment.footer",
+    "originalValue": "late pickup"
+  },
+  {
+    "key": "shipment.header.commonExportModal",
+    "originalValue": "shipment export"
+  },
+  {
+    "key": "shipment.footer",
+    "originalValue": "tracking failure"
+  },
+  {
+    "key": "shipment.footer",
+    "originalValue": "late delivery"
+  },
+  {
+    "key": "shipment.footer",
+    "originalValue": "total records"
+  },
+  {
+    "key": "shipment.footer",
+    "originalValue": "pickup failed"
+  },
+  {
+    "key": "shipment.dashboard",
+    "originalValue": "order statistics"
+  },
+  {
+    "key": "shipment.dashboard",
+    "originalValue": "total no of shipments by month"
+  },
+  {
+    "key": "shipment.dashboard",
+    "originalValue": "shipment by modecargotype"
+  },
+  {
+    "key": "shipment.dashboard",
+    "originalValue": "shipment by bound"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "total miles"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "weight utilization"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "multi stop"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "printed bol flag"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "approval no"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "volume utilization"
+  },
+  {
+    "key": "shipment.card",
+    "originalValue": "bid expiry"
+  },
+  {
+    "key": "shipment.card.menu",
+    "originalValue": "are you sure to delete"
+  },
+  {
+    "key": "shipment.card.menu",
+    "originalValue": "yes"
+  },
+  {
+    "key": "shipment.card.menu",
+    "originalValue": "copy"
+  },
+  {
+    "key": "shipment.drawer.header",
+    "originalValue": "inconterm"
+  },
+  {
+    "key": "shipment.drawer.header",
+    "originalValue": "approval number"
+  },
+  {
+    "key": "shipment.drawer.header",
+    "originalValue": "freight bill  pro number"
+  },
+  {
+    "key": "shipment.drawer.header",
+    "originalValue": "printview"
+  },
+  {
+    "key": "shipment.drawer.header",
+    "originalValue": "shipment approval"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "product details"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "transportation details"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "vendor details"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "bill to"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "category details"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "accounting"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "audit log"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "tracking details"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "rate shop results"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "itrack"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "delete stop"
+  },
+  {
+    "key": "shipment.drawer.tabs",
+    "originalValue": "spot bid"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "distance km"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "distance miles"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "freight bill  pro number"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "master bill of landing number"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "house bill of landing number"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "freight allowances"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "customer account number"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "free on board"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "incoterm"
+  },
+  {
+    "key": "shipment.drawer.details",
+    "originalValue": "incoterm named place"
+  },
+  {
+    "key": "shipment.drawer.product.productCode",
+    "originalValue": "please select product code"
+  },
+  {
+    "key": "shipment.drawer.product.quantity",
+    "originalValue": "enter quantity"
+  },
+  {
+    "key": "shipment.drawer.product.quantity",
+    "originalValue": "please enter quantity"
+  },
+  {
+    "key": "shipment.drawer.product.quantity",
+    "originalValue": "quantity should be minimum 1"
+  },
+  {
+    "key": "shipment.drawer.product.unitOfMeasure",
+    "originalValue": "please select a unit of measure"
+  },
+  {
+    "key": "shipment.drawer.product.unitPrice",
+    "originalValue": "unit price"
+  },
+  {
+    "key": "shipment.drawer.product.palletLoadType",
+    "originalValue": "stackable"
+  },
+  {
+    "key": "shipment.drawer.product.unitPrice",
+    "originalValue": "enter unit price"
+  },
+  {
+    "key": "shipment.drawer.product.palletLoadType",
+    "originalValue": "pallet load type"
+  },
+  {
+    "key": "shipment.drawer.product.palletLoadType",
+    "originalValue": "non stackable"
+  },
+  {
+    "key": "shipment.drawer.product.productDescription",
+    "originalValue": "please enter product description"
+  },
+  {
+    "key": "shipment.drawer.product.chargeableWeight",
+    "originalValue": "enter chargeable weight"
+  },
+  {
+    "key": "shipment.drawer.product.chargeableWeight",
+    "originalValue": "please enter chargeable weight"
+  },
+  {
+    "key": "shipment.drawer.product.chargeableWeight",
+    "originalValue": "chargeable weight has to be a number"
+  },
+  {
+    "key": "shipment.drawer.product.packageBilled",
+    "originalValue": "packagebilled quantity"
+  },
+  {
+    "key": "shipment.drawer.product.packageBilled",
+    "originalValue": "please enter packagebilled quantity"
+  },
+  {
+    "key": "shipment.drawer.product.packageBilled",
+    "originalValue": "enter packagebilled quantity"
+  },
+  {
+    "key": "shipment.drawer.product.packageBilled",
+    "originalValue": "packagebilled quantity has to be a number"
+  },
+  {
+    "key": "shipment.drawer.product.length",
+    "originalValue": "enter length"
+  },
+  {
+    "key": "shipment.drawer.product.length",
+    "originalValue": "please enter length"
+  },
+  {
+    "key": "shipment.drawer.product.length",
+    "originalValue": "length should be minimum 1"
+  },
+  {
+    "key": "shipment.drawer.product.width",
+    "originalValue": "enter width"
+  },
+  {
+    "key": "shipment.drawer.product.width",
+    "originalValue": "please enter width"
+  },
+  {
+    "key": "shipment.drawer.product.width",
+    "originalValue": "width should be minimum 1"
+  },
+  {
+    "key": "shipment.drawer.product.height",
+    "originalValue": "please enter height"
+  },
+  {
+    "key": "shipment.drawer.product.height",
+    "originalValue": "height should be minimum 1"
+  },
+  {
+    "key": "shipment.drawer.product.height",
+    "originalValue": "enter height"
+  },
+  {
+    "key": "shipment.drawer.product.cube",
+    "originalValue": "enter cube"
+  },
+  {
+    "key": "shipment.drawer.product.purchaseOrders",
+    "originalValue": "enter purchase orders"
+  },
+  {
+    "key": "shipment.drawer.product.lineItemNumber",
+    "originalValue": "line item number"
+  },
+  {
+    "key": "shipment.drawer.product.lineItemNumber",
+    "originalValue": "enter line item number"
+  },
+  {
+    "key": "shipment.drawer.product.packageID",
+    "originalValue": "package id"
+  },
+  {
+    "key": "shipment.drawer.product.NMFCNumber",
+    "originalValue": "enter nmfcnumber"
+  },
+  {
+    "key": "shipment.drawer.notes.shipmentNotes",
+    "originalValue": "shipment notes"
+  },
+  {
+    "key": "shipment.drawer.product.packageID",
+    "originalValue": "enter package id"
+  },
+  {
+    "key": "shipment.drawer.notes.internalNotes",
+    "originalValue": "internal notes"
+  },
+  {
+    "key": "shipment.drawer.notes.shipmentNotes",
+    "originalValue": "enter shipment notes"
+  },
+  {
+    "key": "shipment.drawer.notes.internalNotes",
+    "originalValue": "enter internal notes"
+  },
+  {
+    "key": "shipment.drawer.vendorDetails",
+    "originalValue": "contact number"
+  },
+  {
+    "key": "shipment.drawer.vendorDetails",
+    "originalValue": "add new vendor"
+  },
+  {
+    "key": "shipment.drawer.billTo.VATNumber",
+    "originalValue": "enter vat number"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails",
+    "originalValue": "add new category"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails.categoryType",
+    "originalValue": "category type"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails.categoryType",
+    "originalValue": "select category type"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails.subCategory",
+    "originalValue": "select sub category"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails.subCategory",
+    "originalValue": "sub category"
+  },
+  {
+    "key": "shipment.drawer.categoryDetails.category",
+    "originalValue": "select category"
+  },
+  {
+    "key": "shipment.drawer.documentManager",
+    "originalValue": "file name"
+  },
+  {
+    "key": "shipment.drawer.documentManager",
+    "originalValue": "add new file"
+  },
+  {
+    "key": "shipment.drawer.documentManager",
+    "originalValue": "choose file"
+  },
+  {
+    "key": "shipment.drawer.documentManager.documentType",
+    "originalValue": "select document type"
+  },
+  {
+    "key": "shipment.drawer.documentManager.documentType",
+    "originalValue": "document type"
+  },
+  {
+    "key": "shipment.drawer.documentManager.supportingDocument",
+    "originalValue": "enter supporting document reference number"
+  },
+  {
+    "key": "shipment.drawer.documentManager.supportingDocument",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "shipment.drawer.documentManager.fileComments",
+    "originalValue": "file comments"
+  },
+  {
+    "key": "shipment.drawer.documentManager.fileComments",
+    "originalValue": "enter file comments"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "database"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "table schema"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "table name"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "host name"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "application name"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "column name"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "old value"
+  },
+  {
+    "key": "shipment.drawer.auditLog",
+    "originalValue": "new value"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.locationId",
+    "originalValue": "location should not exceeds 13 characters"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.locationId",
+    "originalValue": "add new location"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.stopType",
+    "originalValue": "stop type"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.stopType",
+    "originalValue": "please select stop type"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.stopType",
+    "originalValue": "select stop type"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.stopNo",
+    "originalValue": "stop no"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.stopNo",
+    "originalValue": "select stop no"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.appointmentType",
+    "originalValue": "appointment type"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.appointmentType",
+    "originalValue": "select appointment type"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.requestedDateTime",
+    "originalValue": "requested date  time"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.requestedDateTime",
+    "originalValue": "please select date"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.requestedDateTime",
+    "originalValue": "please select time"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "date  time"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "days of week"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.contactPersonName",
+    "originalValue": "contact person name"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.contactPersonName",
+    "originalValue": "enter name"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.emailId",
+    "originalValue": "email id"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.emailId",
+    "originalValue": "enter email id"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.emailId",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.contactNo",
+    "originalValue": "enter contact number"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.contactNo",
+    "originalValue": "contact no"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.ext",
+    "originalValue": "ext"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.portName",
+    "originalValue": "please select a port name"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport.ext",
+    "originalValue": "enter ext"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "itrack details"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "taxidvat"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "dockconfirmation number"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "please be patient to get update from carrier"
+  },
+  {
+    "key": "shipment.drawer.shipmentTransport",
+    "originalValue": "spot bid"
+  },
+  {
+    "key": "parcelExpress.triggerNotification",
+    "originalValue": "kindly select a carrier to get the rates"
+  },
+  {
+    "key": "parcelExpress.triggerNotification",
+    "originalValue": "packages are empty  please try again with minimum one package"
+  },
+  {
+    "key": "parcelExpress.triggerNotification",
+    "originalValue": "carriers not selelected"
+  },
+  {
+    "key": "parcelExpress.triggerNotification",
+    "originalValue": "packages is empty"
+  },
+  {
+    "key": "parcelExpress.titles",
+    "originalValue": "parcel express"
+  },
+  {
+    "key": "parcelExpress.titles",
+    "originalValue": "shipments by service type"
+  },
+  {
+    "key": "parcelExpress.titles",
+    "originalValue": "origindestination information"
+  },
+  {
+    "key": "parcelExpress.titles",
+    "originalValue": "package details"
+  },
+  {
+    "key": "parcelExpress.titles",
+    "originalValue": "total spend this year"
+  },
+  {
+    "key": "parcelExpress.buttons",
+    "originalValue": "add package"
+  },
+  {
+    "key": "parcelExpress.buttons",
+    "originalValue": "delete package"
+  },
+  {
+    "key": "parcelExpress.shipmentForm.accountNumber",
+    "originalValue": "please enter account number"
+  },
+  {
+    "key": "parcelExpress.carrierForm",
+    "originalValue": "select account number"
+  },
+  {
+    "key": "parcelExpress.locationForm",
+    "originalValue": "please select ship date"
+  },
+  {
+    "key": "parcelExpress.locationForm.countryCallingCode",
+    "originalValue": "country calling code"
+  },
+  {
+    "key": "parcelExpress.locationForm",
+    "originalValue": "contact number"
+  },
+  {
+    "key": "parcelExpress.locationForm.number",
+    "originalValue": "please enter contact number"
+  },
+  {
+    "key": "parcelExpress.locationForm.number",
+    "originalValue": "contact number should be 10 digits numbers only"
+  },
+  {
+    "key": "parcelExpress.locationForm.number",
+    "originalValue": "contact number should be numbers only"
+  },
+  {
+    "key": "parcelExpress.locationForm",
+    "originalValue": "ext"
+  },
+  {
+    "key": "parcelExpress.popConfirm",
+    "originalValue": "are you sure"
+  },
+  {
+    "key": "parcelExpress.popConfirm",
+    "originalValue": "no"
+  },
+  {
+    "key": "parcelExpress.packageForm",
+    "originalValue": "item no"
+  },
+  {
+    "key": "parcelExpress.packageForm.noOfPackages",
+    "originalValue": "no of packages"
+  },
+  {
+    "key": "parcelExpress.packageForm.noOfPackages",
+    "originalValue": "please enter no of packages"
+  },
+  {
+    "key": "parcelExpress.packageForm.unit",
+    "originalValue": "unit"
+  },
+  {
+    "key": "parcelExpress.packageForm.chargeableWeight",
+    "originalValue": "please enter chargeable weight"
+  },
+  {
+    "key": "parcelExpress.packageForm.unit",
+    "originalValue": "please select unit uom"
+  },
+  {
+    "key": "parcelExpress.packageForm.unit",
+    "originalValue": "please select dimensions uom"
+  },
+  {
+    "key": "parcelExpress.packageForm.length",
+    "originalValue": "please enter length"
+  },
+  {
+    "key": "parcelExpress.packageForm.width",
+    "originalValue": "please enter width"
+  },
+  {
+    "key": "parcelExpress.packageForm.height",
+    "originalValue": "please enter height"
+  },
+  {
+    "key": "parcelExpress.additionalForm",
+    "originalValue": "signature"
+  },
+  {
+    "key": "parcelExpress.additionalForm.declaredValue",
+    "originalValue": "declared value"
+  },
+  {
+    "key": "parcelExpress.additionalForm.declaredValue",
+    "originalValue": "enter declared value"
+  },
+  {
+    "key": "visibility.filters.titles",
+    "originalValue": "shipment search by origin and destination"
+  },
+  {
+    "key": "visibility.filters.titles",
+    "originalValue": "shipment search"
+  },
+  {
+    "key": "visibility.filters.titles",
+    "originalValue": "shipment search by order details"
+  },
+  {
+    "key": "visibility.filters.shipmentSearch.supplier",
+    "originalValue": "select supplier"
+  },
+  {
+    "key": "visibility.filters.shipmentSearch.pickupDate",
+    "originalValue": "select date"
+  },
+  {
+    "key": "visibility.filters.shipmentSearch.itnNumber",
+    "originalValue": "itnisfaes number"
+  },
+  {
+    "key": "visibility.filters.shipmentSearch.itnNumber",
+    "originalValue": "itnisfaes number"
+  },
+  {
+    "key": "visibility.filters.byOrigin.shipperName",
+    "originalValue": "select shipper name"
+  },
+  {
+    "key": "visibility.filters.byOrigin.shipperCountry",
+    "originalValue": "select shipper country"
+  },
+  {
+    "key": "visibility.filters.byOrigin.shipperState",
+    "originalValue": "shipper stateprovince"
+  },
+  {
+    "key": "visibility.filters.byOrigin.shipperState",
+    "originalValue": "select shipper stateprovince"
+  },
+  {
+    "key": "visibility.filters.byOrigin.shipperCity",
+    "originalValue": "select shipper city"
+  },
+  {
+    "key": "visibility.filters.byOrigin.consigneeCountry",
+    "originalValue": "select consignee country"
+  },
+  {
+    "key": "visibility.filters.byOrigin.consigneeState",
+    "originalValue": "select consignee stateprovince"
+  },
+  {
+    "key": "visibility.filters.byOrigin.consigneeCity",
+    "originalValue": "select consignee city"
+  },
+  {
+    "key": "visibility.filters.byOrder.referenceNo",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "visibility.filters.byOrder.lineNumber",
+    "originalValue": "line number"
+  },
+  {
+    "key": "visibility.filters.byOrder.lineNumber",
+    "originalValue": "line number"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "visibility"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "failed tosenddocument email"
+  },
+  {
+    "key": "visibility.filters.byOrder.bolNumber",
+    "originalValue": "house bill of landing number"
+  },
+  {
+    "key": "visibility.filters.byOrder.bolNumber",
+    "originalValue": "house bill of landing number"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "print pdf"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "download pdf"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "email pdf"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "send email to transportation provider"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "tracking details for"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "failed to send document email"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "visibility information"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "business segment"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "line number"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "part number description"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "order quantity"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "packagebilled quantity"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "packagebilled quantity uom"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "item quantity"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "display all tracking status"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "event occurrence local time"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "shipper stateprovince"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "consignee reference number"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "create on"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "shipper requested delivery date"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "shipper request ship date"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "planned ship date"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "planned delivery date"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "update received in est"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "status type"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "signature"
+  },
+  {
+    "key": "visibility.header.exportForm",
+    "originalValue": "visibility export excel"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipment",
+    "originalValue": "flightvoyage number"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipment",
+    "originalValue": "exp delivery date"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipment",
+    "originalValue": "vendor name"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipment",
+    "originalValue": "seal number"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipment",
+    "originalValue": "itnisfaes number"
+  },
+  {
+    "key": "visibility.header.exportPDF.product",
+    "originalValue": "pallet load type"
+  },
+  {
+    "key": "visibility.header.exportPDF.product",
+    "originalValue": "billed qty"
+  },
+  {
+    "key": "visibility.header.exportPDF.product",
+    "originalValue": "l"
+  },
+  {
+    "key": "visibility.header.exportPDF.product",
+    "originalValue": "w"
+  },
+  {
+    "key": "visibility.header.exportPDF.product",
+    "originalValue": "h"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipper",
+    "originalValue": "dock number"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipper",
+    "originalValue": "appointment number"
+  },
+  {
+    "key": "visibility.header.exportPDF.shipper",
+    "originalValue": "contact namephone"
+  },
+  {
+    "key": "visibility.header.exportPDF.consignee",
+    "originalValue": "appointment number"
+  },
+  {
+    "key": "visibility.header.exportPDF.consignee",
+    "originalValue": "contact name  phone"
+  },
+  {
+    "key": "visibility.header.exportPDF.consignee",
+    "originalValue": "dock number"
+  },
+  {
+    "key": "visibility.header.exportPDF.consignee",
+    "originalValue": "total pallet count"
+  },
+  {
+    "key": "visibility.header.exportPDF.tracking",
+    "originalValue": "exception type"
+  },
+  {
+    "key": "visibility.header.exportPDF.tracking",
+    "originalValue": "status type"
+  },
+  {
+    "key": "visibility.header.exportPDF.tracking",
+    "originalValue": "datetime at status"
+  },
+  {
+    "key": "visibility.header.exportPDF.tracking",
+    "originalValue": "eta date"
+  },
+  {
+    "key": "visibility.header.exportPDF.tracking",
+    "originalValue": "signature"
+  },
+  {
+    "key": "visibility.header",
+    "originalValue": "visibility export"
+  },
+  {
+    "key": "visibility.minCard",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "visibility.minCard",
+    "originalValue": "shipper requested ship date"
+  },
+  {
+    "key": "visibility.minCard",
+    "originalValue": "tracking status type"
+  },
+  {
+    "key": "visibility.minCard",
+    "originalValue": "shipper requested delivery date"
+  },
+  {
+    "key": "visibility.detailCard",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "visibility.detailCard.tabs",
+    "originalValue": "shipment notes"
+  },
+  {
+    "key": "visibility.detailCard.tabs",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipment mode"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "multi shop"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipper contact details"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "appointment number"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "dock no  confirmation no"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "consignee contact details"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipment location"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "tracking details"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "tracking status type"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "exception type"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "transporter planned ship date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "event occurrence date and time"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "transporter planned delivery date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipper requested delivery date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipper requested ship date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "update received in est"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "created on"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "submitted by"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "signature"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipper requsted ship date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "shipper requsted delivery date"
+  },
+  {
+    "key": "visibility.detailCard.generalTab",
+    "originalValue": "event occurrence date and time"
+  },
+  {
+    "key": "visibility.detailCard.notesTab",
+    "originalValue": "shipment notes"
+  },
+  {
+    "key": "visibility.detailCard.notesTab",
+    "originalValue": "created on "
+  },
+  {
+    "key": "visibility.detailCard.notesTab",
+    "originalValue": "edited by "
+  },
+  {
+    "key": "visibility.detailCard.notesTab",
+    "originalValue": "edited on "
+  },
+  {
+    "key": "visibility.detailCard.detailsTab",
+    "originalValue": "port of origin"
+  },
+  {
+    "key": "visibility.detailCard.detailsTab",
+    "originalValue": "port of discharge"
+  },
+  {
+    "key": "visibility.detailCard.detailsTab",
+    "originalValue": "flightvoyage number"
+  },
+  {
+    "key": "visibility.detailCard.detailsTab",
+    "originalValue": "seal number"
+  },
+  {
+    "key": "visibility.detailCard.detailsTab",
+    "originalValue": "itnisfaes number"
+  },
+  {
+    "key": "visibility.detailCard.productInfoTab",
+    "originalValue": "gross weight"
+  },
+  {
+    "key": "visibility.detailCard.productInfoTab",
+    "originalValue": "pallet load type"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "file name "
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "please select a file"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "please select a file"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "is already used"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.docType",
+    "originalValue": "document type"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.fileComments",
+    "originalValue": "file coments"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.docType",
+    "originalValue": "select document type"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.fileComments",
+    "originalValue": "file coments"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.referenceNo",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "file uploading is success"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab.referenceNo",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "file uploading is success but could not able to update the ui"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "file deletion is success"
+  },
+  {
+    "key": "visibility.detailCard.fileDetailsTab",
+    "originalValue": "file deletion is failed"
+  },
+  {
+    "key": "visibility.footer",
+    "originalValue": "total shipments"
+  },
+  {
+    "key": "visibility.footer",
+    "originalValue": "open shipments"
+  },
+  {
+    "key": "visibility.footer",
+    "originalValue": "closed shipments"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.trackingStatus",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.trackingStatus",
+    "originalValue": "select tracking status"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.trackingStatusType",
+    "originalValue": "tracking status type"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.trackingStatusType",
+    "originalValue": "select tracking status type"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.exceptionType",
+    "originalValue": "exception type"
+  },
+  {
+    "key": "visibility.trackingStatusInfo.exceptionType",
+    "originalValue": "select exception type"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "transportation details"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "product details"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "vendor details"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "bill to"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "accounting"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "category details"
+  },
+  {
+    "key": "shipmentAdd.titles",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "shipmentAdd.notifications",
+    "originalValue": "shipment transportation should have minimum one pickup and delivery locations"
+  },
+  {
+    "key": "shipmentAdd.notifications",
+    "originalValue": "shipment transportation should have minimum one delivery location"
+  },
+  {
+    "key": "shipmentAdd.notifications",
+    "originalValue": "shipment transportation should have minimum one pickup location"
+  },
+  {
+    "key": "shipmentAdd.shipmentScreen",
+    "originalValue": "checking shipment approval process"
+  },
+  {
+    "key": "shipmentAdd.shipmentScreen",
+    "originalValue": "approval number"
+  },
+  {
+    "key": "shipmentAdd.notifications",
+    "originalValue": "please fix the validation issues in accounting section"
+  },
+  {
+    "key": "shipmentAdd.notifications",
+    "originalValue": "product details required minimum one product"
+  },
+  {
+    "key": "shipmentAdd.shipmentScreen",
+    "originalValue": "master shipment"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails",
+    "originalValue": "checking for po so and paidby visibility"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.houseBillOfLandingNumber",
+    "originalValue": "house bill of landing number"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.masterBillOfLandingNumber",
+    "originalValue": "master bill of landing number"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.purchaseOrders",
+    "originalValue": "please enter purchase orders"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.houseBillOfLandingNumber",
+    "originalValue": "enter house bill of landing number"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.salesOrders",
+    "originalValue": "sales orders"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.paidBy",
+    "originalValue": "paid by"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.paidBy",
+    "originalValue": "select a paid by"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.paidPercentage",
+    "originalValue": "paid percentage"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.freeOnBoard",
+    "originalValue": "select free on board"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.freeOnBoard",
+    "originalValue": "free on board"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.customerAccountNumber",
+    "originalValue": "customer account number"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.incoterm",
+    "originalValue": "incoterm"
+  },
+  {
+    "key": "shipmentAdd.shipmentDetails.incotermNamedPlace",
+    "originalValue": "incoterm named place"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails",
+    "originalValue": "total miles"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails",
+    "originalValue": "add to addressbook"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails",
+    "originalValue": "do you want this address to be stored in the addressbook"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails",
+    "originalValue": "days of week"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails",
+    "originalValue": "hours of operations"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.location",
+    "originalValue": "please enter location"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.location",
+    "originalValue": "location should not exceeds 13 characters"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.contactEmailAddress",
+    "originalValue": "contact email address"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.ext",
+    "originalValue": "ext"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.contactEmailAddress",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.appointmentType",
+    "originalValue": "appointment type"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.appointmentType",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.stopType",
+    "originalValue": "stop type"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.locationId",
+    "originalValue": "add new location"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.locationId",
+    "originalValue": "location should not exceeds 13 characters"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.stopType",
+    "originalValue": "select stop type"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.stopNo",
+    "originalValue": "stop no"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.stopType",
+    "originalValue": "please select stop type"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.stopNo",
+    "originalValue": "select stop no"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.appointmentNumber",
+    "originalValue": "appointmenttype"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.appointmentNumber",
+    "originalValue": "enter appointment no"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.portName",
+    "originalValue": "please select a port name"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.taxIdVat",
+    "originalValue": "taxidvat"
+  },
+  {
+    "key": "shipmentAdd.transportationDetails.dockConfirmationNumber",
+    "originalValue": "dockconfirmation number"
+  },
+  {
+    "key": "shipmentAdd.productDetails",
+    "originalValue": "copy last product details entry"
+  },
+  {
+    "key": "shipmentAdd.productDetails",
+    "originalValue": "create new product"
+  },
+  {
+    "key": "shipmentAdd.productDetails.productDesc",
+    "originalValue": "select product code"
+  },
+  {
+    "key": "shipmentAdd.productDetails.quantity",
+    "originalValue": "please enter quantity"
+  },
+  {
+    "key": "shipmentAdd.productDetails.productDesc",
+    "originalValue": "please select product code"
+  },
+  {
+    "key": "shipmentAdd.productDetails.quantity",
+    "originalValue": "quantity has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.quantity",
+    "originalValue": "quantity should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.unitMeasure",
+    "originalValue": "please select unit of measure"
+  },
+  {
+    "key": "shipmentAdd.productDetails.unitPrice",
+    "originalValue": "unit price"
+  },
+  {
+    "key": "shipmentAdd.productDetails.palletLoadType",
+    "originalValue": "pallet load type"
+  },
+  {
+    "key": "shipmentAdd.productDetails.chargeableWeight",
+    "originalValue": "chargeable weight should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.chargeableWeight",
+    "originalValue": "please enter chargeable weight"
+  },
+  {
+    "key": "shipmentAdd.productDetails.chargeableWeight",
+    "originalValue": "chargeable weight has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.packageBilledQuantity",
+    "originalValue": "packagebilled quantity"
+  },
+  {
+    "key": "shipmentAdd.productDetails.packageBilledQuantity",
+    "originalValue": "please enter packagebilled quantity"
+  },
+  {
+    "key": "shipmentAdd.productDetails.packageBilledQuantity",
+    "originalValue": "packagebilled quantity has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.packageBilledQuantity",
+    "originalValue": "packagebilled quantity should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.length",
+    "originalValue": "length has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.length",
+    "originalValue": "please enter length"
+  },
+  {
+    "key": "shipmentAdd.productDetails.length",
+    "originalValue": "length should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.width",
+    "originalValue": "please enter width"
+  },
+  {
+    "key": "shipmentAdd.productDetails.width",
+    "originalValue": "width should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.width",
+    "originalValue": "width has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.height",
+    "originalValue": "height has to be a number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.height",
+    "originalValue": "please enter height"
+  },
+  {
+    "key": "shipmentAdd.productDetails.height",
+    "originalValue": "height should be minimum 1"
+  },
+  {
+    "key": "shipmentAdd.productDetails.hazmatUnNumber",
+    "originalValue": "hazmat un number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.saidToContain",
+    "originalValue": "said to contain"
+  },
+  {
+    "key": "shipmentAdd.productDetails.purchaseOrders",
+    "originalValue": "please enter purchase orders"
+  },
+  {
+    "key": "shipmentAdd.productDetails.salesOrders",
+    "originalValue": "sales orders"
+  },
+  {
+    "key": "shipmentAdd.productDetails.lineItemNumber",
+    "originalValue": "line item number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.countryOfOrigin",
+    "originalValue": "country of origin"
+  },
+  {
+    "key": "shipmentAdd.productDetails.htsCode",
+    "originalValue": "hts code"
+  },
+  {
+    "key": "shipmentAdd.productDetails.eccnNumber",
+    "originalValue": "eccn number"
+  },
+  {
+    "key": "shipmentAdd.productDetails.packageId",
+    "originalValue": "package id"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails",
+    "originalValue": "rate shop details"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.emptyRecords",
+    "originalValue": "please try adjusting the filters"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.emptyRecords",
+    "originalValue": "rating details are not available at the moment  please try again later"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails",
+    "originalValue": "standard transit days"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails",
+    "originalValue": "converted cost"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails",
+    "originalValue": "created on"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails",
+    "originalValue": "bid expiry date"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.packageId",
+    "originalValue": "package id"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.serviceDescription",
+    "originalValue": "service description"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.userSubmitted",
+    "originalValue": "user submitted"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.spotQuoteNumber",
+    "originalValue": "spot quote number"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.bidComment",
+    "originalValue": "bid comment"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.equipmentTypeDetail",
+    "originalValue": "equipment type detail"
+  },
+  {
+    "key": "shipmentAdd.rateShopDetails.ratingPreferences",
+    "originalValue": "rating preferences"
+  },
+  {
+    "key": "shipmentAdd.notes.shipmentNotes",
+    "originalValue": "shipment notes"
+  },
+  {
+    "key": "shipmentAdd.vendorDetails",
+    "originalValue": "add new vendor"
+  },
+  {
+    "key": "shipmentAdd.notes.internalNotes",
+    "originalValue": "internal notes"
+  },
+  {
+    "key": "shipmentAdd.vendorDetails.vendorName",
+    "originalValue": "select vendor name"
+  },
+  {
+    "key": "shipmentAdd.vendorDetails.vendorName",
+    "originalValue": "vendor name"
+  },
+  {
+    "key": "shipmentAdd.vendorDetails.vendorName",
+    "originalValue": "please select vendor"
+  },
+  {
+    "key": "shipmentAdd.billingDetails.vatNumber",
+    "originalValue": "enter vat number"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails.categoryType",
+    "originalValue": "category type"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails",
+    "originalValue": "add new category"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails.categoryType",
+    "originalValue": "select category type"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails.category",
+    "originalValue": "select category"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails.subCategory",
+    "originalValue": "sub category"
+  },
+  {
+    "key": "shipmentAdd.categoryDetails.subCategory",
+    "originalValue": "select sub category"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails",
+    "originalValue": "add new tax"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails",
+    "originalValue": "tax details"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails",
+    "originalValue": "add new accessorial charges"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails",
+    "originalValue": "accessorial details"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails.modal",
+    "originalValue": "changes will lost"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails.modal",
+    "originalValue": "are sure to delete"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails.modal",
+    "originalValue": "ok"
+  },
+  {
+    "key": "shipmentAdd.documentDetails",
+    "originalValue": "add new file"
+  },
+  {
+    "key": "shipmentAdd.documentDetails",
+    "originalValue": "file name "
+  },
+  {
+    "key": "shipmentAdd.documentDetails",
+    "originalValue": "choose file"
+  },
+  {
+    "key": "shipmentAdd.accountingDetails.modal",
+    "originalValue": "no"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.documentType",
+    "originalValue": "document type"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.documentType",
+    "originalValue": "select document type"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.supportingDocument",
+    "originalValue": "supporting document reference number"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.supportingDocument",
+    "originalValue": "enter supporting document reference number"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.fileComments",
+    "originalValue": "file comments"
+  },
+  {
+    "key": "shipmentAdd.documentDetails.fileComments",
+    "originalValue": "enter file comments"
+  },
+  {
+    "key": "getQuote",
+    "originalValue": "stops should have minimum one destination"
+  },
+  {
+    "key": "getQuote",
+    "originalValue": "please add minimum one product"
+  },
+  {
+    "key": "getQuote",
+    "originalValue": "stops should have minimum one origin"
+  },
+  {
+    "key": "getQuote.emptyRecords",
+    "originalValue": "rating details are currently unavailable"
+  },
+  {
+    "key": "getQuote.emptyRecords",
+    "originalValue": "please try again later"
+  },
+  {
+    "key": "getQuote.titles",
+    "originalValue": "quote details"
+  },
+  {
+    "key": "getQuote.titles",
+    "originalValue": "transportation details"
+  },
+  {
+    "key": "getQuote.titles",
+    "originalValue": "product details"
+  },
+  {
+    "key": "getQuote.quoteDetails.quoteNo",
+    "originalValue": "quote no"
+  },
+  {
+    "key": "getQuote.quoteDetails.projectNo",
+    "originalValue": "project no"
+  },
+  {
+    "key": "getQuote.titles",
+    "originalValue": "rateshop results"
+  },
+  {
+    "key": "getQuote.quoteDetails.projectNo",
+    "originalValue": "enter project no"
+  },
+  {
+    "key": "getQuote.quoteDetails.quoteCost",
+    "originalValue": "quote cost"
+  },
+  {
+    "key": "getQuote.quoteDetails.createdOn",
+    "originalValue": "created on"
+  },
+  {
+    "key": "getQuote.transportationDetails",
+    "originalValue": "total distance kms"
+  },
+  {
+    "key": "getQuote.transportationDetails",
+    "originalValue": "total distance miles"
+  },
+  {
+    "key": "getQuote.transportationDetails.buttons",
+    "originalValue": "delete stop"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopType",
+    "originalValue": "please select a stop type"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopType",
+    "originalValue": "stop type"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopNo",
+    "originalValue": "stop no"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopNo",
+    "originalValue": "please enter stop no"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopNo",
+    "originalValue": "stop no should be in integer"
+  },
+  {
+    "key": "getQuote.transportationDetails.stopNo",
+    "originalValue": "maximum allowed stop numbers 1 to"
+  },
+  {
+    "key": "getQuote.transportationDetails.portName",
+    "originalValue": "please select a port name"
+  },
+  {
+    "key": "getQuote.productDetails",
+    "originalValue": "item no"
+  },
+  {
+    "key": "getQuote.productDetails.packageType",
+    "originalValue": "please select package type"
+  },
+  {
+    "key": "getQuote.productDetails.numberOfPackages",
+    "originalValue": "number of packages"
+  },
+  {
+    "key": "getQuote.productDetails.numberOfPackages",
+    "originalValue": "please enter number of packages"
+  },
+  {
+    "key": "getQuote.productDetails.chargeableWeight",
+    "originalValue": "please enter product weight"
+  },
+  {
+    "key": "getQuote.productDetails.unit",
+    "originalValue": "unit"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.shipmentType",
+    "originalValue": "please select a ship date"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.shipDate",
+    "originalValue": "please select a ship date"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.deliveryDate",
+    "originalValue": "please select a delivery date"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.shipmentTerms",
+    "originalValue": "please select a shipment terms"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.shipmentBranch",
+    "originalValue": "please select a shipment branch"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.shipmentBranch",
+    "originalValue": "shipment branch"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.rateDetails",
+    "originalValue": "rating details are currently unavailable"
+  },
+  {
+    "key": "getQuote.transportationProviderSearch.rateDetails",
+    "originalValue": "please try again later"
+  },
+  {
+    "key": "getQuote.rateShopDetails",
+    "originalValue": "converted cost"
+  },
+  {
+    "key": "getQuote.rateShopDetails",
+    "originalValue": "converted currency code"
+  },
+  {
+    "key": "getQuote.rateShopDetails",
+    "originalValue": "standard transit days"
+  },
+  {
+    "key": "getQuote.additionalDetails",
+    "originalValue": "add new accessorial charges"
+  },
+  {
+    "key": "getQuote.additionalDetails",
+    "originalValue": "please select a accessorial"
+  },
+  {
+    "key": "getQuote.additionalDetails.accessorialName",
+    "originalValue": "please select a accessorial"
+  },
+  {
+    "key": "notificationSettings",
+    "originalValue": "notification settings"
+  },
+  {
+    "key": "notificationSettings.status",
+    "originalValue": "please select a status"
+  },
+  {
+    "key": "notificationSettings.distributorContainer",
+    "originalValue": "distribution details"
+  },
+  {
+    "key": "notificationSettings.distributorContainer",
+    "originalValue": "add new record"
+  },
+  {
+    "key": "notificationSettings.distributorContainer",
+    "originalValue": "record no "
+  },
+  {
+    "key": "notificationSettings.distributorContainer.distributionName",
+    "originalValue": "please enter the distribution name"
+  },
+  {
+    "key": "notificationSettings.routingContainer",
+    "originalValue": "notification routing details"
+  },
+  {
+    "key": "notificationSettings.routingContainer",
+    "originalValue": "add new notification routing"
+  },
+  {
+    "key": "notificationSettings.routingContainer",
+    "originalValue": "selected"
+  },
+  {
+    "key": "notificationSettings.routingContainer.routingType",
+    "originalValue": "routing type"
+  },
+  {
+    "key": "notificationSettings.routingContainer.userName",
+    "originalValue": "please select user name"
+  },
+  {
+    "key": "notificationSettings.routingContainer.emailList",
+    "originalValue": "email list"
+  },
+  {
+    "key": "notificationSettings.routingContainer.emailList",
+    "originalValue": "email can be listed with comma separated"
+  },
+  {
+    "key": "notificationSettings.routingContainer.distributionName",
+    "originalValue": "please select distribution name"
+  },
+  {
+    "key": "notificationSettings.routingContainer.chargeableWeight",
+    "originalValue": "enter chargeable weight"
+  },
+  {
+    "key": "notificationSettings.routingContainer.quantity",
+    "originalValue": "enter quantity"
+  },
+  {
+    "key": "rateShop.tabs",
+    "originalValue": "rate shop results"
+  },
+  {
+    "key": "rateShop.buttons",
+    "originalValue": "view rate shop results"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "lane details"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "optional"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "add lane"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "delete lane"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "actual carrier rate shopping"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "stops details"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "delete stop"
+  },
+  {
+    "key": "rateShop.rateShop",
+    "originalValue": "delete item"
+  },
+  {
+    "key": "rateShop.rateShop.pricingBasis",
+    "originalValue": "please select a pricing basis"
+  },
+  {
+    "key": "rateShop.rateShop.rateSelection",
+    "originalValue": "rate selection"
+  },
+  {
+    "key": "rateShop.rateShop.paymentType",
+    "originalValue": "please select a shipment terms"
+  },
+  {
+    "key": "rateShop.rateShop.measurementUit",
+    "originalValue": "measurement unite"
+  },
+  {
+    "key": "rateShop.rateShop.rateSelection",
+    "originalValue": "please select a rate selection"
+  },
+  {
+    "key": "rateShop.rateShop.measurementUit",
+    "originalValue": "please select a measurement unit"
+  },
+  {
+    "key": "rateShop.rateShop.shipmentDate",
+    "originalValue": "please select shipment date"
+  },
+  {
+    "key": "rateShop.rateShop.equipmentType",
+    "originalValue": "select equipment type"
+  },
+  {
+    "key": "rateShop.rateShop.account",
+    "originalValue": "enter account"
+  },
+  {
+    "key": "rateShop.rateShop.declaredValue",
+    "originalValue": "declared value"
+  },
+  {
+    "key": "rateShop.rateShop.codValue",
+    "originalValue": "cod value"
+  },
+  {
+    "key": "rateShop.rateShop.ldmValue",
+    "originalValue": "ldm value"
+  },
+  {
+    "key": "rateShop.rateShop.linerType",
+    "originalValue": "liner type"
+  },
+  {
+    "key": "rateShop.rateShop.linerType",
+    "originalValue": "select liner type"
+  },
+  {
+    "key": "rateShop.rateShop.length",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.length",
+    "originalValue": "length cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShop.width",
+    "originalValue": "width cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShop.width",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.weight",
+    "originalValue": "please enter weights"
+  },
+  {
+    "key": "rateShop.rateShop.weight",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.weight",
+    "originalValue": "weight cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShop.weight",
+    "originalValue": "weight should be greater than zero"
+  },
+  {
+    "key": "rateShop.rateShop.height",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.height",
+    "originalValue": "height cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShop.billedQuantity",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.ratingClass",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.ratingClass",
+    "originalValue": "rating class"
+  },
+  {
+    "key": "rateShop.rateShop.billedQuantity",
+    "originalValue": "billed quantity cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShop.ratingClass",
+    "originalValue": "please select a rating class"
+  },
+  {
+    "key": "rateShop.rateShop.cube",
+    "originalValue": "please enter numeric only"
+  },
+  {
+    "key": "rateShop.rateShop.cube",
+    "originalValue": "cube cant have negative values"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "imperial"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "rating details are not available at the moment  please try again later"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "please try adjusting the filters"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "calculation type"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "accessorial discount"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "fuel"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "accessorial basis"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "gross charge"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "items total charge"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "total discount"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "item no"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "abs min"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "ratecost per"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "tax basis"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "mileage miles"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "discount percentage"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "total acc"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "currency code"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "total cost"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "bureau mc"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "direct point"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "total shipment cost"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "distance mileskms"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "miles"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "kms"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "pricing effective date"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "tariff effective date"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "pricing key"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "liner"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "lane code"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "tariff key"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "rate shop result"
+  },
+  {
+    "key": "rateShop.rateShopResult",
+    "originalValue": "lane alias"
+  },
+  {
+    "key": "rateShop",
+    "originalValue": "global rate shop"
+  },
+  {
+    "key": "rateShop",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "rateShop",
+    "originalValue": "no stops please try to add new"
+  },
+  {
+    "key": "rateShop",
+    "originalValue": "tax details"
+  },
+  {
+    "key": "rateShop.pieces",
+    "originalValue": "please enter pieces"
+  },
+  {
+    "key": "rateShop.numberOfPieces",
+    "originalValue": "number of pieces cant have negative values"
+  },
+  {
+    "key": "procurement.subMenu",
+    "originalValue": "tender"
+  },
+  {
+    "key": "procurement.subMenu",
+    "originalValue": "project"
+  },
+  {
+    "key": "procurement.subMenu",
+    "originalValue": "bid analysis"
+  },
+  {
+    "key": "procurement.routeConfigurationTabs",
+    "originalValue": "lane"
+  },
+  {
+    "key": "procurement.subMenu",
+    "originalValue": "route configuration"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "project search"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "tender search"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "admin"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "tender"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "general details"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "rank"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "summarize critria"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "lane search"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "zone search"
+  },
+  {
+    "key": "procurement.filters",
+    "originalValue": "include historical"
+  },
+  {
+    "key": "procurement.projectTabs",
+    "originalValue": "tender details"
+  },
+  {
+    "key": "procurement.projectTabs",
+    "originalValue": "project details"
+  },
+  {
+    "key": "procurement.projectTabs",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "procurement.tenderTabs",
+    "originalValue": "tender information"
+  },
+  {
+    "key": "procurement.tenderTabs",
+    "originalValue": "documentation"
+  },
+  {
+    "key": "procurement.tenderTabs",
+    "originalValue": "bid parameters"
+  },
+  {
+    "key": "procurement.fields.headerSelect",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "procurement.fields.projectStatus",
+    "originalValue": "project status"
+  },
+  {
+    "key": "procurement.fields.projectStatus",
+    "originalValue": "active"
+  },
+  {
+    "key": "procurement.fields.projectStatus",
+    "originalValue": "please select project status"
+  },
+  {
+    "key": "procurement.fields.projectStatus",
+    "originalValue": "inactive"
+  },
+  {
+    "key": "procurement.fields.tenderStatus",
+    "originalValue": "tender status"
+  },
+  {
+    "key": "procurement.fields.tenderStatus",
+    "originalValue": "inactive"
+  },
+  {
+    "key": "procurement.fields.projectApproved",
+    "originalValue": "project approval status"
+  },
+  {
+    "key": "procurement.fields.tenderStatus",
+    "originalValue": "active"
+  },
+  {
+    "key": "procurement.fields.projectApproved",
+    "originalValue": "please select project approval status"
+  },
+  {
+    "key": "procurement.fields.projectApproved",
+    "originalValue": "yes"
+  },
+  {
+    "key": "procurement.fields.projectApproved",
+    "originalValue": "no"
+  },
+  {
+    "key": "procurement.fields.projectApprovedBy",
+    "originalValue": "project approved by"
+  },
+  {
+    "key": "procurement.fields.projectApprovedBy",
+    "originalValue": "search something to get data"
+  },
+  {
+    "key": "procurement.fields.projectLead ",
+    "originalValue": "project lead"
+  },
+  {
+    "key": "procurement.fields.projectLead ",
+    "originalValue": "please select project lead"
+  },
+  {
+    "key": "procurement.fields.tecSupport",
+    "originalValue": "please select technical support"
+  },
+  {
+    "key": "procurement.fields.tecLead",
+    "originalValue": "technical lead"
+  },
+  {
+    "key": "procurement.fields.tecLead",
+    "originalValue": "please select technical support"
+  },
+  {
+    "key": "procurement.fields.projectSupport",
+    "originalValue": "project support"
+  },
+  {
+    "key": "procurement.fields.projectSupport",
+    "originalValue": "please select project support"
+  },
+  {
+    "key": "procurement.fields.projectName",
+    "originalValue": "please enter project name"
+  },
+  {
+    "key": "procurement.fields.projectName",
+    "originalValue": "project name"
+  },
+  {
+    "key": "procurement.fields.projectName",
+    "originalValue": "project name is already exist"
+  },
+  {
+    "key": "procurement.fields.tenderName",
+    "originalValue": "tender name"
+  },
+  {
+    "key": "procurement.fields.groupBy",
+    "originalValue": "group by"
+  },
+  {
+    "key": "procurement.fields.formulaName",
+    "originalValue": "formula name"
+  },
+  {
+    "key": "procurement.fields.parameters",
+    "originalValue": "parameters"
+  },
+  {
+    "key": "procurement.fields.formulaName",
+    "originalValue": "total cost"
+  },
+  {
+    "key": "procurement.fields.parameters",
+    "originalValue": "enter parameters"
+  },
+  {
+    "key": "procurement.fields.formula",
+    "originalValue": "formula"
+  },
+  {
+    "key": "procurement.fields.formula",
+    "originalValue": "shipments  base cost"
+  },
+  {
+    "key": "procurement.fields.summarizeCritria",
+    "originalValue": "summarize critria"
+  },
+  {
+    "key": "procurement.fields.actualName",
+    "originalValue": "project name"
+  },
+  {
+    "key": "procurement.fields.actualName",
+    "originalValue": "actual project name"
+  },
+  {
+    "key": "procurement.fields.description",
+    "originalValue": "tender description"
+  },
+  {
+    "key": "procurement.fields.description",
+    "originalValue": "please add description"
+  },
+  {
+    "key": "procurement.fields.modeOfTender",
+    "originalValue": "mode of tender"
+  },
+  {
+    "key": "procurement.fields.tecSupServicePort",
+    "originalValue": "technical supservice category port"
+  },
+  {
+    "key": "procurement.fields.transportationMode",
+    "originalValue": "transportation mode"
+  },
+  {
+    "key": "procurement.fields.prameterDisplayName",
+    "originalValue": "prameter display name"
+  },
+  {
+    "key": "procurement.fields.locationName",
+    "originalValue": "enter location name"
+  },
+  {
+    "key": "procurement.fields.locationName",
+    "originalValue": "location name"
+  },
+  {
+    "key": "procurement.fields.locationName",
+    "originalValue": "location name"
+  },
+  {
+    "key": "procurement.fields.state",
+    "originalValue": "select stateprovience"
+  },
+  {
+    "key": "procurement.fields.postalCode",
+    "originalValue": "select postal code"
+  },
+  {
+    "key": "procurement.fields.city",
+    "originalValue": "select city"
+  },
+  {
+    "key": "procurement.fields.portCode",
+    "originalValue": "select port code"
+  },
+  {
+    "key": "procurement.fields.originType",
+    "originalValue": "origin type"
+  },
+  {
+    "key": "procurement.fields.portCode",
+    "originalValue": "enter port code"
+  },
+  {
+    "key": "procurement.fields.originType",
+    "originalValue": "select origin type"
+  },
+  {
+    "key": "procurement.fields.originName",
+    "originalValue": "enter origin name"
+  },
+  {
+    "key": "procurement.fields.destinationType",
+    "originalValue": "select destination type"
+  },
+  {
+    "key": "procurement.fields.zoneName",
+    "originalValue": "zone name"
+  },
+  {
+    "key": "procurement.fields.destinationName",
+    "originalValue": "enter destination name"
+  },
+  {
+    "key": "procurement.fields.zoneName",
+    "originalValue": "zone name"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "project start date"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "project end date"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "tender start date"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "tender end date"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "select date"
+  },
+  {
+    "key": "procurement.fields.date",
+    "originalValue": "start date and time"
+  },
+  {
+    "key": "procurement.fields.time",
+    "originalValue": "select time"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "document manager"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "project details"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "project name"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "project start date"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "mile stones"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "project end date"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "actual project name"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "preparation files"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "selection phase"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "bid collection phase"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "tender name"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "current round"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "mode of tender"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "service category"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "transportation mode"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "create project successfully"
+  },
+  {
+    "key": "procurement.projectCard",
+    "originalValue": "create project error"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "tender name"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "mode of tender"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "project name"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "tender start date"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "tender end date"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "lane covered"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "current round"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "bid collection start date and time"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "bid collection end date and time"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "lane name"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "dellas location"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "prameter display name"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "prameter type"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "requirednot required"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "parameter data type"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "repeated"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "historical only"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfl status"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfq status"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfi request date  time"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfq request date  time"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfq respond date  time"
+  },
+  {
+    "key": "procurement.tenderCard",
+    "originalValue": "rfi respond date  time"
+  },
+  {
+    "key": "procurement.modalTransportationProvider",
+    "originalValue": "country calling code"
+  },
+  {
+    "key": "procurement.modalTransportationProvider",
+    "originalValue": "short name"
+  },
+  {
+    "key": "procurement.modalTransportationProvider",
+    "originalValue": "contact number"
+  },
+  {
+    "key": "procurement.modalTransportationProvider",
+    "originalValue": "ext"
+  },
+  {
+    "key": "procurement.modalTransportationProvider",
+    "originalValue": "mode type"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "rank and cost"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "lane coverage"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "lane coverage analysis"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "combination analysis"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "winning lanes"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "bid rank"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "bid lane"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "percentage coverage"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "include historical"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "bided unit price"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "base cost"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "rank"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "lift gate"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "saving percentage"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "saving amount"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "tracking status"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "tracking status type"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "shipper requested ship date"
+  },
+  {
+    "key": "procurement.routeConfigurationCard",
+    "originalValue": "lane"
+  },
+  {
+    "key": "procurement.bigAnalysisCard",
+    "originalValue": "shipper requested delivery date"
+  },
+  {
+    "key": "procurement.routeConfigurationCard",
+    "originalValue": "zone name"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "total active project"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "total approved project"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "total project"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "total shipments"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "open shipments"
+  },
+  {
+    "key": "procurement.footer",
+    "originalValue": "closed shipments"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "purchase order search"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "purchase order information"
+  },
+  {
+    "key": "purchase-order-view.fields.header",
+    "originalValue": "sort by"
+  },
+  {
+    "key": "purchase-order-view.fields.shipmentBranch",
+    "originalValue": "shipment branch"
+  },
+  {
+    "key": "purchase-order-view.fields.vendorName",
+    "originalValue": "select vendor name"
+  },
+  {
+    "key": "purchase-order-view.fields.shipmentBranch",
+    "originalValue": "select shipment branch"
+  },
+  {
+    "key": "purchase-order-view.fields.purchasePartDescription",
+    "originalValue": "purchase part description"
+  },
+  {
+    "key": "purchase-order-view.fields.purchasePartNumber",
+    "originalValue": "purchase part number"
+  },
+  {
+    "key": "purchase-order-view.fields.vendorName",
+    "originalValue": "vendor name"
+  },
+  {
+    "key": "purchase-order-view.fields.receiptNumber",
+    "originalValue": "select receipt number"
+  },
+  {
+    "key": "purchase-order-view.fields.poStatus",
+    "originalValue": "po status"
+  },
+  {
+    "key": "purchase-order-view.fields.date",
+    "originalValue": "select date"
+  },
+  {
+    "key": "purchase-order-view.fields.date",
+    "originalValue": "please select create on from date"
+  },
+  {
+    "key": "purchase-order-view.fields.date",
+    "originalValue": "please select create on to date"
+  },
+  {
+    "key": "purchase-order-view.fields.date",
+    "originalValue": "please select from ship date"
+  },
+  {
+    "key": "purchase-order-view.fields.packageType",
+    "originalValue": "please select package type"
+  },
+  {
+    "key": "purchase-order-view.fields.date",
+    "originalValue": "please select to ship date"
+  },
+  {
+    "key": "purchase-order-view.fields.packageBilledQuantity",
+    "originalValue": "packagebilled quantity"
+  },
+  {
+    "key": "purchase-order-view.fields.packageBilledQuantity",
+    "originalValue": "please enter quantity"
+  },
+  {
+    "key": "purchase-order-view.fields.length",
+    "originalValue": "please enter length"
+  },
+  {
+    "key": "purchase-order-view.fields.width",
+    "originalValue": "please enter width"
+  },
+  {
+    "key": "purchase-order-view.fields.height",
+    "originalValue": "please enter height"
+  },
+  {
+    "key": "purchase-order-view.fields.dimUnitOfMeasure",
+    "originalValue": "please select unit of measure"
+  },
+  {
+    "key": "purchase-order-view.fields.dimUnitOfMeasure",
+    "originalValue": "dim unit of measure"
+  },
+  {
+    "key": "purchase-order-view.fields.packageWeigh",
+    "originalValue": "package weigh"
+  },
+  {
+    "key": "purchase-order-view.fields.packageWeigh",
+    "originalValue": "please enter package weight"
+  },
+  {
+    "key": "purchase-order-view.fields.packageLoadType",
+    "originalValue": "package load type"
+  },
+  {
+    "key": "purchase-order-view.fields.packageLoadType",
+    "originalValue": "please select package load type"
+  },
+  {
+    "key": "purchase-order-view.fields.cube",
+    "originalValue": "please enter cube"
+  },
+  {
+    "key": "purchase-order-view.fields.cube",
+    "originalValue": "enter cube"
+  },
+  {
+    "key": "purchase-order-view.fields.pickUpReference",
+    "originalValue": "pick up reference"
+  },
+  {
+    "key": "purchase-order-view.fields.pickUpReference",
+    "originalValue": "please enter pick up reference"
+  },
+  {
+    "key": "purchase-order-view.fields.weightUnitOfMeasure",
+    "originalValue": "please select unit of measure"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "apply country of origin to all lines"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "shipment item details"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "shipment summary"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "shipper zip"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "shipper port type"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "warehouse contact"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "warehouse email"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "warehouse telephone"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "days of week"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "appointment type"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "hours of operations"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "shipper port name"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee port type"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee warehouse contact"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee warehouse email"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee warehouse telephone"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee appointment type"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee days of week from"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee hours of operations"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee days of week to"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "consignee port name"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "line number"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "total quantity"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "unit price"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "package id"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "quantity shipped"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "htc code"
+  },
+  {
+    "key": "purchase-order-view",
+    "originalValue": "total miles"
+  },
+  {
+    "key": "purchase-order-view.addingPO",
+    "originalValue": "adding po only allowed for draft shipment"
+  },
+  {
+    "key": "purchase-order-view.addingPO",
+    "originalValue": "alert"
+  },
+  {
+    "key": "purchase-order-view.addingPO",
+    "originalValue": "ok"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "company settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "shipment settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "tms settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "auction settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "pov settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "general settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "shipment approval process"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "default shipment page values"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "email distribution"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "shipment entry page settings"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "auto route process"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "additional settings"
+  },
+  {
+    "key": "tms-settings.fields.optionsYesNo",
+    "originalValue": "no"
+  },
+  {
+    "key": "tms-settings.fields.optionsYesNo",
+    "originalValue": "yes"
+  },
+  {
+    "key": "tms-settings.fields",
+    "originalValue": "enter"
+  },
+  {
+    "key": "tms-settings.fields",
+    "originalValue": "please enter valid email format"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "please select status"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "status in tms"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "active"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "status in tms is required"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "active if customer is in tms otherwise inactive"
+  },
+  {
+    "key": "tms-settings.fields.statusInTMS",
+    "originalValue": "inactive"
+  },
+  {
+    "key": "tms-settings.fields.brokerageCustomer",
+    "originalValue": "company type"
+  },
+  {
+    "key": "tms-settings.fields.brokerageCustomer",
+    "originalValue": "please select company type"
+  },
+  {
+    "key": "tms-settings.fields.brokerageCustomer",
+    "originalValue": "this setting will dictate if customer that user is adding is regular tms customer or brokerage customer"
+  },
+  {
+    "key": "tms-settings.fields.brokerageCustomer",
+    "originalValue": "tms"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNoCounter",
+    "originalValue": "shipment number counter must be 8 digits"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNoCounter",
+    "originalValue": "shipment number counter"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNoCounter",
+    "originalValue": "please enter shipment number counter"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNoCounter",
+    "originalValue": "number from which shipment number count will start when new shipment is created"
+  },
+  {
+    "key": "tms-settings.fields.masterChildShipment",
+    "originalValue": "please select masterchild shipment"
+  },
+  {
+    "key": "tms-settings.fields.masterChildShipment",
+    "originalValue": "masterchild shipment"
+  },
+  {
+    "key": "tms-settings.fields.masterChildShipment",
+    "originalValue": "turns on masterchild shipment process for customer"
+  },
+  {
+    "key": "tms-settings.fields.pricingType",
+    "originalValue": "please select pricing type"
+  },
+  {
+    "key": "tms-settings.fields.pricingType",
+    "originalValue": "please select pricing type"
+  },
+  {
+    "key": "tms-settings.fields.pricingType",
+    "originalValue": "defines according to which pricing type rating needs to be done there are 2 pricing types being used actual carrier rate or comparative rate comarative rate is used for brokerage customers only"
+  },
+  {
+    "key": "tms-settings.fields.pricingType",
+    "originalValue": "comparative rate"
+  },
+  {
+    "key": "tms-settings.fields.displayPaidBY",
+    "originalValue": "display paid by"
+  },
+  {
+    "key": "tms-settings.fields.displayPaidBY",
+    "originalValue": "opens paid by field on the shipment maintenance page"
+  },
+  {
+    "key": "tms-settings.fields.displayPaidBY",
+    "originalValue": "please select display paid by"
+  },
+  {
+    "key": "tms-settings.fields.shipmentApprovalProcess",
+    "originalValue": "shipment approval process"
+  },
+  {
+    "key": "tms-settings.fields.validateCategoryDetails",
+    "originalValue": "validate category details"
+  },
+  {
+    "key": "tms-settings.fields.shipmentApprovalProcess",
+    "originalValue": "please select shipment approval process"
+  },
+  {
+    "key": "tms-settings.fields.validateCategoryDetails",
+    "originalValue": "please select validate category details"
+  },
+  {
+    "key": "tms-settings.fields.validateCategoryDetails",
+    "originalValue": "if category must be filled in by user on shipment maintenance page than this setting will validate in case it is not provided"
+  },
+  {
+    "key": "tms-settings.fields.calculateChargeableWeight",
+    "originalValue": "please select calculate chargeable weight"
+  },
+  {
+    "key": "tms-settings.fields.calculateChargeableWeight",
+    "originalValue": "calculate chargeable weight"
+  },
+  {
+    "key": "tms-settings.fields.calculateChargeableWeight",
+    "originalValue": "in shipment maintenance page product details accordion when product details are entered by the user than chargeable weight is calculated automatically if this setting is turned on"
+  },
+  {
+    "key": "tms-settings.fields.routingGuideMatch",
+    "originalValue": "if setting is set to yes than shipment rating will be done for carriers located in the routing guide settings page"
+  },
+  {
+    "key": "tms-settings.fields.routingGuideMatch",
+    "originalValue": "routing guide match"
+  },
+  {
+    "key": "tms-settings.fields.branch",
+    "originalValue": "this will set up default branch on shipment if branch cannot be defined"
+  },
+  {
+    "key": "tms-settings.fields.routingGuideMatch",
+    "originalValue": "please select routing guide match"
+  },
+  {
+    "key": "tms-settings.fields.incoTerm",
+    "originalValue": "select inco term"
+  },
+  {
+    "key": "tms-settings.fields.branch",
+    "originalValue": "please select branch"
+  },
+  {
+    "key": "tms-settings.fields.incoTerm",
+    "originalValue": "presets inco term in shipment module user is able to update it if required"
+  },
+  {
+    "key": "tms-settings.fields.defaultSpotBidEndStatus",
+    "originalValue": "default spot bid end status"
+  },
+  {
+    "key": "tms-settings.fields.defaultSpotBidEndStatus",
+    "originalValue": "please select default spot bid end status"
+  },
+  {
+    "key": "tms-settings.fields.defaultSpotBidEndStatus",
+    "originalValue": "spotbidend"
+  },
+  {
+    "key": "tms-settings.fields.defaultSpotBidEndStatus",
+    "originalValue": "spotbid"
+  },
+  {
+    "key": "tms-settings.fields.defaultSpotBidEndStatus",
+    "originalValue": "when spot bid time for shipment expires than shipment status can be changed back to new or spotbidend or stay as is in spot bid status"
+  },
+  {
+    "key": "tms-settings.fields.displayPOSOShipmentLevel",
+    "originalValue": "please select display poso shipment level"
+  },
+  {
+    "key": "tms-settings.fields.displayPOSOShipmentLevel",
+    "originalValue": "display poso shipment level"
+  },
+  {
+    "key": "tms-settings.fields.displayPOSOShipmentLevel",
+    "originalValue": "if setting is set to yes than 2 fields purchase order and sales order will appear on shipment maintenance page user will be required to provide po number on shipment level if setting is set to no than user will be required to provide po number on product level"
+  },
+  {
+    "key": "tms-settings.fields.productCode",
+    "originalValue": "please enter product code"
+  },
+  {
+    "key": "tms-settings.fields.productDescription",
+    "originalValue": "please enter product description"
+  },
+  {
+    "key": "tms-settings.fields.productCode",
+    "originalValue": "sets default product code on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.productDescription",
+    "originalValue": "sets default product description on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTerms",
+    "originalValue": "sets default shipment terms on the shipment"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTerms",
+    "originalValue": "please select shipment term"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTypes",
+    "originalValue": "this setting will set default shipment type for shipments created from pov and manually"
+  },
+  {
+    "key": "tms-settings.fields.displayRatingDetailsAccordion",
+    "originalValue": "display rating details accordion"
+  },
+  {
+    "key": "tms-settings.fields.displayRatingDetailsAccordion",
+    "originalValue": "please select display rating details accordion"
+  },
+  {
+    "key": "tms-settings.fields.displayRatingDetailsAccordion",
+    "originalValue": "display rating details accordion"
+  },
+  {
+    "key": "tms-settings.fields.ratingPreference",
+    "originalValue": "rating preference"
+  },
+  {
+    "key": "tms-settings.fields.hazmat",
+    "originalValue": "select hazmat"
+  },
+  {
+    "key": "tms-settings.fields.ratingPreference",
+    "originalValue": "please select rating preference"
+  },
+  {
+    "key": "tms-settings.fields.hazmat",
+    "originalValue": "hazmat"
+  },
+  {
+    "key": "tms-settings.fields.hazmat",
+    "originalValue": "defaults hazmat in product details on shipment page to yes or no"
+  },
+  {
+    "key": "tms-settings.fields.ratingPreference",
+    "originalValue": "defaults rating preference on shipment maintenance page"
+  },
+  {
+    "key": "tms-settings.fields.ratingPreference",
+    "originalValue": "least cost"
+  },
+  {
+    "key": "tms-settings.fields.freightClass",
+    "originalValue": "sets default freight class on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.freightClass",
+    "originalValue": "please select freight class"
+  },
+  {
+    "key": "tms-settings.fields.length",
+    "originalValue": "sets default length on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.width",
+    "originalValue": "sets default width on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.height",
+    "originalValue": "sets default height on product details accordion"
+  },
+  {
+    "key": "tms-settings.fields.defaultInternalNotes",
+    "originalValue": "default internal notes"
+  },
+  {
+    "key": "tms-settings.fields.defaultInternalNotes",
+    "originalValue": "default internal notes"
+  },
+  {
+    "key": "tms-settings.fields.shipmentApprovalCount",
+    "originalValue": "shipment approval count"
+  },
+  {
+    "key": "tms-settings.fields.shipmentApprovalCount",
+    "originalValue": "this setting dictates max amount of approvers required for the approval process"
+  },
+  {
+    "key": "tms-settings.fields.requireApprovalNumber",
+    "originalValue": "please select require approval number"
+  },
+  {
+    "key": "tms-settings.fields.requireApprovalNumber",
+    "originalValue": "require approval number"
+  },
+  {
+    "key": "tms-settings.fields.requireApprovalNumber",
+    "originalValue": "if this setting is turned on that approval number will be generated when shipment is created this option is used for approval process"
+  },
+  {
+    "key": "tms-settings.fields.adminEmail",
+    "originalValue": "admin email address"
+  },
+  {
+    "key": "tms-settings.fields.adminEmail",
+    "originalValue": "please enter admin email address"
+  },
+  {
+    "key": "tms-settings.fields.adminEmail",
+    "originalValue": "this will set up an email address to which all automatically generated emails will be sent to this field is not for transportation provider email but for customer and control tower"
+  },
+  {
+    "key": "tms-settings.fields.fromEmail",
+    "originalValue": "email from email address"
+  },
+  {
+    "key": "tms-settings.fields.supportEmail",
+    "originalValue": "when email notification like tender or spot bis is sent to carrier there is an email address of support team from customer side who carrier can contact in case of any questions"
+  },
+  {
+    "key": "tms-settings.fields.fromEmail",
+    "originalValue": "email that will be placed in from field in the email subject"
+  },
+  {
+    "key": "tms-settings.fields.attachSupportingDoc",
+    "originalValue": "attach supporting documentation to emails"
+  },
+  {
+    "key": "tms-settings.fields.supportEmail",
+    "originalValue": "please enter support email address"
+  },
+  {
+    "key": "tms-settings.fields.supportEmail",
+    "originalValue": "support email address"
+  },
+  {
+    "key": "tms-settings.fields.attachSupportingDoc",
+    "originalValue": "please select attach supporting documentation to emails"
+  },
+  {
+    "key": "tms-settings.fields.fromEmail",
+    "originalValue": "please enter email from email address"
+  },
+  {
+    "key": "tms-settings.fields.attachSupportingDoc",
+    "originalValue": "attach supporting documentation to emails"
+  },
+  {
+    "key": "tms-settings.fields.childShipment",
+    "originalValue": "child shipment quantity tolerance "
+  },
+  {
+    "key": "tms-settings.fields.childShipment",
+    "originalValue": "please enter child shipment quantity tolerance "
+  },
+  {
+    "key": "tms-settings.fields.childShipment",
+    "originalValue": "this will set a quantity field validation for masterchild shipments process logic will compare quantity provided in master shipments to quantity provided in child shipments difference in percentage cannot be greater than provided qtytolerancepercentage"
+  },
+  {
+    "key": "tms-settings.fields.autoRateProcess",
+    "originalValue": "auto rate process"
+  },
+  {
+    "key": "tms-settings.fields.autoRateProcess",
+    "originalValue": "please select auto rate process"
+  },
+  {
+    "key": "tms-settings.fields.autoRateProcess",
+    "originalValue": "unables automatic rating process"
+  },
+  {
+    "key": "tms-settings.fields.autoTenderProcess",
+    "originalValue": "auto tender process"
+  },
+  {
+    "key": "tms-settings.fields.autoTenderProcess",
+    "originalValue": "please select tender process"
+  },
+  {
+    "key": "tms-settings.fields.autoTenderProcess",
+    "originalValue": "unables automatic tendering process on customer level"
+  },
+  {
+    "key": "tms-settings.fields.maxAutoTenderAmount",
+    "originalValue": "max auto tender amount"
+  },
+  {
+    "key": "tms-settings.fields.maxAutoTenderAmount",
+    "originalValue": "please select max auto tender amount"
+  },
+  {
+    "key": "tms-settings.fields.maxAutoTenderAmount",
+    "originalValue": "sets maximum allowed automatically tendeed amount"
+  },
+  {
+    "key": "tms-settings.fields.recalculateFreightClass",
+    "originalValue": "recalculate freight class"
+  },
+  {
+    "key": "tms-settings.fields.recalculateFreightClass",
+    "originalValue": "please select freight class"
+  },
+  {
+    "key": "tms-settings.fields.recalculateFreightClass",
+    "originalValue": "if setting is set to yes than freight class on the shipment will be recalculated by autoroute process disregarding if it has already been provided on the shipment or not"
+  },
+  {
+    "key": "tms-settings.fields.autoTenderSpecificCargoType",
+    "originalValue": "auto tender specific cargo type"
+  },
+  {
+    "key": "tms-settings.fields.autoTenderSpecificCargoType",
+    "originalValue": "auto tender specific cargo type"
+  },
+  {
+    "key": "tms-settings.fields.defaultEquipmentType",
+    "originalValue": "default equipment type"
+  },
+  {
+    "key": "tms-settings.fields.defaultEquipmentType",
+    "originalValue": "this setting allows user to present equipment type that will be shown to carrier in auction for all the shipments"
+  },
+  {
+    "key": "tms-settings.fields.defaultCargoType",
+    "originalValue": "default cargo type"
+  },
+  {
+    "key": "tms-settings.fields.defaultCargoType",
+    "originalValue": "default cargo type"
+  },
+  {
+    "key": "tms-settings.fields.defaultCargoType",
+    "originalValue": "default cargo type in auction module for transportation provider"
+  },
+  {
+    "key": "tms-settings.fields.populateBidExpiryDate",
+    "originalValue": "populate bid expiry date"
+  },
+  {
+    "key": "tms-settings.fields.populateBidExpiryDate",
+    "originalValue": "please select populate bid expiry date"
+  },
+  {
+    "key": "tms-settings.fields.populateBidExpiryDate",
+    "originalValue": "if setting is set to yes than spot bids provided by carrier that are already expired based on spot bid expiration date will not be available for customer user to select in the shipment rate shop result if setting is set to no than disregarding spot bid expiration date it will be available for customer user to select in the shipment rate shop result"
+  },
+  {
+    "key": "tms-settings.fields.addDaysBidExpiryDate",
+    "originalValue": "add days to bid expiry date"
+  },
+  {
+    "key": "tms-settings.fields.addDaysBidExpiryDate",
+    "originalValue": "add days to bid expiry date"
+  },
+  {
+    "key": "tms-settings.fields.addDaysBidExpiryDate",
+    "originalValue": "add days to bid expiry date"
+  },
+  {
+    "key": "tms-settings.fields.auctionType",
+    "originalValue": "auction type"
+  },
+  {
+    "key": "tms-settings.fields.auctionType",
+    "originalValue": "please select auction type"
+  },
+  {
+    "key": "tms-settings.fields.auctionType",
+    "originalValue": "unables reverse auction which means that carriers need to underbid each others bids"
+  },
+  {
+    "key": "tms-settings.fields.auctionType",
+    "originalValue": "blind"
+  },
+  {
+    "key": "tms-settings.fields.auctionType",
+    "originalValue": "reverse blind"
+  },
+  {
+    "key": "tms-settings.fields.maximumBidHours",
+    "originalValue": "maximum bid hours"
+  },
+  {
+    "key": "tms-settings.fields.maximumBidHours",
+    "originalValue": "please enter maximum bid hours"
+  },
+  {
+    "key": "tms-settings.fields.maximumBidHours",
+    "originalValue": "maximum bid hours is exceeds maximum allowed bid hours"
+  },
+  {
+    "key": "tms-settings.fields.maximumBidHours",
+    "originalValue": "in shipment module when user sends shipment to spot bid he is allowed to set time for the spot bid this setting preset default time for the user so they do not need to update it manually if user enters 30 than bid will be in auction for 30 hours user can change this value on the ui for particular shipment if required"
+  },
+  {
+    "key": "tms-settings.fields.turnONPOVModule",
+    "originalValue": "turn on pov module"
+  },
+  {
+    "key": "tms-settings.fields.turnONPOVModule",
+    "originalValue": "please select turn on pov module"
+  },
+  {
+    "key": "tms-settings.fields.turnONPOVModule",
+    "originalValue": "please select turn on pov module"
+  },
+  {
+    "key": "tms-settings.fields.turnONPOVModule",
+    "originalValue": "if yes than shipments can be created via pov if no than shipments cannot be created via pov"
+  },
+  {
+    "key": "tms-settings.fields.shipmentStartingNumber",
+    "originalValue": "shipment starting number"
+  },
+  {
+    "key": "tms-settings.fields.shipmentStartingNumber",
+    "originalValue": "this will set up shipment number starting integer number that will go after alpha prefix all the next shipment numbers will be created by adding 1 to integer number like tb100001 ca102036"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNumberPrefix",
+    "originalValue": "shipment number prefix"
+  },
+  {
+    "key": "tms-settings.fields.shipmentNumberPrefix",
+    "originalValue": "this will set up shipment number prefix like tb for tricorbraun ca for cameron etc"
+  },
+  {
+    "key": "tms-settings.fields.noRoutingGuideCarriersReturned",
+    "originalValue": "number of routing guide carriers returned"
+  },
+  {
+    "key": "tms-settings.fields.noRoutingGuideCarriersReturned",
+    "originalValue": "if routing method  routing guide than number of returned carriers from the routing guide will be limited to provided number"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTermsAllowed",
+    "originalValue": "shipment terms allowed"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTermsAllowed",
+    "originalValue": "please select shipment terms allowed"
+  },
+  {
+    "key": "tms-settings.fields.shipmentTermsAllowed",
+    "originalValue": "this setting dictates which shipment terms are allowed to be used for shipments"
+  },
+  {
+    "key": "tms-settings.fields.povDestinationMethod",
+    "originalValue": "pov destination method"
+  },
+  {
+    "key": "tms-settings.fields.povDestinationMethod",
+    "originalValue": "select pov destination method"
+  },
+  {
+    "key": "tms-settings.fields.povDestinationMethod",
+    "originalValue": "please select turn on pov module"
+  },
+  {
+    "key": "tms-settings.fields.povDestinationMethod",
+    "originalValue": "on shipment entry page destination address is preset for vendor user this address can come from purchase order or it can come from branch this setting allows user to define from which location address should be pulled"
+  },
+  {
+    "key": "tms-settings.fields.routingMethod",
+    "originalValue": "routing method"
+  },
+  {
+    "key": "tms-settings.fields.routingMethod",
+    "originalValue": "select routing method"
+  },
+  {
+    "key": "tms-settings.fields.routingMethod",
+    "originalValue": "routing guide"
+  },
+  {
+    "key": "tms-settings.fields.routingMethod",
+    "originalValue": "when vendor user creates shipment via pov there are several ways vendor user can obtain carrier for the shipment if routing guide is selected than when shipment is created it is getting rated against the routing guide and only carriers located in the routing guide are coming up in the popup with carrier selection if rate shop is selected than when vendor creates shipment via pov shipment will be rated against existing pricing and rating result will come up on the popup with carrier selection if not applicable is set up than when vendor user creates shipment via pov shipment will not be rated and carrier preference will be set to all"
+  },
+  {
+    "key": "tms-settings.fields.allowDraftShipment",
+    "originalValue": "allow draft shipment"
+  },
+  {
+    "key": "tms-settings.fields.allowDraftShipment",
+    "originalValue": "please select allow draft shipment"
+  },
+  {
+    "key": "tms-settings.fields.allowDraftShipment",
+    "originalValue": "if setting is set to yes than vendor users will be allowed to create draft shipments in pov module"
+  },
+  {
+    "key": "tms-settings.fields.packageUnitMeasure",
+    "originalValue": "package unit of measure"
+  },
+  {
+    "key": "tms-settings.fields.packageUnitMeasure",
+    "originalValue": "this will set default package unit of measurement on shipment entry page in pov"
+  },
+  {
+    "key": "tms-settings.fields.weightUnitMeasure",
+    "originalValue": "please select weight unit of measure"
+  },
+  {
+    "key": "tms-settings.fields.weightUnitMeasure",
+    "originalValue": "this will set default unit of measurement on shipment entry page in pov module"
+  },
+  {
+    "key": "tms-settings.fields.freeOnBoardCode",
+    "originalValue": "free on board code"
+  },
+  {
+    "key": "tms-settings.fields.freeOnBoardCode",
+    "originalValue": "this will set default free on board code on the shipment created via pov"
+  },
+  {
+    "key": "tms-settings.fields.frightClass",
+    "originalValue": "this will assign default class on the shipment created via pov"
+  },
+  {
+    "key": "tms-settings.fields.minimumDays",
+    "originalValue": "minimum days"
+  },
+  {
+    "key": "tms-settings.fields.minimumDays",
+    "originalValue": "please enter minimum days"
+  },
+  {
+    "key": "tms-settings.fields.minimumDays",
+    "originalValue": "when vendor selects po in pov they are required to provide new ship date this date is compared to order ship date from customer difference between dates cannot be smaller than minimum days"
+  },
+  {
+    "key": "tms-settings.fields.maximumDays",
+    "originalValue": "maximum days"
+  },
+  {
+    "key": "tms-settings.fields.maximumDays",
+    "originalValue": "please enter maximum days"
+  },
+  {
+    "key": "tms-settings.fields.frightClass",
+    "originalValue": "please select fright class"
+  },
+  {
+    "key": "tms-settings.fields.maximumDays",
+    "originalValue": "when vendor selects po in pov they are required to provide new ship date this date is compared to order ship date from customer difference between dates cannot be greater than maximum days"
+  },
+  {
+    "key": "tms-settings.fields.minimumDaysError",
+    "originalValue": "minimum days error message"
+  },
+  {
+    "key": "tms-settings.fields.minimumDaysError",
+    "originalValue": "please enter minimum days error message"
+  },
+  {
+    "key": "tms-settings.fields.minimumDaysError",
+    "originalValue": "if minimum days rule is violated than minimum days error message will be shown to user on the ui"
+  },
+  {
+    "key": "tms-settings.fields.minimumDaysError",
+    "originalValue": "shipment are not allowed 3 days prior to the expected ship date"
+  },
+  {
+    "key": "tms-settings.fields.maximumDaysError",
+    "originalValue": "maximum days error message"
+  },
+  {
+    "key": "tms-settings.fields.maximumDaysError",
+    "originalValue": "please enter maximum days error message"
+  },
+  {
+    "key": "tms-settings.fields.maximumDaysError",
+    "originalValue": "if maximum days rule is violated than maximum days error message will be shown to user on the ui"
+  },
+  {
+    "key": "tms-settings.fields.maximumDaysError",
+    "originalValue": "expected shipment date cannot be more than a year"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "tms settings successfully saved"
+  },
+  {
+    "key": "tms-settings",
+    "originalValue": "failed to save tms settings please try again after some time"
+  },
+  {
+    "key": "login.authLeft",
+    "originalValue": "dont have an account yet"
+  },
+  {
+    "key": "login.authLeft",
+    "originalValue": "sign up now"
+  },
+  {
+    "key": "login.authRight",
+    "originalValue": "welcome back"
+  },
+  {
+    "key": "login.authRight",
+    "originalValue": "log in to continue"
+  },
+  {
+    "key": "login.form.email",
+    "originalValue": "email  user name"
+  },
+  {
+    "key": "login.form.email",
+    "originalValue": "please enter user name"
+  },
+  {
+    "key": "login.form.email",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "login.form.password",
+    "originalValue": "please enter password"
+  },
+  {
+    "key": "forgotPassword.authLeft",
+    "originalValue": "dont have an account yet"
+  },
+  {
+    "key": "forgotPassword.authLeft",
+    "originalValue": "sign up now"
+  },
+  {
+    "key": "forgotPassword.authRight",
+    "originalValue": "please enter the email address youd like your login information sent to"
+  },
+  {
+    "key": "forgotPassword.form.email",
+    "originalValue": "email  user name"
+  },
+  {
+    "key": "forgotPassword.form.email",
+    "originalValue": "please enter user name"
+  },
+  {
+    "key": "forgotPassword.form.email",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "forgotPassword.form.warning",
+    "originalValue": "the new password has been sent to your email  kindly check your email and login with new password"
+  },
+  {
+    "key": "forgotPassword.form",
+    "originalValue": "back to login"
+  },
+  {
+    "key": "signUp.authLeft",
+    "originalValue": "sign in now"
+  },
+  {
+    "key": "signUp.authLeft",
+    "originalValue": "already have an account"
+  },
+  {
+    "key": "signUp.authRight",
+    "originalValue": "register now to continue"
+  },
+  {
+    "key": "signUp.form.email",
+    "originalValue": "please enter user name"
+  },
+  {
+    "key": "signUp.form.email",
+    "originalValue": "enter valid email"
+  },
+  {
+    "key": "signUp.form.userType",
+    "originalValue": "please enter user type"
+  },
+  {
+    "key": "signUp.form.password",
+    "originalValue": "please enter password"
+  },
+  {
+    "key": "signUp.form.firstName",
+    "originalValue": "please enter first name"
+  },
+  {
+    "key": "signUp.form.confirmPassword",
+    "originalValue": "please enter confirm password"
+  },
+  {
+    "key": "signUp.form.middleName",
+    "originalValue": "middle name"
+  },
+  {
+    "key": "signUp.form.lastName",
+    "originalValue": "please enter last name"
+  },
+  {
+    "key": "signUp.form.lastName",
+    "originalValue": "enter valid last name"
+  },
+  {
+    "key": "signUp.form.addressLineFirst",
+    "originalValue": "please enter address1"
+  },
+  {
+    "key": "signUp.form.department",
+    "originalValue": "departmnet"
+  },
+  {
+    "key": "signUp.form.addressLineSecond",
+    "originalValue": "please enter address2"
+  },
+  {
+    "key": "signUp.form.jobType",
+    "originalValue": "job type"
+  },
+  {
+    "key": "signUp.form",
+    "originalValue": "please check recapcha"
+  },
+  {
+    "key": "signUp.form.warning",
+    "originalValue": "the user registration process is completed  please login with your email and appropriate password  thank you"
+  },
+  {
+    "key": "verifyUser.authLeft",
+    "originalValue": "dont have an account yet"
+  },
+  {
+    "key": "verifyUser.authRight",
+    "originalValue": "two factor authentication"
+  },
+  {
+    "key": "verifyUser.authLeft",
+    "originalValue": "sign up now"
+  },
+  {
+    "key": "verifyUser",
+    "originalValue": "security code via email"
+  },
+  {
+    "key": "verifyUser",
+    "originalValue": "failed to send authentication token"
+  },
+  {
+    "key": "verifyUser",
+    "originalValue": "send authentication code"
+  },
+  {
+    "key": "verifyUser",
+    "originalValue": "pick your authentication method"
+  },
+  {
+    "key": "verifyToken.authLeft",
+    "originalValue": "dont have an account yet"
+  },
+  {
+    "key": "verifyToken.authRight",
+    "originalValue": "check your mail"
+  },
+  {
+    "key": "verifyUser",
+    "originalValue": "not you change"
+  },
+  {
+    "key": "verifyToken.authLeft",
+    "originalValue": "sign up now"
+  },
+  {
+    "key": "verifyToken",
+    "originalValue": "failed to verify authentication token"
+  },
+  {
+    "key": "verifyToken",
+    "originalValue": "enter 6 digit authentication code sent to"
+  },
+  {
+    "key": "verifyToken",
+    "originalValue": "verify authentication code"
+  },
+  {
+    "key": "verifyToken",
+    "originalValue": "not received code resend code"
+  },
+  {
+    "key": "user",
+    "originalValue": "subtitle1"
+  },
+  {
+    "key": "user",
+    "originalValue": "profile"
+  },
+  {
+    "key": "user",
+    "originalValue": "subtitle2"
+  },
+  {
+    "key": "user.userTabs",
+    "originalValue": "personal"
+  },
+  {
+    "key": "user",
+    "originalValue": "active"
+  },
+  {
+    "key": "user.userTabs",
+    "originalValue": "changepassword"
+  },
+  {
+    "key": "user.userTabs",
+    "originalValue": "themes"
+  },
+  {
+    "key": "user.buttons",
+    "originalValue": "update password"
+  },
+  {
+    "key": "user.buttons",
+    "originalValue": "buttonspreview"
+  },
+  {
+    "key": "user.buttons",
+    "originalValue": "buttonsrestoretodefault"
+  },
+  {
+    "key": "user.buttons",
+    "originalValue": "buttonssavetheme"
+  },
+  {
+    "key": "user.notification",
+    "originalValue": "user preference has successfully applied for temporary"
+  },
+  {
+    "key": "user.fields.firstName",
+    "originalValue": "please enter first name"
+  },
+  {
+    "key": "user.fields.lastName",
+    "originalValue": "please enter last name"
+  },
+  {
+    "key": "user.fields.address1",
+    "originalValue": "please enter address line"
+  },
+  {
+    "key": "user.fields.postalCode",
+    "originalValue": "select postal code"
+  },
+  {
+    "key": "user.fields.postalCode",
+    "originalValue": "please select your postal code"
+  },
+  {
+    "key": "user.fields.state",
+    "originalValue": "select stateprovience"
+  },
+  {
+    "key": "user.fields.city",
+    "originalValue": "select city"
+  },
+  {
+    "key": "user.fields.mobileNumber",
+    "originalValue": "mobile number"
+  },
+  {
+    "key": "user.fields.state",
+    "originalValue": "please select the state"
+  },
+  {
+    "key": "user.fields.mobileNumber",
+    "originalValue": "please enter the mobile number"
+  },
+  {
+    "key": "user.fields.phoneHome",
+    "originalValue": "home phone number"
+  },
+  {
+    "key": "user.fields.phoneOffice",
+    "originalValue": "phone office"
+  },
+  {
+    "key": "user.fields.phoneOffice",
+    "originalValue": "office phone number"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "please enter password"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "please enter password in string formate"
+  },
+  {
+    "key": "user.fields.currentPassword",
+    "originalValue": "current password"
+  },
+  {
+    "key": "user.fields.currentPassword",
+    "originalValue": "please enter current password"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "password should contain minimum one numeric lower case  upper case and symbols"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "password must have minimum 12 characters"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "short"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "weak"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "okay"
+  },
+  {
+    "key": "user.fields.confirmPassword",
+    "originalValue": "please enter confirm password"
+  },
+  {
+    "key": "user.fields.password",
+    "originalValue": "strong"
+  },
+  {
+    "key": "user.fields.color",
+    "originalValue": "topmenucolor"
+  },
+  {
+    "key": "user.fields.confirmPassword",
+    "originalValue": "confirm password not matching with password"
+  },
+  {
+    "key": "user.fields.color",
+    "originalValue": "bottommenucolor"
+  },
+  {
+    "key": "user.fields.color",
+    "originalValue": "topmenutextcolor"
+  },
+  {
+    "key": "user.fields.color",
+    "originalValue": "bottommenutextcolor"
+  },
+  {
+    "key": "user.fields.date",
+    "originalValue": "dateformat"
+  },
+  {
+    "key": "user.fields.fontFamily",
+    "originalValue": "fontfamily"
+  },
+  {
+    "key": "user.fields.date",
+    "originalValue": "please select a date format"
+  },
+  {
+    "key": "user.fields.language",
+    "originalValue": "selectlanguage"
+  },
+  {
+    "key": "user.fields.language",
+    "originalValue": "please select a language"
+  },
+  {
+    "key": "user.fields.date",
+    "originalValue": "select a date format"
+  },
+  {
+    "key": "user.fields.fontSize",
+    "originalValue": "fontsize"
+  },
+  {
+    "key": "user.fields.fontFamily",
+    "originalValue": "select a font family"
+  }
+]

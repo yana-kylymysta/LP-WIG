@@ -76,7 +76,7 @@ if(windowWidth < 1024) {
         opacity: 1,
         stagger: 0.12, 
         delay: 1,
-        y: 10,
+        y: 0,
         easy: Power3.easeInOut
     })
 }

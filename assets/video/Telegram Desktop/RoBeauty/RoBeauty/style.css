@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+/* <------- HEADER -------> */
+.header {
+    background-color: #ffffff;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    border-bottom: 2px solid #2d2b2bd9;
+    box-shadow: 0px 4px 20px 2px rgba(9, 9, 9, 0.4);
+}
+
+.header_container {
+    max-width: 480px;
+    min-width: 260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70px;
+    padding: 0 18px;
+}
+
+.header_logo {
+    width: 150px;
+    z-index: 5;
+    position: relative;
+}
+
+.menu_icon {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 23px;
+    cursor: pointer;
+    z-index: 5;
+}
+.menu_icon span,
+.menu_icon::after,
+.menu_icon::before {
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    transition: all 0.3s ease 0s;
+    background-color: #1b1b1b;
+}
+
+.menu_icon::after,
+.menu_icon::before {
+    content: "";
+}
+
+.menu_icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+}
+
+.menu_icon::after {
+    bottom: 0;
+}
+
+.menu_icon::before {
+    top: 0;
+}
+
+.menu_icon._active span {
+    transform: scale(0) translate(0px, -50%);
+}
+
+.menu_icon._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+}
+
+.menu_icon._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+}
+
+.menu_body {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #121211d4;
+    padding: 0;
+    transition: left 0.3s ease 0s;
+}
+
+.menu_body._active {
+    left: 0;
+    padding: 100px 30px 30px 18px;
+    overflow: auto;
+}
+
+.menu_body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    height: 70px;
+    z-index: 2;
+}
+
+.menu_list li {
+    margin: 0 0 28px 0;
+    position: relative;
+}
+
+.menu_list li:last-child {
+    margin-bottom: 0;
+}
+
+.menu_link {
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    margin-left: 18px;
+}
+
+.menu_link::before {
+    content: "|";
+    display: block;
+    position: absolute;
+    top: 0.5px;
+}
+
+.menu_link:hover {
+    text-decoration: underline;
+}
+
+
+/* <------- MAIN -------> */
+
+main.page {
+    position: relative;
+    top: 70px;
+}
+
+section.page_section {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+
+/* <------- page_section_1-------> */
+
+.video-bg {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.video-bg video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.effects {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.video-bg__content {
+    z-index: 2;
+    color: #ffffff;
+    bottom: -100px;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 2px 0 #000000d9;
+    max-width: 320px;
+    font-size: 40px;
+    padding: 0 6px;
+    line-height: 60px;
+}
+
+h1::first-letter {
+    font-size: 68px;
+}
+
+h1::after {
+    content: "→";
+    display: block;
+    position: absolute;
+    line-height: 20px;
+}
+
+/* <------- page_section_2-------> */
+
+.page_section_2 {
+    text-align: center;
+}
+
+h4 {
+    padding: 60px 0 28px;
+    color: #2f2e2e;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.color-logo-1 {
+    color: black;
+    font-weight: 900;
+}
+
+.color-logo {
+    color: #252525;
+    font-weight: 500;
+}
+
+.shimmer {
+    max-width: 310px;
+    margin: 0 auto;
+}
+
+.buy-shimmer {
+    margin: 30px 0 10px;
+    color: #353535;
+    background: white;
+    border: 2px solid #2b2b2bd4;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 10px;
+    transition: all 0.3s ease 0s;
+    font-family: 'Nunito', sans-serif;
+}
+
+.buy-shimmer:hover {
+    background: radial-gradient(circle, rgba(166,161,170,1) 0%, rgba(0,0,0,1) 100%);
+    color:#ffffff;
+}
+
+.buy-shimmer-limited {
+    font-size: 10px;
+    color: #2b2b2bd4;
+    padding-bottom: 40px;
+    color: #ec0000e8;
+}
+
+/* <------- page_section_3-------> */
+
+/* .page_section_3 {
+    min-height: 300px;
+    background-image: url(./img/BODY.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */

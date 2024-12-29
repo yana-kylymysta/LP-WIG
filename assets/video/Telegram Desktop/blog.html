@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блог​</title>
+    <link rel="icon" type="image/svg" sizes="32x32" href="../assets/icons/favicon.svg">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/block-filter.css">
+    <link rel="stylesheet" href="../styles/block-cta.css">
+    <link rel="stylesheet" href="../styles/blog.css">
+</head>
+
+<body>
+    <div class="page__wrapper page blog-page">
+        <header class="header">
+            <div class="header__container container">
+                <a href="/" class="header__logo logo">
+                    <img class="logo-mob" src="../assets/icons/logo-mob.svg" alt="ABM logo">
+                    <img class="logo-desktop" src="../assets/icons/logo.svg" alt="ABM logo">
+                </a>
+                <div class="header__right header__right-desc ">
+                    <div class="header__lang">
+                        <ul class="menu__list lang__list-wrapper">
+                            <li class="menu__item dropdown">
+                                <div class="dropdown__summary menu__summary">RU</div>
+                                <div class="dropdown__block">
+                                    <ul class="lang__list">
+                                        <li class="lang__item">UA</li>
+                                        <li class="lang__item active">RU</li>
+                                        <li class="lang__item">EN</li>
+                                        <li class="lang__item">KZ</li>
+                                        <li class="lang__item">UZ</li>
+                                    </ul>
+                                </div>
+                            </li>
+                    </div>
+                    <button class="header__btn secondary__btn btn" >
+                        <span class="button-content">Заказать звонок</span></button>
+                </div>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <div class="menu__wrapper">
+                        <nav class="menu__nav">
+                            <ul class="menu__list">
+                                <li class="menu__item dropdown">
+                                    <div class="dropdown__summary menu__summary">Продукты</div>
+                                    <div class="dropdown__block">
+                                        <button class="dropdown__back">
+                                            Меню
+                                        </button>
+                                        <div class="dropdown__container">
+                                            <a href="./products.html" class="dropdown__header">
+                                                <div class="dropdown__logo">
+                                                    <img src="../assets/icons/logo.svg" alt="ABM logo">
+                                                </div>
+                                                <div class="dropdown__titles">
+                                                    <h3>Продукты</h3>
+                                                    <h5>Облачные решения для бизнеса </h5>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown__list-wrapper">
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Inventory</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Shelf</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Assortment</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Loyalty</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM WMS</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Rinkai TMS</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">INTUIFLOW</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Finance</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM DD</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Marketplace</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">ABM Route Sense</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu__item dropdown">
+                                    <div class="dropdown__summary menu__summary">Решения</div>
+                                    <div class="dropdown__block">
+                                        <button class="dropdown__back">
+                                            Меню
+                                        </button>
+                                        <div class="dropdown__container">
+                                            <a href="./solutions.html" class="dropdown__header">
+                                                <img class="dropdown__logo" src="../assets/icons/logo.svg"
+                                                    alt="ABM logo">
+                                                <div class="dropdown__titles">
+                                                    <h3>Решения</h3>
+                                                    <h5>Автоматизация и управление</h5>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown__list-wrapper">
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Запасами в розничной торговле</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Мерчандайзингом</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Лояльностью</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Ассортиментом</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Запасами производства и
+                                                            дистрибуции</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Складом</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Транспортной логистикой</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Дарксторами</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Торговыми агентами</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Финансами</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Платформа для производства и
+                                                            дистрибуции</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="#" target="_blank">Платформа для ритейла</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./clients.html" class="menu__summary">Клиенты</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./events.html" class="menu__summary">События</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./blog.html" class="menu__summary">Блог</a>
+                                </li>
+                                <li class="menu__item dropdown">
+                                    <div class="dropdown__summary menu__summary">Компания</div>
+                                    <div class="dropdown__block">
+                                        <button class="dropdown__back">
+                                            Меню
+                                        </button>
+                                        <div class="dropdown__container">
+                                            <a href="./company.html" class="dropdown__header">
+                                                <img class="dropdown__logo" src="../assets/icons/logo.svg"
+                                                    alt="ABM logo">
+                                                <div class="dropdown__titles">
+                                                    <h3>Компания</h3>
+                                                    <h5>Процессы в деталях</h5>
+                                                </div>
+                                            </a>
+                                            <div class="dropdown__list-wrapper">
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="./partners.html">Партнерам</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="./career.html">Карьера</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="./vacancies.html">Вакансии</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <a href="./implementation.html">Внедрение</a>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <a href="./customer-success.html">Customer Success</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./contacts.html" class="menu__summary">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__right header__right-mob">
+                            <div class="header__lang">
+                                <div class="lang">
+                                    <ul class="lang__list lang__list-mob">
+                                        <li class="lang__item">UA</li>
+                                        <li class="lang__item active">RU</li>
+                                        <li class="lang__item">EN</li>
+                                        <li class="lang__item">KZ</li>
+                                        <li class="lang__item">UZ</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <button class="header__btn secondary__btn btn" >
+                                <span class="button-content">Заказать звонок</span></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div class="dark-wrapper">
+            <main class="main">
+                <div class="breadcookies">
+                    <div class="container breadcookies__container ">
+                        <a href="/" class="breadcookies__item">Главная</a>
+                        <div class="breadcookies__icon"></div>
+                        <div class="breadcookies__item breadcookies__item-current">Блог</div>
+                    </div>
+                </div>
+                <section class="blog-slider animate-on-scroll">
+                    <div class="container">
+                        <h1 class="blog-slider__title">Делимся знаниями, мыслями и новостями</h1>
+                         <div class="blog-slider__wrapper swiper base__slider-wrapper">
+                            <div class="blog-slider__block swiper-wrapper">
+                                <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-5.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Обучение программе WMS
+                                        </h4>
+                                        <p class="item__text">
+                                        Склад и логистические процессы находятся в постоянном развитии и нуждаются в точном автоматизированом подходе 
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                 <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-2.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Управление складом готовой продукции
+                                        </h4>
+                                        <p class="item__text">
+                                             Управление складом готовой продукции представляет собой отлаженную систему управления товарно-материальными
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-3.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Обучение программе WMS
+                                        </h4>
+                                        <p class="item__text">
+                                            Склад и логистические процессы находятся в постоянном развитии и нуждаются в точном автоматизирова
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-5.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Управление складом готовой продукции
+                                        </h4>
+                                        <p class="item__text">
+                                            Управление складом готовой продукции представляет собой отлаженную систему управления товарно-материальными
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-1.jpg" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Обучение программе WMS
+                                        </h4>
+                                        <p class="item__text">
+                                            Склад и логистические процессы находятся в постоянном развитии и нуждаются в точном автоматизирова
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="swiper-slide item">
+                                    <div class="item__left">
+                                        <div class="item__img img-fill">
+                                            <img src="../assets/blog/articles/article-5.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="item__right">
+                                        <h4 class="item__title">
+                                            Управление складом готовой продукции
+                                        </h4>
+                                        <p class="item__text">
+                                            Управление складом готовой продукции представляет собой отлаженную систему управления товарно-материальными
+                                        </p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="swiper-button swiper-button-prev">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                <path d="M3.83301 10H18.833" stroke="#1D1C20" stroke-width="1.66667" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M9.66634 4.16602L3.83301 9.99935L9.66634 15.8327" stroke="#1D1C20" stroke-width="1.66667"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                            </div>
+                            <div class="swiper-button swiper-button-next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                        <path d="M17.167 10L2.16699 10" stroke="#1D1C20" stroke-width="1.66667" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M11.3337 15.834L17.167 10.0007L11.3337 4.16732" stroke="#1D1C20" stroke-width="1.66667"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div> 
+                    </div>
+                </section>
+                <section class="blog-articles animate-on-scroll">
+                    <div class="container">
+                        <h2 class="blog-articles__title title">Все статьи</h2>
+                        <p class="blog-articles__text">Показано 23 статьи</p>
+                        <div class="filter__wrapper">
+                            <div class="blog__filter filter">
+                                <div class="input__block filter__search">
+                                    <div class="input__icon">
+                                        <img src="../assets/icons/location.svg" alt="Поиск по статьям">
+                                        </div>
+                                        <input type="text" id="search" class="input" placeholder=" " autocomplete="off">
+                                        <label for="search" class="input__label">Поиск по статьям</label>
+                                    </div>
+                               
+                                <h4 class="filter__title">Фильтр</h4>
+                                <div class="filter__dropdown details">
+                                    <div class="filter__summary details__summary">Фильтр</div>
+                                    <div class="filter__block details__block ">
+                                        <div class="filter__item details opened animate-on-scroll">
+                                            <div class="details__summary">
+                                                <h6>Управление в сферах</h6>
+                                            </div>
+                                            <div class="details__block">
+                                                <div class="filter__btns">
+                                                    <button class="filter__btn active">Мерчейдайзинг</button>
+                                                    <button class="filter__btn">Товарные запасы</button>
+                                                    <button class="filter__btn">Склад</button>
+                                                    <button class="filter__btn">Логистика</button>
+                                                    <button class="filter__btn">Лояльность</button>
+                                                    <button class="filter__btn">Управление торговыми агентами</button>
+                                                    <button class="filter__btn">Запасы на производстве</button>
+                                                    <button class="filter__btn">Финансы</button>
+                                                    <button class="filter__btn">Ассортимент</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter__item details animate-on-scroll">
+                                            <div class="details__summary">
+                                                <h6>Тип бизнеса</h6>
+                                            </div>
+                                            <div class="details__block">
+                                                <div class="filter__btns">
+                                                    <button class="filter__btn">Ритейл</button>
+                                                    <button class="filter__btn">Дистрибуция</button>
+                                                    <button class="filter__btn">Производство</button>
+                                                    <button class="filter__btn">Другое</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="filter__item details animate-on-scroll">
+                                            <div class="details__summary">
+                                                <h6>Тип статьи</h6>
+                                            </div>
+                                            <div class="details__block">
+                                                <div class="filter__btns">
+                                                    <button class="filter__btn">Экспертиза</button>
+                                                    <button class="filter__btn">Кейс</button>
+                                                    <button class="filter__btn">Новости</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog__body filter__body">
+                                <p class="no-articles">К сожалению по вашему запросу ничего не найдено.</p>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-1.jpg" alt="Промо для ритейлеров: головная боль или новые возможности?">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Промо для ритейлеров: головная боль или новые возможности?</h4>
+                                        <p class="article__text">Прогнозирование продаж от промо — это огромная проблема ритейлеров. По статист</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-2.png"
+                                                alt="Управление складом готовой продукции">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Управление складом готовой продукции</h4>
+                                        <p class="article__text">Управление складом готовой продукции представляет собой отлаженную систему управления товарно-материальными</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-3.png" alt="Обучение программе WMS">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Обучение программе WMS</h4>
+                                        <p class="article__text">Результативное обучение WMS системы зависят от многих факторов 1) Методика обучения должна быть понятной и доступной</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-4.png" alt="Логистика управления складом">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Логистика управления складом</h4>
+                                        <p class="article__text">Складская логистика — это деятельность, направленная на эффективную организацию товарооборота, систему управления</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-5.png" alt="Логистика управления складом">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Логистика управления складом</h4>
+                                        <p class="article__text">Складская логистика — это деятельность, направленная на эффективную организацию товарооборота, систему управления</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="article animate-on-scroll">
+                                    <div class="article__left">
+                                        <div class="article__img img-fill">
+                                            <img src="../assets/blog/articles/article-6.png" alt="Зарубежные WMS-системы">
+                                        </div>
+                                    </div>
+                                    <div class="article__right">
+                                        <div class="article__head">
+                                            <p>12 Фев 2022</p>
+                                            <span>•</span>
+                                            <p>Читать 4 минуты</p>
+                                        </div>
+                                        <h4 class="article__title">Зарубежные WMS-системы</h4>
+                                        <p class="article__text">Склад и логистические процессы находятся в постоянном развитии и нуждаются в точном автоматизированном учете,
+                                        поэтому</p>
+                                        <div class="tags">
+                                            <div class="tag">Экспертиза</div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <div class="pagination animate-on-scroll">
+                                    <div class="pagination__item pagination__item-button disabled">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M3.33398 10H18.334" stroke="#1D1C20" stroke-width="1.66667" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.16732 4.16602L3.33398 9.99935L9.16732 15.8327" stroke="#1D1C20" stroke-width="1.66667"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <div class="pagination__block">
+                                        <div class="pagination__item active">2</div>
+                                        <div class="pagination__item">3</div>
+                                        <div class="pagination__space">...</div>
+                                        <div class="pagination__item">8</div>
+                                    </div>
+                                    <div class="pagination__item pagination__item-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                            <path d="M16.666 10.002L1.66602 10.002" stroke="#1D1C20" stroke-width="1.66667" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.8327 15.834L16.666 10.0007L10.8327 4.16732" stroke="#1D1C20" stroke-width="1.66667"
+                                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="cta animate-on-scroll">
+                    <div class="container">
+                        <div class="cta__block">
+                            <div class="cta__content">
+                                <div class="cta__info">
+                                    <h2 class="cta__title title">Узнавайте все новинки автоматизации первым</h2>
+                                    <p class="cta__text">Вы будете получать актуальные новости, способы оптимизации ритейл-бизнеса, экспертные интервью. Никакого спама!</p>
+                                </div>
+                                <div class="cta__btn-wrapper cta__btn-right">
+                                    <div class="cta__input">
+                                        <input type="text" placeholder="Ваш email">
+                                    </div>
+                                    <button class="cta__btn btn white__btn">
+                                        <span class="button-content">Подписаться на рассылку</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer__block footer__logo">
+                        <div class="footer__logo-wrapper">
+                            <img src="../assets/icons/logo.svg" alt="ABM Cloud logo">
+                            <div class="footer__label">Делаем инновации доступными бизнесу!</div>
+                        </div>
+                    </div>
+                    <div class="footer__line"></div>
+                    <div class="footer__block footer__products">
+                        <a href="./products.html">
+                            <h4 class="footer__title">Продукты</h4>
+                        </a>
+                        <h5 class="footer__subtitle">Облачные решения для бизнеса</h5>
+                        <ul class="footer__list">
+                            <li class="footer__link">
+                                <a href="#">ABM Inventory</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Intuiflow</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Shelf</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM WMS</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Assortment</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Rinkai TMS</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Loyalty</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Digital Distribution</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Finance</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Marketplace</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__solution">
+                        <a href="./solutions.html">
+                            <h4 class="footer__title">Решения</h4>
+                        </a>
+                        <h5 class="footer__subtitle">Автоматизация и управление</h5>
+                        <ul class="footer__list">
+                            <li class="footer__link">
+                                <a href="#">Запасами в ритейле</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Запасами на производстве</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Мерчандайзингом</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Складом</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Ассортиментом </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Логистикой</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Лояльностью</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Дарксторами</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Финансами</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Торговыми агентами</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__company">
+                        <a href="./company.html">
+                            <h4 class="footer__title">Компания</h4>
+                        </a>
+                        <h5 class="footer__subtitle">Процессы в деталях</h5>
+                        <ul class="footer__list">
+                            <li class="footer__link">
+                                <a href="./implementation.html">Внедрение</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./vacancies.html">Вакансии</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./customer-success.html">Customer Success</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./events.html">Мероприятия</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./partners.html">Наши партнёры </a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./blog.html">Блог</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="./career.html">Карьера</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">Кейсы</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__platforms">
+                        <h4 class="footer__title">Платформы</h4>
+                        <h5 class="footer__subtitle">Комплексная диджитализация бизнеса</h5>
+                        <ul class="footer__list">
+                            <li class="footer__link">
+                                <a href="#">ABM Manufacture Platform</a>
+                            </li>
+                            <li class="footer__link">
+                                <a href="#">ABM Distribution Platform</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__block footer__contacts">
+                        <a href="./contacts.html">
+                            <h4 class="footer__title">Контакты</h4>
+                        </a>
+                        <ul class="footer__list">
+                            <li class="footer__link">
+                                <a href="#">Свяжитесь с нами</a>
+                            </li>
+                        </ul>
+                        <div class="footer__social">
+                            <a href="#" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M16.0628 1C7.74393 1 1 7.74393 1 16.0628C1 23.5239 6.43043 29.7029 13.5506 30.8994V19.2053H9.91704V14.9971H13.5506V11.8941C13.5506 8.29377 15.7496 6.33179 18.9618 6.33179C20.5003 6.33179 21.8224 6.44643 22.2062 6.49692V10.2602L19.9783 10.2613C18.2318 10.2613 17.895 11.0911 17.895 12.3092V14.9949H22.0625L21.5189 19.2032H17.895V31C25.3477 30.093 31.1254 23.7565 31.1254 16.0585C31.1254 7.74393 24.3815 1 16.0628 1Z"
+                                        fill="#0B132B" />
+                                </svg>
+                            </a>
+                            <a href="#" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <path
+                                        d="M26.1818 2H5.81818C4.80554 2 3.83437 2.40227 3.11832 3.11832C2.40227 3.83437 2 4.80554 2 5.81818L2 26.1818C2 27.1945 2.40227 28.1656 3.11832 28.8817C3.83437 29.5977 4.80554 30 5.81818 30H26.1818C27.1945 30 28.1656 29.5977 28.8817 28.8817C29.5977 28.1656 30 27.1945 30 26.1818V5.81818C30 4.80554 29.5977 3.83437 28.8817 3.11832C28.1656 2.40227 27.1945 2 26.1818 2V2ZM11.5455 24.1582C11.5457 24.2358 11.5306 24.3127 11.501 24.3845C11.4714 24.4563 11.428 24.5216 11.3731 24.5766C11.3183 24.6315 11.2532 24.6752 11.1815 24.7049C11.1098 24.7347 11.0329 24.75 10.9552 24.75H8.44C8.36222 24.7502 8.28517 24.735 8.21327 24.7054C8.14138 24.6757 8.07605 24.6321 8.02105 24.5771C7.96606 24.5221 7.92247 24.4568 7.8928 24.3849C7.86314 24.313 7.84797 24.236 7.84818 24.1582V13.6136C7.84818 13.4567 7.91053 13.3061 8.02152 13.1952C8.13251 13.0842 8.28304 13.0218 8.44 13.0218H10.9552C11.1119 13.0222 11.262 13.0848 11.3727 13.1957C11.4833 13.3067 11.5455 13.457 11.5455 13.6136V24.1582ZM9.69682 12.0227C9.22484 12.0227 8.76346 11.8828 8.37103 11.6206C7.97859 11.3583 7.67272 10.9856 7.49211 10.5496C7.31149 10.1135 7.26423 9.63372 7.35631 9.17081C7.44839 8.7079 7.67567 8.28269 8.0094 7.94895C8.34314 7.61521 8.76835 7.38793 9.23126 7.29585C9.69417 7.20377 10.174 7.25103 10.61 7.43165C11.0461 7.61227 11.4188 7.91814 11.681 8.31057C11.9432 8.70301 12.0832 9.16439 12.0832 9.63636C12.0832 10.2693 11.8318 10.8762 11.3842 11.3238C10.9367 11.7713 10.3297 12.0227 9.69682 12.0227ZM24.6927 24.1995C24.6929 24.2711 24.679 24.3419 24.6517 24.408C24.6245 24.4741 24.5844 24.5342 24.5338 24.5847C24.4833 24.6353 24.4232 24.6754 24.3571 24.7026C24.291 24.7299 24.2201 24.7438 24.1486 24.7436H21.4441C21.3726 24.7438 21.3017 24.7299 21.2356 24.7026C21.1695 24.6754 21.1095 24.6353 21.0589 24.5847C21.0083 24.5342 20.9683 24.4741 20.941 24.408C20.9137 24.3419 20.8998 24.2711 20.9 24.1995V19.2598C20.9 18.5216 21.1164 16.027 18.9702 16.027C17.3077 16.027 16.9689 17.7341 16.902 18.5009V24.2059C16.9021 24.3488 16.8458 24.486 16.7455 24.5879C16.6452 24.6897 16.5088 24.7479 16.3659 24.75H13.7536C13.6823 24.75 13.6116 24.7359 13.5457 24.7086C13.4797 24.6812 13.4199 24.6411 13.3695 24.5905C13.3191 24.54 13.2791 24.48 13.252 24.414C13.2248 24.348 13.2109 24.2773 13.2111 24.2059V13.5675C13.2109 13.4961 13.2248 13.4254 13.252 13.3594C13.2791 13.2934 13.3191 13.2334 13.3695 13.1829C13.4199 13.1323 13.4797 13.0922 13.5457 13.0649C13.6116 13.0375 13.6823 13.0234 13.7536 13.0234H16.3659C16.5102 13.0234 16.6486 13.0807 16.7506 13.1828C16.8527 13.2848 16.91 13.4232 16.91 13.5675V14.487C17.5273 13.5595 18.442 12.8468 20.3941 12.8468C24.7182 12.8468 24.6895 16.8845 24.6895 19.1023L24.6927 24.1995Z"
+                                        fill="#0B132B" />
+                                </svg>
+                            </a>
+                            <a href="#" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                                    fill="none">
+                                    <g clip-path="url(#clip0_4533_5390)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M28.5204 5.4978C29.891 5.86694 30.9718 6.9475 31.3407 8.31834C32.0262 10.8222 31.9999 16.0415 31.9999 16.0415C31.9999 16.0415 31.9999 21.2341 31.3409 23.7382C30.9718 25.1088 29.8912 26.1896 28.5204 26.5585C26.0163 27.2177 15.9999 27.2177 15.9999 27.2177C15.9999 27.2177 6.00974 27.2177 3.47948 26.5324C2.10863 26.1632 1.02807 25.0824 0.658933 23.7118C0 21.2341 0 16.0151 0 16.0151C0 16.0151 0 10.8222 0.658933 8.31834C1.02783 6.94774 2.135 5.84057 3.47923 5.47168C5.98337 4.8125 15.9997 4.8125 15.9997 4.8125C15.9997 4.8125 26.0163 4.8125 28.5204 5.4978ZM21.1399 16.0151L12.8105 20.8125V11.2178L21.1399 16.0151Z"
+                                            fill="#0B132B" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_4533_5390">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__bottom-wrapper">
+                            <a href="./privace-policy.html" class="footer__bottom-link text-center">Политика
+                                конфиденциальности</a>
+                            <p class="footer__bottom-text text-center">©2021 ABM Cloud, Inc. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="pop-up"></div>
+    </div>
+    <script src="../js/jquery.min.2.2.0.js"></script>
+    <script src="../js/jquery.maskedinput.min.js"></script>
+    <script src="../js/scroll-animation.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/burger-menu.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const verticalScrollPosition = window.scrollY || document.documentElement.scrollTop;
+            if (verticalScrollPosition > 20) {
+                header.classList.add('scroll-bg');
+            }
+
+            if (windowWidth < 1280) {
+                clickFilterBlock('.filter__summary');
+                clickFilterBlock('.filter__item .details__summary');
+            }
+
+            switchAFilterButton('.filter__btns');
+            scrollAnimation();
+        })
+   
+        function initSlider() {
+        const swiper = new Swiper(".blog-slider__wrapper", {
+            spaceBetween: 16,
+            slidesPerView: 1,
+            preventClicksPropagation: false,
+            normalizeSlideIndex: false,
+            simulateTouch: false,
+            on: {
+                snapGridLengthChange: function () {
+                    if (window.innerWidth >= 1280) {
+                        if (this.snapGrid.length != this.slidesGrid.length) {
+                            this.snapGrid = this.slidesGrid.slice(0);
+                        }
+                    }
+                },
+                //  slideChange: function () {
+                //     swiper.update();
+                // }
+            },
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                560: {
+                    slidesPerView: 2,
+                    spaceBetween: 24,
+                },
+                1280: {
+                    pagination: false,
+                    slidesPerView: 'auto'
+                }
+            }
+        });
+        
+    }
+
+
+        window.addEventListener('load', function () {
+            const img = document.querySelector('.blog-slider__wrapper img');
+            if (img.complete) {
+                initSlider();
+            } else {
+                img.addEventListener('load', initSlider);
+            }
+        });
+        window.addEventListener('scroll', () => {
+                const verticalScrollPosition = window.scrollY || document.documentElement.scrollTop;
+                if (verticalScrollPosition > 20) {
+                    header.classList.add('scroll-bg');
+                } else {
+                    header.classList.remove('scroll-bg');
+                }
+            });
+    </script>
+</body>
+
+</html>

@@ -26,9 +26,12 @@
     object-position: 50%;
 }
 .add-works-page .main-banner__video {
-    object-position: bottom left;
+    object-position: bottom 30%;
     top: unset;
     bottom: 0;
+}
+.equipment-page .main-banner__video {
+    object-position: center;
 }
 .service-page .main-banner.dark-layer::after {
     content: '';
@@ -44,10 +47,10 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
 }
 .escalator-page .main-banner.dark-layer::after {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 80%);
 }
 .equipment-page .main-banner.dark-layer::after{
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
 }
 .service-page .main-banner__desc {
     width: 100%;
