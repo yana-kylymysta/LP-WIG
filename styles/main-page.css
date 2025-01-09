@@ -112,7 +112,7 @@ margin-top: 3rem;
     font-weight: 500;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #000;
+    color: #060606;
 }
 
 .service__text {
@@ -189,7 +189,7 @@ margin-top: 3rem;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.05rem;
     font-weight: 600;
-    color: var(--color-title);
+    color: var(--color-text);
     font-size: 1rem;
 }
 .manufacturer__btn {
@@ -241,8 +241,11 @@ margin-top: 3rem;
     filter: grayscale(100%) brightness(120%);
     transition: all 0.3s;
 }
+.company__logo-dark {
+    filter: grayscale(100%) brightness(150%);
+}
 .company__logo:hover {
-    filter: grayscale(0);
+    filter: grayscale(0) brightness(100%);
 }
 .company__logo.sz {
     grid-area: sz;
@@ -261,7 +264,7 @@ margin-top: 3rem;
 }
 .company__logo.veles {
     grid-area: veles;
-    background: #ff0000;
+    background: #e1251b;
     padding: 10px 20px;
     border-radius: 4px;
     max-width: 170px;
@@ -400,8 +403,8 @@ margin-top: 3rem;
         display: block;
         width: 20px;
         height: 100%;
-        border-left: 2px solid #434242;
-        border-right: 1px solid #434242;
+        border-left: 2px solid var(--color-service-border);
+        border-right: 1px solid var(--color-service-border);
         z-index: 2;
         transition: all 0.6s;
     }
@@ -587,8 +590,8 @@ margin-top: 3rem;
     }
      .service__arrow-top::after,
     .service__arrow-bottom::after {
-        border-left: 3px solid #434242;
-        border-right: 2px solid #434242;
+        border-left: 3px solid var(--color-service-border);
+        border-right: 2px solid var(--color-service-border);
     }
     .manufacturer {
         padding: 6rem 4rem 6rem 2rem;

@@ -870,6 +870,9 @@ input[type="checkbox"]:checked:after {
     .main-banner__content p {
         width: 80%;
     }
+    .elevator-page .main-banner__content p {
+           width: 57%;
+       }
 
     .footer__container {
         grid-template-columns: 1fr auto auto auto auto;
@@ -947,6 +950,9 @@ input[type="checkbox"]:checked:after {
         margin-bottom: 3.4rem;
         font-size: 1rem;
     }
+    .elevator-page .main-banner__content p {
+           width: 50%;
+       }
     .main-banner__bottom-container {
         gap: 16px;
     }

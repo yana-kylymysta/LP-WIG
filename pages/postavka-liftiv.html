@@ -109,6 +109,7 @@
                     <div class="container">
                         <div class="main-banner__desc main-banner__content">
                             <h2 class="type-title">Поставка<br><span class="text-yellow">ліфтового обладання</span></h2>
+                            <p class="text-subtitle opacity-animate">Надійні та безпечні ліфти від провідних виробників для комфорту та безпеки на кожному поверсі</p>
                             
                             <a href="#cta" class="btn main__btn main__btn-page opacity-animate ">
                                 <span class="button-content">Замовити консультацію</span></a>
@@ -198,8 +199,7 @@
                                     <textarea  
                                         placeholder="Ваше повідомлення"
                                         name="text"
-                                        rows="6">
-                                    </textarea>
+                                        rows="6"></textarea>
                                 </div>
                             </div>
                             <div class="form__bottom span-2">
@@ -227,7 +227,7 @@
                     <h4>Виробники</h4>
                     <a href="#" target="_blank">SJEC</a>
                     <a href="#" target="_blank">HAS Elevator</a>
-                    <a href="#" target="_blank">Klemann</a>
+                    <a href="#" target="_blank">Kleemann</a>
                 </div>
                 <div class="footer__column footer__projects">
                         <a href="#" target="_blank">ПРОЕКТИ</a>
@@ -302,15 +302,20 @@
             delay: 3,
             opacity: 1,
             y: 0,
-            stagger: 0.06,
-            duration: 0.06,
+            stagger: 0.05,
+            duration: 0.05,
             ease: "power2.out"
         });
-
+        gsap.to('.elevator-page .text-subtitle', {
+            delay: 4.4,
+            opacity: 1,
+            duration: 0.5,
+            ease: "power2.out"
+        });
         gsap.to('.elevator-page .main__btn', {
             delay: 4.4,
             opacity: 1,
-            duration: 0.3,
+            duration: 0.5,
             ease: "power2.out"
         });
     </script>

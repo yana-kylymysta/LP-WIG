@@ -58,10 +58,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--color-title);
+    color: var(--color-light-text);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 600;
     text-align: center;
     z-index: 4;
 }
@@ -140,15 +140,15 @@
     }
 
     .project__label h3 {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .project__desc h4 {
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 0.02rem;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1rem;
-        color: var(--color-title);
+        color: var(--color-light-text);
     }
 
     .project__location {
@@ -171,7 +171,7 @@
     .project__equipment {
         font-family: 'Montserrat', sans-serif;
         letter-spacing: 0.02rem;
-        color: #70767a;
+        color: var(--color-text);
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -184,12 +184,12 @@
 
     .project__elevator {
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .project__location p {
         font-size: 0.8rem;
-        color: #70767a;
+        color: var(--color-light-text);
     }
 
     .project__btn {
@@ -230,9 +230,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .project__label h3 {
-        font-size: 1.4rem;
-    }
+    /* .project__label h3 {
+        font-size: 1.2rem;
+    } */
 
     .projects__slider {
         padding-right: 26px;
@@ -273,7 +273,8 @@
         .project__elevator {
             font-size: 0.9rem;
         }
-        .project__desc h4 {
+        .project__desc h4,
+        .project__label h3 {
             font-size: 1.2rem;
         }
         .project__desc {
