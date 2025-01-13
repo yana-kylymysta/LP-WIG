@@ -1,4 +1,7 @@
-
+.main__wrapper {
+    padding-top: var(--section-bottom-space);
+    background: url(../assets/bg.png) top left/64% no-repeat, url(../assets/bg-bottom.png) bottom var(--last-section-margin) right/30% no-repeat;
+}
 .type-title .letter{
     display: inline-block;
     opacity: 0;
@@ -610,6 +613,32 @@ input[type="checkbox"]:checked:after {
     gap: 24px;
     align-items: center;
 }
+
+    .card__btn {
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-top: auto;
+        line-height: 1;
+        margin-left: auto;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        transition: all 0.3s;
+    }
+
+    .card__btn:after {
+        content: url(../assets/icons/project-arrow.svg);
+        display: block;
+        height: fit-content;
+        position: relative;
+        left: 0;
+        top: 1px;
+        transition: all 0.3s;
+    }
+
+    .card:hover .card__btn:after {
+        left: 4px;
+    }
 @media screen and (min-width: 560px) {
     .main-banner__desc {
         width: calc(100% - var(--container-space) - 52px);

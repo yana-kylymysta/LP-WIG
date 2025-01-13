@@ -192,29 +192,7 @@
         color: var(--color-light-text);
     }
 
-    .project__btn {
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin-top: auto;
-        line-height: 1;
-        margin-left: auto;
-        display: flex;
-        gap: 10px;
-        align-items: center;
-        transition: all 0.3s;
-    }
-
-    .project__btn:after {
-        content: url(../assets/icons/project-arrow.svg);
-        display: block;
-        height: fit-content;
-        position: relative;
-        left: 0;
-        top: 1px;
-        transition: all 0.3s;
-    }
-
-    .projects__slider .swiper-slide-active .project__desc:hover .project__btn:after {
+   .projects__slider .swiper-slide-active .project__desc:hover .card__btn:after {
         left: 4px;
     }
 
@@ -268,7 +246,7 @@
     }
 }
 @media screen and (min-width: 1800px) {
-        .project__btn,
+        .card__btn,
         .project__location p,
         .project__elevator {
             font-size: 0.9rem;
