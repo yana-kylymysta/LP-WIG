@@ -1,17 +1,16 @@
 .type__item {
-    min-height: 380px;
     display: grid;
-    grid-template-columns: minmax(140px,40%) 60%;
+    grid-template-columns: 1fr;
     gap: 1rem ;
     border: 1px solid #CFCFCF;
-    padding: 1rem;
+    padding: 2rem 1.5rem;
     border-radius: 2px;
     box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
 }
 .type__item:hover {
     /* transform: scale(1.01); */
-    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.25);
 }
 .type__item:hover .type__img {
     overflow: hidden;
@@ -20,7 +19,7 @@
     transition: all 0.3s;
 }
 .type__item:hover .type__img img{
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 .type__block {
     display: grid;
@@ -42,30 +41,52 @@
     }
 .type__info {
     font-size: 0.9rem;
+    margin-bottom: 2rem;
 }
 .type__info-row {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
     justify-content: space-between;
-}
+    margin-bottom: 0.2rem;}
 .type__info-label {
     font-weight: 600;
+    margin-right: 1rem;
 }
-.type__item .card__btn {
-    justify-content: end;
-    margin-top: auto;
-}
+
 .type__info-value {
     text-align: right;
 }
-@media screen and (min-width: 768px) {
+.type__btn {
+    justify-content: end;
+    font-size: 1rem;
+    margin-top: auto;
+}
+@media screen and (min-width: 580px) {
 .type__item {
-        padding: 2rem;
+        min-height: 350px;
+        grid-template-columns: minmax(140px, 50%) 50%;
+}
+}
+@media screen and (min-width: 768px) {
+    .type__block {
+            grid-template-columns: 1fr 1fr;
+        }
+    .type__item {
+        min-height: auto;
+            padding: 2rem;
+            grid-template-columns: 1fr;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .type__block {
-        grid-template-columns: 1fr 1fr;
+.type__item {
+        min-height: 350px;
+        grid-template-columns: minmax(140px, 50%) 50%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .type__item {
+        min-height: 350px;
+        grid-template-columns: minmax(160px, 45%) 55%;
     }
 }
