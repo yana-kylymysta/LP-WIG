@@ -2,7 +2,7 @@
 
 
 :root {
-    --color-title: #4d4c4c;
+    --color-title: #363636;
     --color-text: #404040;
     --color-light-text: #545657;
     --color-light-grey: #929A9F;
@@ -12,7 +12,7 @@
     --color-service-border: #7d7c7c;
     --box-shadow: box-shadow: 4px 6px 10px 0px rgba(0, 0, 0, 0.20);
     --box-shadow-light: 2px 4px 10px 0px rgba(0, 0, 0, 0.15);
-
+ 
     --container-space: 16px;
     --small-container-space: 16px;
     --font-size: 14px;
