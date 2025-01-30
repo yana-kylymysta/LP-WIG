@@ -1,0 +1,61 @@
+   body {
+       height: 200vh;
+       /* Робить сторінку довшою для скролу */
+       margin: 0;
+   }
+.info {
+    min-height: 400px;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.info__bg {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center 70% ;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    will-change: transform;
+}
+.info__bg::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 21, 21, 0.55);
+    z-index: 0;
+}
+.info__container {
+    height: 100%;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info__container * {
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .info {
+        min-height: 500px;
+    }
+}
+@media screen and (min-width: 1440px) {
+.info {
+        min-height: 600px;
+}
+}
+
