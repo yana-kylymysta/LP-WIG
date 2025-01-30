@@ -245,9 +245,7 @@
                                 </div>
                                 <div class="type__desc">
                                     <h3 class="type__title">Вантажні ліфти</h3>
-                                    <p class="type__text">Стильний дизайн, плавний хід, комфортну кабіну та високий рівень безпеки. Ідеальне рішення
-                                        для житлових будинків, офісів
-                                        і громадських просторів...</p>
+                                    <p class="type__text">Ідеально підходять для складів, заводів, торговельних центрів і виробничих приміщень.  Мають високу міцність, довговічність і адаптованість до будь-яких умов...</p>
                                     <div class="type__info">
                                         <div class="type__info-row">
                                             <div class="type__info-label">Вантажопідйомність</div>
@@ -271,9 +269,8 @@
                                 </div>
                                 <div class="type__desc">
                                     <h3 class="type__title">Панорамні ліфти</h3>
-                                    <p class="type__text">Стильний дизайн, плавний хід, комфортну кабіну та високий рівень безпеки. Ідеальне рішення
-                                        для житлових будинків, офісів
-                                        і громадських просторів...</p>
+                                    <p class="type__text">Чудовий вибір для торговельних центрів, готелів, бізнес-центрів та житлових комплексів преміум-класу. Прозорі кабіни
+                                    дарують захопливий вид і додають простору сучасного вигляду...</p>
                                     <div class="type__info">
                                         <div class="type__info-row">
                                             <div class="type__info-label">Вантажопідйомність</div>
@@ -297,9 +294,7 @@
                                 </div>
                                 <div class="type__desc">
                                     <h3 class="type__title">Гідравлічні ліфти</h3>
-                                    <p class="type__text">Стильний дизайн, плавний хід, комфортну кабіну та високий рівень безпеки. Ідеальне рішення
-                                        для житлових будинків, офісів
-                                        і громадських просторів...</p>
+                                    <p class="type__text">Підходять для малоповерхових будівель: котеджів, офісів, складів і лікарень.     Вимагають мінімум простору для обладнання і монтажу. Ідеальні для важких вантажів, мають менші витрати на обслуговування та високу енергоефективність!</p>
                                     <div class="type__info">
                                         <div class="type__info-row">
                                             <div class="type__info-label">Вантажопідйомність</div>
@@ -323,7 +318,9 @@
                                 </div>
                                 <div class="type__desc">
                                     <h3 class="type__title">Лікарняні ліфти</h3>
-                                    <p class="type__text">Стильний дизайн, плавний хід, комфортну кабіну та високий рівень безпеки. Ідеальне рішення для житлових будинків, офісів і громадських просторів...</p>
+                                    <p class="type__text">Спеціально розроблені для транспортування пацієнтів на ношах, медичного обладнання та персоналу. Мають простору кабіну,
+                                    плавний хід. Забезпечують надійність і відповідність медичним стандартам для ефективної роботи
+                                    лікарень та клінік...</p>
                                     <div class="type__info">
                                         <div class="type__info-row">
                                             <div class="type__info-label">Вантажопідйомність</div>
@@ -347,9 +344,7 @@
                                 </div>
                                 <div class="type__desc">
                                     <h3 class="type__title">Ліфти без машинного приміщення</h3>
-                                    <p class="type__text">Стильний дизайн, плавний хід, комфортну кабіну та високий рівень безпеки. Ідеальне рішення
-                                        для житлових будинків, офісів
-                                        і громадських просторів...</p>
+                                    <p class="type__text">Відрізняються відсутністю окремого машинного приміщення, що економить простір і знижує витрати на монтаж. Енергоефективні, тихі й надійні...</p>
                                     <div class="type__info">
                                         <div class="type__info-row">
                                             <div class="type__info-label">Вантажопідйомність</div>
@@ -372,7 +367,8 @@
                     </div>
                 </section>
                 <section class="info">
-                    <div class="info__bg parallax-bg" style="background-image: url(../assets/pages/elevator-min.jpg);">
+                    <div class="info__bg" style="background-image: url(../assets/pages/elevator-min.jpg);"></div>
+                    <div class="info__content">
                         <div class="container info__container">
                             <h2 class="title">Сучасні рішення для вашого простору!</h2>
                             <p>З нами поставка ліфта – це легко. Широкий вибір моделей, адаптованих до ваших потреб, доставка без
@@ -634,21 +630,26 @@
                 ease: "power2.out"
             });
 
-            gsap.registerPlugin(ScrollTrigger);
-
-                gsap.utils.toArray(".parallax-bg").forEach(bg => {
-                    gsap.to(bg, {
-                        yPercent: "-40%",
-                        ease: "none",
-                        scrollTrigger: {
-                            trigger: bg,
-                            start: "top bottom",
-                            end: "bottom top",
-                            scrub: true,
-                            markers: true
-                        }
-                    });
-                });
+       gsap.to(".info__bg", {
+                yPercent: -60,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".info",
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true
+                }
+            });
+         gsap.to(".info__content", {
+                yPercent: -40,
+                ease: "none",
+                scrollTrigger: {
+                    trigger: ".info",
+                    start: "top bottom",
+                    end: "bottom top",
+                    scrub: true
+                }
+            });
         })
     </script>
 
