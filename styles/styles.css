@@ -1,6 +1,11 @@
 .main__wrapper {
     padding-top: var(--section-bottom-space);
     background: url(../assets/bg.png) top left/64% no-repeat, url(../assets/bg-bottom.png) bottom var(--last-section-margin) right/30% no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.main__bg {
+    background-color: #fff;
 }
 .type-title .letter{
     display: inline-block;
